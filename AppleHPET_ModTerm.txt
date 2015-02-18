@@ -1,0 +1,3 @@
+AppleHPE:
+Contents of (__DATA,__mod_term_func) section
+0000000000002060	50 1d 00 00 00 00 00 00 

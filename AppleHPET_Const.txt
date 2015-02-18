@@ -1,0 +1,4 @@
+AppleHPE:
+Contents of (__TEXT,__const) section
+0000000000001fe0	14 3a ff ff 16 3a ff ff 18 3a ff ff 1a 3a ff ff 
+0000000000001ff0	00 3b e0 ff 

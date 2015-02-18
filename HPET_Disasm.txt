@@ -1,0 +1,1349 @@
+
+/System/Library/Extensions/AppleHPET.kext/Contents/MacOS/AppleHPET:     file format mach-unsigned __int128-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000b90 <AppleHPET::MetaClass::MetaClass()>:
+     b90:	55                   	push   %rbp
+     b91:	48 89 e5             	mov    %rsp,%rbp
+     b94:	53                   	push   %rbx
+     b95:	50                   	push   %rax
+     b96:	48 89 fb             	mov    %rdi,%rbx
+     b99:	48 8d 35 27 12 00 00 	lea    0x1227(%rip),%rsi        # 1dc7 <__stop+0x1a>
+     ba0:	48 8b 15 79 14 00 00 	mov    0x1479(%rip),%rdx        # 2020 <AppleHPET::probeHPET()::ErrataTable+0x40>
+     ba7:	b9 f8 00 00 00       	mov    $0xf8,%ecx
+     bac:	e8 00 00 00 00       	callq  bb1 <AppleHPET::MetaClass::MetaClass()+0x21>
+     bb1:	48 8d 05 48 d 00 00 	lea    0x1d48(%rip),%rax        # 2900 <vtable for AppleHPET::MetaClass+0x10>
+     bb8:	48 89 03             	mov    %rax,(%rbx)
+     bbb:	48 83 c4 08          	add    $0x8,%rsp
+     bbf:	5b                   	pop    %rbx
+     bc0:	5d                   	pop    %rbp
+     bc1:	c3                   	retq   
+
+0000000000000bc2 <AppleHPET::MetaClass::~MetaClass()>:
+     bc2:	55                   	push   %rbp
+     bc3:	48 89 e5             	mov    %rsp,%rbp
+     bc6:	5d                   	pop    %rbp
+     bc7:	e9 00 00 00 00       	jmpq   bcc <AppleHPET::AppleHPET(OSMetaClass const*)>
+
+0000000000000bcc <AppleHPET::AppleHPET(OSMetaClass const*)>:
+     bcc:	55                   	push   %rbp
+     bcd:	48 89 e5             	mov    %rsp,%rbp
+     bd0:	53                   	push   %rbx
+     bd1:	50                   	push   %rax
+     bd2:	48 89 fb             	mov    %rdi,%rbx
+     bd5:	e8 00 00 00 00       	callq  bda <AppleHPET::AppleHPET(OSMetaClass const*)+0xe>
+     bda:	48 8d 05 af 14 00 00 	lea    0x14af(%rip),%rax        # 2090 <vtable for AppleHPET+0x10>
+     be1:	48 89 03             	mov    %rax,(%rbx)
+     be4:	48 83 c4 08          	add    $0x8,%rsp
+     be8:	5b                   	pop    %rbx
+     be9:	5d                   	pop    %rbp
+     bea:	c3                   	retq   
+     beb:	90                   	nop
+
+0000000000000bec <AppleHPET::AppleHPET(OSMetaClass const*)>:
+     bec:	55                   	push   %rbp
+     bed:	48 89 e5             	mov    %rsp,%rbp
+     bf0:	53                   	push   %rbx
+     bf1:	50                   	push   %rax
+     bf2:	48 89 fb             	mov    %rdi,%rbx
+     bf5:	e8 00 00 00 00       	callq  bfa <AppleHPET::AppleHPET(OSMetaClass const*)+0xe>
+     bfa:	48 8d 05 8f 14 00 00 	lea    0x148f(%rip),%rax        # 2090 <vtable for AppleHPET+0x10>
+     c01:	48 89 03             	mov    %rax,(%rbx)
+     c04:	48 83 c4 08          	add    $0x8,%rsp
+     c08:	5b                   	pop    %rbx
+     c09:	5d                   	pop    %rbp
+     c0a:	c3                   	retq   
+     c0b:	90                   	nop
+
+0000000000000c0c <AppleHPET::~AppleHPET()>:
+     c0c:	55                   	push   %rbp
+     c0d:	48 89 e5             	mov    %rsp,%rbp
+     c10:	5d                   	pop    %rbp
+     c11:	e9 00 00 00 00       	jmpq   c16 <AppleHPET::~AppleHPET()>
+
+0000000000000c16 <AppleHPET::~AppleHPET()>:
+     c16:	55                   	push   %rbp
+     c17:	48 89 e5             	mov    %rsp,%rbp
+     c1a:	5d                   	pop    %rbp
+     c1b:	e9 00 00 00 00       	jmpq   c20 <AppleHPET::~AppleHPET()>
+
+0000000000000c20 <AppleHPET::~AppleHPET()>:
+     c20:	55                   	push   %rbp
+     c21:	48 89 e5             	mov    %rsp,%rbp
+     c24:	53                   	push   %rbx
+     c25:	50                   	push   %rax
+     c26:	48 89 fb             	mov    %rdi,%rbx
+     c29:	e8 00 00 00 00       	callq  c2e <AppleHPET::~AppleHPET()+0xe>
+     c2e:	be f8 00 00 00       	mov    $0xf8,%esi
+     c33:	48 89 df             	mov    %rbx,%rdi
+     c36:	48 83 c4 08          	add    $0x8,%rsp
+     c3a:	5b                   	pop    %rbx
+     c3b:	5d                   	pop    %rbp
+     c3c:	e9 00 00 00 00       	jmpq   c41 <AppleHPET::~AppleHPET()+0x21>
+     c41:	90                   	nop
+
+0000000000000c42 <AppleHPET::getMetaClass() const>:
+     c42:	55                   	push   %rbp
+     c43:	48 89 e5             	mov    %rsp,%rbp
+     c46:	48 8d 05 53 e 00 00 	lea    0x1e53(%rip),%rax        # 2aa0 <AppleHPET::gMetaClass>
+     c4d:	5d                   	pop    %rbp
+     c4e:	c3                   	retq   
+     c4f:	90                   	nop
+
+0000000000000c50 <AppleHPET::MetaClass::MetaClass()>:
+     c50:	55                   	push   %rbp
+     c51:	48 89 e5             	mov    %rsp,%rbp
+     c54:	53                   	push   %rbx
+     c55:	50                   	push   %rax
+     c56:	48 89 fb             	mov    %rdi,%rbx
+     c59:	48 8d 35 67 11 00 00 	lea    0x1167(%rip),%rsi        # 1dc7 <__stop+0x1a>
+     c60:	48 8b 15 b9 13 00 00 	mov    0x13b9(%rip),%rdx        # 2020 <AppleHPET::probeHPET()::ErrataTable+0x40>
+     c67:	b9 f8 00 00 00       	mov    $0xf8,%ecx
+     c6c:	e8 00 00 00 00       	callq  c71 <AppleHPET::MetaClass::MetaClass()+0x21>
+     c71:	48 8d 05 88 c 00 00 	lea    0x1c88(%rip),%rax        # 2900 <vtable for AppleHPET::MetaClass+0x10>
+     c78:	48 89 03             	mov    %rax,(%rbx)
+     c7b:	48 83 c4 08          	add    $0x8,%rsp
+     c7f:	5b                   	pop    %rbx
+     c80:	5d                   	pop    %rbp
+     c81:	c3                   	retq   
+
+0000000000000c82 <AppleHPET::MetaClass::alloc() const>:
+     c82:	55                   	push   %rbp
+     c83:	48 89 e5             	mov    %rsp,%rbp
+     c86:	41 56                	push   %r14
+     c88:	53                   	push   %rbx
+     c89:	bf f8 00 00 00       	mov    $0xf8,%edi
+     c8e:	e8 00 00 00 00       	callq  c93 <AppleHPET::MetaClass::alloc() const+0x11>
+     c93:	48 89 c3             	mov    %rax,%rbx
+     c96:	4c 8d 35 03 e 00 00 	lea    0x1e03(%rip),%r14        # 2aa0 <AppleHPET::gMetaClass>
+     c9d:	48 89 df             	mov    %rbx,%rdi
+     ca0:	4c 89 f6             	mov    %r14,%rsi
+     ca3:	e8 00 00 00 00       	callq  ca8 <AppleHPET::MetaClass::alloc() const+0x26>
+     ca8:	48 8d 05 e1 13 00 00 	lea    0x13e1(%rip),%rax        # 2090 <vtable for AppleHPET+0x10>
+     caf:	48 89 03             	mov    %rax,(%rbx)
+     cb2:	4c 89 f7             	mov    %r14,%rdi
+     cb5:	e8 00 00 00 00       	callq  cba <AppleHPET::MetaClass::alloc() const+0x38>
+     cba:	48 89 d8             	mov    %rbx,%rax
+     cbd:	5b                   	pop    %rbx
+     cbe:	41 5e                	pop    %r14
+     cc0:	5d                   	pop    %rbp
+     cc1:	c3                   	retq   
+
+0000000000000cc2 <AppleHPET::AppleHPET()>:
+     cc2:	55                   	push   %rbp
+     cc3:	48 89 e5             	mov    %rsp,%rbp
+     cc6:	41 56                	push   %r14
+     cc8:	53                   	push   %rbx
+     cc9:	48 89 fb             	mov    %rdi,%rbx
+     ccc:	4c 8d 35 cd d 00 00 	lea    0x1dcd(%rip),%r14        # 2aa0 <AppleHPET::gMetaClass>
+     cd3:	4c 89 f6             	mov    %r14,%rsi
+     cd6:	e8 00 00 00 00       	callq  cdb <AppleHPET::AppleHPET()+0x19>
+     cdb:	48 8d 05 ae 13 00 00 	lea    0x13ae(%rip),%rax        # 2090 <vtable for AppleHPET+0x10>
+     ce2:	48 89 03             	mov    %rax,(%rbx)
+     ce5:	4c 89 f7             	mov    %r14,%rdi
+     ce8:	5b                   	pop    %rbx
+     ce9:	41 5e                	pop    %r14
+     ceb:	5d                   	pop    %rbp
+     cec:	e9 00 00 00 00       	jmpq   cf1 <AppleHPET::AppleHPET()+0x2f>
+     cf1:	90                   	nop
+
+0000000000000cf2 <AppleHPET::AppleHPET()>:
+     cf2:	55                   	push   %rbp
+     cf3:	48 89 e5             	mov    %rsp,%rbp
+     cf6:	41 56                	push   %r14
+     cf8:	53                   	push   %rbx
+     cf9:	48 89 fb             	mov    %rdi,%rbx
+     cfc:	4c 8d 35 9d d 00 00 	lea    0x1d9d(%rip),%r14        # 2aa0 <AppleHPET::gMetaClass>
+     d03:	4c 89 f6             	mov    %r14,%rsi
+     d06:	e8 00 00 00 00       	callq  d0b <AppleHPET::AppleHPET()+0x19>
+     d0b:	48 8d 05 7e 13 00 00 	lea    0x137e(%rip),%rax        # 2090 <vtable for AppleHPET+0x10>
+     d12:	48 89 03             	mov    %rax,(%rbx)
+     d15:	4c 89 f7             	mov    %r14,%rdi
+     d18:	5b                   	pop    %rbx
+     d19:	41 5e                	pop    %r14
+     d1b:	5d                   	pop    %rbp
+     d1c:	e9 00 00 00 00       	jmpq   d21 <AppleHPET::AppleHPET()+0x2f>
+     d21:	90                   	nop
+
+0000000000000d22 <AppleHPET::start(IOService*)>:
+     d22:	55                   	push   %rbp
+     d23:	48 89 e5             	mov    %rsp,%rbp
+     d26:	41 57                	push   %r15
+     d28:	41 56                	push   %r14
+     d2a:	41 55                	push   %r13
+     d2c:	41 54                	push   %r12
+     d2e:	53                   	push   %rbx
+     d2f:	50                   	push   %rax
+     d30:	49 89 f6             	mov    %rsi,%r14
+     d33:	48 89 fb             	mov    %rdi,%rbx
+     d36:	4c 8b 25 eb 12 00 00 	mov    0x12eb(%rip),%r12        # 2028 <AppleHPET::probeHPET()::ErrataTable+0x48>
+     d3d:	41 ff 94 24 d0 05 00 	callq  *0x5d0(%r12)
+     d44:	00 
+     d45:	84 c0                	test   %al,%al
+     d47:	0f 84 4b 01 00 00    	je     e98 <AppleHPET::start(IOService*)+0x176>
+     d4d:	e8 00 00 00 00       	callq  d52 <AppleHPET::start(IOService*)+0x30>
+     d52:	48 89 83 b0 00 00 00 	mov    %rax,0xb0(%rbx)
+     d59:	48 85 c0             	test   %rax,%rax
+     d5c:	0f 84 c0 00 00 00    	je     e22 <AppleHPET::start(IOService*)+0x100>
+     d62:	48 8b 05 97 12 00 00 	mov    0x1297(%rip),%rax        # 2000 <AppleHPET::probeHPET()::ErrataTable+0x20>
+     d69:	48 8b 30             	mov    (%rax),%rsi
+     d6c:	4c 89 f7             	mov    %r14,%rdi
+     d6f:	e8 00 00 00 00       	callq  d74 <AppleHPET::start(IOService*)+0x52>
+     d74:	4c 8d ab 88 00 00 00 	lea    0x88(%rbx),%r13
+     d7b:	48 89 83 88 00 00 00 	mov    %rax,0x88(%rbx)
+     d82:	48 85 c0             	test   %rax,%rax
+     d85:	0f 84 bb 00 00 00    	je     e46 <AppleHPET::start(IOService*)+0x124>
+     d8b:	4c 8b 00             	mov    (%rax),%r8
+     d8e:	31 d2                	xor    %edx,%edx
+     d90:	31 c9                	xor    %ecx,%ecx
+     d92:	48 89 c7             	mov    %rax,%rdi
+     d95:	48 89 de             	mov    %rbx,%rsi
+     d98:	41 ff 90 d0 05 00 00 	callq  *0x5d0(%r8)
+     d9f:	84 c0                	test   %al,%al
+     da1:	0f 84 a8 00 00 00    	je     e4f <AppleHPET::start(IOService*)+0x12d>
+     da7:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+     dae:	48 8b 07             	mov    (%rdi),%rax
+     db1:	31 f6                	xor    %esi,%esi
+     db3:	ba 00 01 00 00       	mov    $0x100,%edx
+     db8:	ff 90 e0 06 00 00    	callq  *0x6e0(%rax)
+     dbe:	48 89 83 90 00 00 00 	mov    %rax,0x90(%rbx)
+     dc5:	48 85 c0             	test   %rax,%rax
+     dc8:	0f 84 8a 00 00 00    	je     e58 <AppleHPET::start(IOService*)+0x136>
+     dce:	48 8b 08             	mov    (%rax),%rcx
+     dd1:	48 89 c7             	mov    %rax,%rdi
+     dd4:	ff 91 18 01 00 00    	callq  *0x118(%rcx)
+     dda:	48 85 c0             	test   %rax,%rax
+     ddd:	74 79                	je     e58 <AppleHPET::start(IOService*)+0x136>
+     ddf:	48 8b bb 90 00 00 00 	mov    0x90(%rbx),%rdi
+     de6:	48 8b 07             	mov    (%rdi),%rax
+     de9:	ff 90 28 01 00 00    	callq  *0x128(%rax)
+     def:	48 3d ff 03 00 00    	cmp    $0x3ff,%rax
+     df5:	0f 87 ae 00 00 00    	ja     ea9 <AppleHPET::start(IOService*)+0x187>
+     dfb:	4c 8d 3d 57 10 00 00 	lea    0x1057(%rip),%r15        # 1e59 <__stop+0xac>
+     e02:	be 00 04 00 00       	mov    $0x400,%esi
+     e07:	31 c0                	xor    %eax,%eax
+     e09:	4c 89 ff             	mov    %r15,%rdi
+     e0c:	e8 00 00 00 00       	callq  e11 <AppleHPET::start(IOService*)+0xef>
+     e11:	be 00 04 00 00       	mov    $0x400,%esi
+     e16:	31 c0                	xor    %eax,%eax
+     e18:	4c 89 ff             	mov    %r15,%rdi
+     e1b:	e8 00 00 00 00       	callq  e20 <AppleHPET::start(IOService*)+0xfe>
+     e20:	eb 51                	jmp    e73 <AppleHPET::start(IOService*)+0x151>
+     e22:	4c 8d 3d a8 0f 00 00 	lea    0xfa8(%rip),%r15        # 1dd1 <__stop+0x24>
+     e29:	31 c0                	xor    %eax,%eax
+     e2b:	4c 89 ff             	mov    %r15,%rdi
+     e2e:	e8 00 00 00 00       	callq  e33 <AppleHPET::start(IOService*)+0x111>
+     e33:	31 c0                	xor    %eax,%eax
+     e35:	4c 89 ff             	mov    %r15,%rdi
+     e38:	e8 00 00 00 00       	callq  e3d <AppleHPET::start(IOService*)+0x11b>
+     e3d:	4c 8d ab 88 00 00 00 	lea    0x88(%rbx),%r13
+     e44:	eb 2d                	jmp    e73 <AppleHPET::start(IOService*)+0x151>
+     e46:	4c 8d 3d a0 0f 00 00 	lea    0xfa0(%rip),%r15        # 1ded <__stop+0x40>
+     e4d:	eb 10                	jmp    e5f <AppleHPET::start(IOService*)+0x13d>
+     e4f:	4c 8d 3d c6 0f 00 00 	lea    0xfc6(%rip),%r15        # 1e1c <__stop+0x6f>
+     e56:	eb 07                	jmp    e5f <AppleHPET::start(IOService*)+0x13d>
+     e58:	4c 8d 3d d7 0f 00 00 	lea    0xfd7(%rip),%r15        # 1e36 <__stop+0x89>
+     e5f:	31 c0                	xor    %eax,%eax
+     e61:	4c 89 ff             	mov    %r15,%rdi
+     e64:	e8 00 00 00 00       	callq  e69 <AppleHPET::start(IOService*)+0x147>
+     e69:	31 c0                	xor    %eax,%eax
+     e6b:	4c 89 ff             	mov    %r15,%rdi
+     e6e:	e8 00 00 00 00       	callq  e73 <AppleHPET::start(IOService*)+0x151>
+     e73:	49 8b 7d 00          	mov    0x0(%r13),%rdi
+     e77:	48 85 ff             	test   %rdi,%rdi
+     e7a:	74 0e                	je     e8a <AppleHPET::start(IOService*)+0x168>
+     e7c:	48 8b 07             	mov    (%rdi),%rax
+     e7f:	31 d2                	xor    %edx,%edx
+     e81:	48 89 de             	mov    %rbx,%rsi
+     e84:	ff 90 d8 05 00 00    	callq  *0x5d8(%rax)
+     e8a:	48 89 df             	mov    %rbx,%rdi
+     e8d:	4c 89 f6             	mov    %r14,%rsi
+     e90:	41 ff 94 24 d8 05 00 	callq  *0x5d8(%r12)
+     e97:	00 
+     e98:	31 c0                	xor    %eax,%eax
+     e9a:	48 83 c4 08          	add    $0x8,%rsp
+     e9e:	5b                   	pop    %rbx
+     e9f:	41 5c                	pop    %r12
+     ea1:	41 5d                	pop    %r13
+     ea3:	41 5e                	pop    %r14
+     ea5:	41 5f                	pop    %r15
+     ea7:	5d                   	pop    %rbp
+     ea8:	c3                   	retq   
+     ea9:	48 8b bb 90 00 00 00 	mov    0x90(%rbx),%rdi
+     eb0:	48 8b 07             	mov    (%rdi),%rax
+     eb3:	ff 90 18 01 00 00    	callq  *0x118(%rax)
+     eb9:	48 89 83 c0 00 00 00 	mov    %rax,0xc0(%rbx)
+     ec0:	48 89 df             	mov    %rbx,%rdi
+     ec3:	e8 56 01 00 00       	callq  101e <AppleHPET::probeHPET()>
+     ec8:	84 c0                	test   %al,%al
+     eca:	0f 84 fa 00 00 00    	je     fca <AppleHPET::start(IOService*)+0x2a8>
+     ed0:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+     ed6:	48 c1 e0 03          	shl    $0x3,%rax
+     eda:	48 8d 3c 80          	lea    (%rax,%rax,4),%rdi
+     ede:	e8 00 00 00 00       	callq  ee3 <AppleHPET::start(IOService*)+0x1c1>
+     ee3:	48 89 83 c8 00 00 00 	mov    %rax,0xc8(%rbx)
+     eea:	48 85 c0             	test   %rax,%rax
+     eed:	0f 84 e3 00 00 00    	je     fd6 <AppleHPET::start(IOService*)+0x2b4>
+     ef3:	4c 89 6d d0          	mov    %r13,-0x30(%rbp)
+     ef7:	45 31 ff             	xor    %r15d,%r15d
+     efa:	41 bd 00 01 00 00    	mov    $0x100,%r13d
+     f00:	83 bb d4 00 00 00 00 	cmpl   $0x0,0xd4(%rbx)
+     f07:	74 6c                	je     f75 <AppleHPET::start(IOService*)+0x253>
+     f09:	45 31 e4             	xor    %r12d,%r12d
+     f0c:	eb 0f                	jmp    f1d <AppleHPET::start(IOService*)+0x1fb>
+     f0e:	48 8b 83 c8 00 00 00 	mov    0xc8(%rbx),%rax
+     f15:	49 83 c4 28          	add    $0x28,%r12
+     f19:	49 83 c5 20          	add    $0x20,%r13
+     f1d:	48 8b 8b c0 00 00 00 	mov    0xc0(%rbx),%rcx
+     f24:	4c 01 e9             	add    %r13,%rcx
+     f27:	4a 89 0c 20          	mov    %rcx,(%rax,%r12,1)
+     f2b:	46 89 7c 20 08       	mov    %r15d,0x8(%rax,%r12,1)
+     f30:	42 c7 44 20 0c ff ff 	movl   $0xffffffff,0xc(%rax,%r12,1)
+     f37:	ff ff 
+     f39:	42 c7 44 20 10 ff ff 	movl   $0xffffffff,0x10(%rax,%r12,1)
+     f40:	ff ff 
+     f42:	42 c7 44 20 14 00 00 	movl   $0x0,0x14(%rax,%r12,1)
+     f49:	00 00 
+     f4b:	4a c7 44 20 18 00 00 	movq   $0x0,0x18(%rax,%r12,1)
+     f52:	00 00 
+     f54:	4a c7 44 20 20 00 00 	movq   $0x0,0x20(%rax,%r12,1)
+     f5b:	00 00 
+     f5d:	4a 8d 34 20          	lea    (%rax,%r12,1),%rsi
+     f61:	48 89 df             	mov    %rbx,%rdi
+     f64:	e8 95 03 00 00       	callq  12fe <AppleHPET::configureTimer(HpetTimer*)>
+     f69:	41 ff c7             	inc    %r15d
+     f6c:	44 3b bb d4 00 00 00 	cmp    0xd4(%rbx),%r15d
+     f73:	72 99                	jb     f0e <AppleHPET::start(IOService*)+0x1ec>
+     f75:	48 8d 3d 3e 0f 00 00 	lea    0xf3e(%rip),%rdi        # 1eba <__stop+0x10d>
+     f7c:	31 f6                	xor    %esi,%esi
+     f7e:	e8 00 00 00 00       	callq  f83 <AppleHPET::start(IOService*)+0x261>
+     f83:	49 89 c7             	mov    %rax,%r15
+     f86:	4d 85 ff             	test   %r15,%r15
+     f89:	4c 8b 6d d0          	mov    -0x30(%rbp),%r13
+     f8d:	74 53                	je     fe2 <AppleHPET::start(IOService*)+0x2c0>
+     f8f:	48 8b 05 a2 10 00 00 	mov    0x10a2(%rip),%rax        # 2038 <AppleHPET::probeHPET()::ErrataTable+0x58>
+     f96:	48 8b 38             	mov    (%rax),%rdi
+     f99:	48 8d 15 8a 04 00 00 	lea    0x48a(%rip),%rdx        # 142a <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)>
+     fa0:	45 31 c0             	xor    %r8d,%r8d
+     fa3:	45 31 c9             	xor    %r9d,%r9d
+     fa6:	4c 89 fe             	mov    %r15,%rsi
+     fa9:	48 89 d9             	mov    %rbx,%rcx
+     fac:	e8 00 00 00 00       	callq  fb1 <AppleHPET::start(IOService*)+0x28f>
+     fb1:	4c 8d a3 b8 00 00 00 	lea    0xb8(%rbx),%r12
+     fb8:	48 89 83 b8 00 00 00 	mov    %rax,0xb8(%rbx)
+     fbf:	49 8b 07             	mov    (%r15),%rax
+     fc2:	4c 89 ff             	mov    %r15,%rdi
+     fc5:	ff 50 28             	callq  *0x28(%rax)
+     fc8:	eb f                	jmp    fe9 <AppleHPET::start(IOService*)+0x2c7>
+     fca:	4c 8d 3d b3 0e 00 00 	lea    0xeb3(%rip),%r15        # 1e84 <__stop+0xd7>
+     fd1:	e9 89 fe ff ff       	jmpq   e5f <AppleHPET::start(IOService*)+0x13d>
+     fd6:	4c 8d 3d c1 0e 00 00 	lea    0xec1(%rip),%r15        # 1e9e <__stop+0xf1>
+     fdd:	e9 7d fe ff ff       	jmpq   e5f <AppleHPET::start(IOService*)+0x13d>
+     fe2:	4c 8d a3 b8 00 00 00 	lea    0xb8(%rbx),%r12
+     fe9:	b0 01                	mov    $0x1,%al
+     feb:	49 83 3c 24 00       	cmpq   $0x0,(%r12)
+     ff0:	0f 85 a4 fe ff ff    	jne    e9a <AppleHPET::start(IOService*)+0x178>
+     ff6:	4c 8d 3d da 0e 00 00 	lea    0xeda(%rip),%r15        # 1ed7 <__stop+0x12a>
+     ffd:	31 c0                	xor    %eax,%eax
+     fff:	4c 89 ff             	mov    %r15,%rdi
+    1002:	e8 00 00 00 00       	callq  1007 <AppleHPET::start(IOService*)+0x2e5>
+    1007:	31 c0                	xor    %eax,%eax
+    1009:	4c 89 ff             	mov    %r15,%rdi
+    100c:	e8 00 00 00 00       	callq  1011 <AppleHPET::start(IOService*)+0x2ef>
+    1011:	4c 8b 25 10 10 00 00 	mov    0x1010(%rip),%r12        # 2028 <AppleHPET::probeHPET()::ErrataTable+0x48>
+    1018:	e9 56 fe ff ff       	jmpq   e73 <AppleHPET::start(IOService*)+0x151>
+    101d:	90                   	nop
+
+000000000000101e <AppleHPET::probeHPET()>:
+    101e:	55                   	push   %rbp
+    101f:	48 89 e5             	mov    %rsp,%rbp
+    1022:	41 57                	push   %r15
+    1024:	41 56                	push   %r14
+    1026:	41 54                	push   %r12
+    1028:	53                   	push   %rbx
+    1029:	48 83 ec 10          	sub    $0x10,%rsp
+    102d:	48 89 fb             	mov    %rdi,%rbx
+    1030:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1037:	48 8b 00             	mov    (%rax),%rax
+    103a:	48 89 c1             	mov    %rax,%rcx
+    103d:	48 81 e1 ff 80 00 00 	and    $0x80ff,%rcx
+    1044:	48 81 f9 01 80 00 00 	cmp    $0x8001,%rcx
+    104b:	0f 85 2f 01 00 00    	jne    1180 <AppleHPET::probeHPET()+0x162>
+    1051:	89 c1                	mov    %eax,%ecx
+    1053:	c1 e9 08             	shr    $0x8,%ecx
+    1056:	83 e1 f             	and    $0x1f,%ecx
+    1059:	ff c1                	inc    %ecx
+    105b:	89 8b d4 00 00 00    	mov    %ecx,0xd4(%rbx)
+    1061:	48 89 c1             	mov    %rax,%rcx
+    1064:	48 c1 e9 20          	shr    $0x20,%rcx
+    1068:	89 8b d8 00 00 00    	mov    %ecx,0xd8(%rbx)
+    106e:	48 8b 8b c0 00 00 00 	mov    0xc0(%rbx),%rcx
+    1075:	48 8b 49 10          	mov    0x10(%rcx),%rcx
+    1079:	48 83 e1 fc          	and    $0xfffffffffffffffc,%rcx
+    107d:	48 83 c9 02          	or     $0x2,%rcx
+    1081:	48 89 8b e0 00 00 00 	mov    %rcx,0xe0(%rbx)
+    1088:	48 8b 93 c0 00 00 00 	mov    0xc0(%rbx),%rdx
+    108f:	48 89 4a 10          	mov    %rcx,0x10(%rdx)
+    1093:	48 8b 8b c0 00 00 00 	mov    0xc0(%rbx),%rcx
+    109a:	48 8b 51 10          	mov    0x10(%rcx),%rdx
+    109e:	f6 c2 01             	test   $0x1,%dl
+    10a1:	75 0b                	jne    10ae <AppleHPET::probeHPET()+0x90>
+    10a3:	48 c7 81 f0 00 00 00 	movq   $0x0,0xf0(%rcx)
+    10aa:	00 00 00 00 
+    10ae:	41 bf 00 00 86 80    	mov    $0x80860000,%r15d
+    10b4:	48 8b 8b c0 00 00 00 	mov    0xc0(%rbx),%rcx
+    10bb:	49 8d 97 ff ff 79 7f 	lea    0x7f79ffff(%r15),%rdx
+    10c2:	48 89 51 20          	mov    %rdx,0x20(%rcx)
+    10c6:	49 8d 8f 00 00 79 7f 	lea    0x7f790000(%r15),%rcx
+    10cd:	48 21 c8             	and    %rcx,%rax
+    10d0:	41 b6 01             	mov    $0x1,%r14b
+    10d3:	4c 39 f8             	cmp    %r15,%rax
+    10d6:	0f 85 a7 00 00 00    	jne    1183 <AppleHPET::probeHPET()+0x165>
+    10dc:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    10e3:	48 8b 07             	mov    (%rdi),%rax
+    10e6:	c7 04 24 00 00 00 00 	movl   $0x0,(%rsp)
+    10ed:	48 8d 75 d8          	lea    -0x28(%rbp),%rsi
+    10f1:	ba 02 00 00 00       	mov    $0x2,%edx
+    10f6:	b9 0a 00 f8 00       	mov    $0xf8000a,%ecx
+    10fb:	41 b8 10 00 00 00    	mov    $0x10,%r8d
+    1101:	45 31 c9             	xor    %r9d,%r9d
+    1104:	ff 90 20 09 00 00    	callq  *0x920(%rax)
+    110a:	85 c0                	test   %eax,%eax
+    110c:	75 75                	jne    1183 <AppleHPET::probeHPET()+0x165>
+    110e:	0f b7 45 d8          	movzwl -0x28(%rbp),%eax
+    1112:	3d 01 06 00 00       	cmp    $0x601,%eax
+    1117:	75 6a                	jne    1183 <AppleHPET::probeHPET()+0x165>
+    1119:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    1120:	48 8b 07             	mov    (%rdi),%rax
+    1123:	c7 04 24 00 00 00 00 	movl   $0x0,(%rsp)
+    112a:	48 8d 75 d8          	lea    -0x28(%rbp),%rsi
+    112e:	ba 02 00 00 00       	mov    $0x2,%edx
+    1133:	b9 00 00 f8 00       	mov    $0xf80000,%ecx
+    1138:	41 b8 20 00 00 00    	mov    $0x20,%r8d
+    113e:	45 31 c9             	xor    %r9d,%r9d
+    1141:	ff 90 20 09 00 00    	callq  *0x920(%rax)
+    1147:	85 c0                	test   %eax,%eax
+    1149:	75 38                	jne    1183 <AppleHPET::probeHPET()+0x165>
+    114b:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    114f:	0f b7 c8             	movzwl %ax,%ecx
+    1152:	81 f9 86 80 00 00    	cmp    $0x8086,%ecx
+    1158:	75 29                	jne    1183 <AppleHPET::probeHPET()+0x165>
+    115a:	48 c1 e8 10          	shr    $0x10,%rax
+    115e:	31 c9                	xor    %ecx,%ecx
+    1160:	48 8d 15 79 0e 00 00 	lea    0xe79(%rip),%rdx        # 1fe0 <AppleHPET::probeHPET()::ErrataTable>
+    1167:	0f b7 74 8a 02       	movzwl 0x2(%rdx,%rcx,4),%esi
+    116c:	21 c6                	and    %eax,%esi
+    116e:	0f b7 3c 8a          	movzwl (%rdx,%rcx,4),%edi
+    1172:	39 fe                	cmp    %edi,%esi
+    1174:	74 d                	je     1193 <AppleHPET::probeHPET()+0x175>
+    1176:	48 ff c1             	inc    %rcx
+    1179:	83 f9 04             	cmp    $0x4,%ecx
+    117c:	76 e9                	jbe    1167 <AppleHPET::probeHPET()+0x149>
+    117e:	eb 3a                	jmp    11ba <AppleHPET::probeHPET()+0x19c>
+    1180:	45 31 f6             	xor    %r14d,%r14d
+    1183:	44 88 f0             	mov    %r14b,%al
+    1186:	48 83 c4 10          	add    $0x10,%rsp
+    118a:	5b                   	pop    %rbx
+    118b:	41 5c                	pop    %r12
+    118d:	41 5e                	pop    %r14
+    118f:	41 5f                	pop    %r15
+    1191:	5d                   	pop    %rbp
+    1192:	c3                   	retq   
+    1193:	c6 83 f0 00 00 00 01 	movb   $0x1,0xf0(%rbx)
+    119a:	48 8b 03             	mov    (%rbx),%rax
+    119d:	48 8b 0d ac 0e 00 00 	mov    0xeac(%rip),%rcx        # 2050 <AppleHPET::probeHPET()::ErrataTable+0x70>
+    11a4:	48 8b 09             	mov    (%rcx),%rcx
+    11a7:	48 8b 11             	mov    (%rcx),%rdx
+    11aa:	48 8d 35 ea 0d 00 00 	lea    0xdea(%rip),%rsi        # 1f9b <__stop+0x1ee>
+    11b1:	48 89 df             	mov    %rbx,%rdi
+    11b4:	ff 90 68 02 00 00    	callq  *0x268(%rax)
+    11ba:	48 8b bb 90 00 00 00 	mov    0x90(%rbx),%rdi
+    11c1:	48 8b 07             	mov    (%rdi),%rax
+    11c4:	ff 90 38 01 00 00    	callq  *0x138(%rax)
+    11ca:	4c 8b 00             	mov    (%rax),%r8
+    11cd:	31 f6                	xor    %esi,%esi
+    11cf:	31 d2                	xor    %edx,%edx
+    11d1:	b9 00 08 00 00       	mov    $0x800,%ecx
+    11d6:	48 89 c7             	mov    %rax,%rdi
+    11d9:	41 ff 90 38 01 00 00 	callq  *0x138(%r8)
+    11e0:	49 8d 8f 00 00 4a 7e 	lea    0x7e4a0000(%r15),%rcx
+    11e7:	48 39 c8             	cmp    %rcx,%rax
+    11ea:	75 97                	jne    1183 <AppleHPET::probeHPET()+0x165>
+    11ec:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    11f3:	48 8b 07             	mov    (%rdi),%rax
+    11f6:	c7 04 24 00 00 00 00 	movl   $0x0,(%rsp)
+    11fd:	48 8d 75 d8          	lea    -0x28(%rbp),%rsi
+    1201:	ba 02 00 00 00       	mov    $0x2,%edx
+    1206:	b9 f0 00 f8 00       	mov    $0xf800f0,%ecx
+    120b:	41 b8 20 00 00 00    	mov    $0x20,%r8d
+    1211:	45 31 c9             	xor    %r9d,%r9d
+    1214:	ff 90 20 09 00 00    	callq  *0x920(%rax)
+    121a:	85 c0                	test   %eax,%eax
+    121c:	0f 85 61 ff ff ff    	jne    1183 <AppleHPET::probeHPET()+0x165>
+    1222:	48 8b 7d d8          	mov    -0x28(%rbp),%rdi
+    1226:	40 f6 c7 01          	test   $0x1,%dil
+    122a:	0f 84 53 ff ff ff    	je     1183 <AppleHPET::probeHPET()+0x165>
+    1230:	48 89 f8             	mov    %rdi,%rax
+    1233:	48 25 00 c0 ff ff    	and    $0xffffffffffffc000,%rax
+    1239:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+    123d:	0f 84 40 ff ff ff    	je     1183 <AppleHPET::probeHPET()+0x165>
+    1243:	85 c0                	test   %eax,%eax
+    1245:	0f 84 38 ff ff ff    	je     1183 <AppleHPET::probeHPET()+0x165>
+    124b:	49 81 c7 00 c0 79 7f 	add    $0x7f79c000,%r15
+    1252:	4c 21 ff             	and    %r15,%rdi
+    1255:	48 81 cf 00 30 00 00 	or     $0x3000,%rdi
+    125c:	be 00 10 00 00       	mov    $0x1000,%esi
+    1261:	ba 03 08 00 00       	mov    $0x803,%edx
+    1266:	31 c9                	xor    %ecx,%ecx
+    1268:	e8 00 00 00 00       	callq  126d <AppleHPET::probeHPET()+0x24f>
+    126d:	49 89 c7             	mov    %rax,%r15
+    1270:	4d 85 ff             	test   %r15,%r15
+    1273:	74 27                	je     129c <AppleHPET::probeHPET()+0x27e>
+    1275:	49 8b 07             	mov    (%r15),%rax
+    1278:	31 f6                	xor    %esi,%esi
+    127a:	4c 89 ff             	mov    %r15,%rdi
+    127d:	ff 90 00 02 00 00    	callq  *0x200(%rax)
+    1283:	4c 8d a3 98 00 00 00 	lea    0x98(%rbx),%r12
+    128a:	48 89 83 98 00 00 00 	mov    %rax,0x98(%rbx)
+    1291:	49 8b 07             	mov    (%r15),%rax
+    1294:	4c 89 ff             	mov    %r15,%rdi
+    1297:	ff 50 28             	callq  *0x28(%rax)
+    129a:	eb 07                	jmp    12a3 <AppleHPET::probeHPET()+0x285>
+    129c:	4c 8d a3 98 00 00 00 	lea    0x98(%rbx),%r12
+    12a3:	49 8b 3c 24          	mov    (%r12),%rdi
+    12a7:	48 85 ff             	test   %rdi,%rdi
+    12aa:	0f 84 d3 fe ff ff    	je     1183 <AppleHPET::probeHPET()+0x165>
+    12b0:	48 8b 07             	mov    (%rdi),%rax
+    12b3:	ff 90 18 01 00 00    	callq  *0x118(%rax)
+    12b9:	48 05 04 04 00 00    	add    $0x404,%rax
+    12bf:	48 89 83 a0 00 00 00 	mov    %rax,0xa0(%rbx)
+    12c6:	31 ff                	xor    %edi,%edi
+    12c8:	be 20 00 00 00       	mov    $0x20,%esi
+    12cd:	e8 00 00 00 00       	callq  12d2 <AppleHPET::probeHPET()+0x2b4>
+    12d2:	48 89 83 a8 00 00 00 	mov    %rax,0xa8(%rbx)
+    12d9:	48 85 c0             	test   %rax,%rax
+    12dc:	0f 84 a1 fe ff ff    	je     1183 <AppleHPET::probeHPET()+0x165>
+    12e2:	48 8b 0b             	mov    (%rbx),%rcx
+    12e5:	48 8d 35 b9 0c 00 00 	lea    0xcb9(%rip),%rsi        # 1fa5 <__stop+0x1f8>
+    12ec:	48 89 df             	mov    %rbx,%rdi
+    12ef:	48 89 c2             	mov    %rax,%rdx
+    12f2:	ff 91 68 02 00 00    	callq  *0x268(%rcx)
+    12f8:	e9 86 fe ff ff       	jmpq   1183 <AppleHPET::probeHPET()+0x165>
+    12fd:	90                   	nop
+
+00000000000012fe <AppleHPET::configureTimer(HpetTimer*)>:
+    12fe:	55                   	push   %rbp
+    12ff:	48 89 e5             	mov    %rsp,%rbp
+    1302:	41 57                	push   %r15
+    1304:	41 56                	push   %r14
+    1306:	41 55                	push   %r13
+    1308:	41 54                	push   %r12
+    130a:	53                   	push   %rbx
+    130b:	48 83 ec 28          	sub    $0x28,%rsp
+    130f:	49 89 f6             	mov    %rsi,%r14
+    1312:	49 89 fc             	mov    %rdi,%r12
+    1315:	4d 8b 3e             	mov    (%r14),%r15
+    1318:	4d 8b 2f             	mov    (%r15),%r13
+    131b:	41 8b 76 08          	mov    0x8(%r14),%esi
+    131f:	e8 98 08 00 00       	callq  1bbc <AppleHPET::getInterruptVectorAtIndex(unsigned int)>
+    1324:	85 c0                	test   %eax,%eax
+    1326:	78 48                	js     1370 <AppleHPET::configureTimer(HpetTimer*)+0x72>
+    1328:	41 8b 4e 08          	mov    0x8(%r14),%ecx
+    132c:	89 4d d4             	mov    %ecx,-0x2c(%rbp)
+    132f:	83 f9 01             	cmp    $0x1,%ecx
+    1332:	bb ff ff ff ff       	mov    $0xffffffff,%ebx
+    1337:	0f 47 d8             	cmova  %eax,%ebx
+    133a:	8b 4d d4             	mov    -0x2c(%rbp),%ecx
+    133d:	41 89 4e 10          	mov    %ecx,0x10(%r14)
+    1341:	41 89 46 14          	mov    %eax,0x14(%r14)
+    1345:	49 81 e5 f1 80 ff ff 	and    $0xffffffffffff80f1,%r13
+    134c:	83 fb f             	cmp    $0x1f,%ebx
+    134f:	77 09                	ja     135a <AppleHPET::configureTimer(HpetTimer*)+0x5c>
+    1351:	c1 e3 09             	shl    $0x9,%ebx
+    1354:	48 63 c3             	movslq %ebx,%rax
+    1357:	49 09 c5             	or     %rax,%r13
+    135a:	4d 89 2f             	mov    %r13,(%r15)
+    135d:	49 c7 47 08 00 00 00 	movq   $0x0,0x8(%r15)
+    1364:	00 
+    1365:	4d 89 6e 18          	mov    %r13,0x18(%r14)
+    1369:	31 c0                	xor    %eax,%eax
+    136b:	e9 aa 00 00 00       	jmpq   141a <AppleHPET::configureTimer(HpetTimer*)+0x11c>
+    1370:	89 45 bc             	mov    %eax,-0x44(%rbp)
+    1373:	4c 89 7d c8          	mov    %r15,-0x38(%rbp)
+    1377:	4c 89 6d c0          	mov    %r13,-0x40(%rbp)
+    137b:	49 c1 ed 20          	shr    $0x20,%r13
+    137f:	b8 be 02 00 e0       	mov    $0xe00002be,%eax
+    1384:	31 db                	xor    %ebx,%ebx
+    1386:	41 bf 01 00 00 00    	mov    $0x1,%r15d
+    138c:	88 d9                	mov    %bl,%cl
+    138e:	41 d3 e7             	shl    %cl,%r15d
+    1391:	41 0f a3 dd          	bt     %ebx,%r13d
+    1395:	73 3a                	jae    13d1 <AppleHPET::configureTimer(HpetTimer*)+0xd3>
+    1397:	45 85 bc 24 d0 00 00 	test   %r15d,0xd0(%r12)
+    139e:	00 
+    139f:	75 30                	jne    13d1 <AppleHPET::configureTimer(HpetTimer*)+0xd3>
+    13a1:	49 8b 04 24          	mov    (%r12),%rax
+    13a5:	49 8b 8c 24 88 00 00 	mov    0x88(%r12),%rcx
+    13ac:	00 
+    13ad:	48 8d 55 d4          	lea    -0x2c(%rbp),%rdx
+    13b1:	48 89 14 24          	mov    %rdx,(%rsp)
+    13b5:	31 d2                	xor    %edx,%edx
+    13b7:	45 31 c9             	xor    %r9d,%r9d
+    13ba:	4c 89 e7             	mov    %r12,%rdi
+    13bd:	48 8d 35 e6 0b 00 00 	lea    0xbe6(%rip),%rsi        # 1faa <__stop+0x1fd>
+    13c4:	49 89 d8             	mov    %rbx,%r8
+    13c7:	ff 90 c0 06 00 00    	callq  *0x6c0(%rax)
+    13cd:	85 c0                	test   %eax,%eax
+    13cf:	74 c                	je     13ed <AppleHPET::configureTimer(HpetTimer*)+0xef>
+    13d1:	48 ff c3             	inc    %rbx
+    13d4:	83 fb 20             	cmp    $0x20,%ebx
+    13d7:	7c ad                	jl     1386 <AppleHPET::configureTimer(HpetTimer*)+0x88>
+    13d9:	85 c0                	test   %eax,%eax
+    13db:	75 3d                	jne    141a <AppleHPET::configureTimer(HpetTimer*)+0x11c>
+    13dd:	4c 8b 7d c8          	mov    -0x38(%rbp),%r15
+    13e1:	4c 8b 6d c0          	mov    -0x40(%rbp),%r13
+    13e5:	8b 45 bc             	mov    -0x44(%rbp),%eax
+    13e8:	e9 4d ff ff ff       	jmpq   133a <AppleHPET::configureTimer(HpetTimer*)+0x3c>
+    13ed:	45 09 bc 24 d0 00 00 	or     %r15d,0xd0(%r12)
+    13f4:	00 
+    13f5:	8b 75 d4             	mov    -0x2c(%rbp),%esi
+    13f8:	4c 89 e7             	mov    %r12,%rdi
+    13fb:	e8 bc 07 00 00       	callq  1bbc <AppleHPET::getInterruptVectorAtIndex(unsigned int)>
+    1400:	89 c1                	mov    %eax,%ecx
+    1402:	b8 c9 02 00 e0       	mov    $0xe00002c9,%eax
+    1407:	85 c9                	test   %ecx,%ecx
+    1409:	78 0f                	js     141a <AppleHPET::configureTimer(HpetTimer*)+0x11c>
+    140b:	4c 8b 7d c8          	mov    -0x38(%rbp),%r15
+    140f:	4c 8b 6d c0          	mov    -0x40(%rbp),%r13
+    1413:	89 c8                	mov    %ecx,%eax
+    1415:	e9 20 ff ff ff       	jmpq   133a <AppleHPET::configureTimer(HpetTimer*)+0x3c>
+    141a:	48 83 c4 28          	add    $0x28,%rsp
+    141e:	5b                   	pop    %rbx
+    141f:	41 5c                	pop    %r12
+    1421:	41 5d                	pop    %r13
+    1423:	41 5e                	pop    %r14
+    1425:	41 5f                	pop    %r15
+    1427:	5d                   	pop    %rbp
+    1428:	c3                   	retq   
+    1429:	90                   	nop
+
+000000000000142a <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)>:
+    142a:	55                   	push   %rbp
+    142b:	48 89 e5             	mov    %rsp,%rbp
+    142e:	41 57                	push   %r15
+    1430:	41 56                	push   %r14
+    1432:	41 54                	push   %r12
+    1434:	53                   	push   %rbx
+    1435:	48 81 ec 80 00 00 00 	sub    $0x80,%rsp
+    143c:	49 89 ce             	mov    %rcx,%r14
+    143f:	48 89 fb             	mov    %rdi,%rbx
+    1442:	4c 8b 25 e7 0b 00 00 	mov    0xbe7(%rip),%r12        # 2030 <AppleHPET::probeHPET()::ErrataTable+0x50>
+    1449:	49 8b 04 24          	mov    (%r12),%rax
+    144d:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+    1451:	48 8d bd 70 ff ff ff 	lea    -0x90(%rbp),%rdi
+    1458:	31 f6                	xor    %esi,%esi
+    145a:	ba 58 00 00 00       	mov    $0x58,%edx
+    145f:	e8 00 00 00 00       	callq  1464 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x3a>
+    1464:	48 89 9d 70 ff ff ff 	mov    %rbx,-0x90(%rbp)
+    146b:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1472:	48 8d 88 f0 00 00 00 	lea    0xf0(%rax),%rcx
+    1479:	48 89 8d 78 ff ff ff 	mov    %rcx,-0x88(%rbp)
+    1480:	48 83 c0 10          	add    $0x10,%rax
+    1484:	48 89 45 80          	mov    %rax,-0x80(%rbp)
+    1488:	8b 83 d8 00 00 00    	mov    0xd8(%rbx),%eax
+    148e:	89 45 88             	mov    %eax,-0x78(%rbp)
+    1491:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+    1497:	89 45 8c             	mov    %eax,-0x74(%rbp)
+    149a:	80 bb f0 00 00 00 00 	cmpb   $0x0,0xf0(%rbx)
+    14a1:	74 05                	je     14a8 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x7e>
+    14a3:	ff c8                	dec    %eax
+    14a5:	89 45 8c             	mov    %eax,-0x74(%rbp)
+    14a8:	48 8d 05 99 02 00 00 	lea    0x299(%rip),%rax        # 1748 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)>
+    14af:	48 89 45 a0          	mov    %rax,-0x60(%rbp)
+    14b3:	48 8d 05 e 04 00 00 	lea    0x41e(%rip),%rax        # 18d8 <AppleHPET::hpetTimerRelease(unsigned int)>
+    14ba:	48 89 45 a8          	mov    %rax,-0x58(%rbp)
+    14be:	48 8d 05 bb 04 00 00 	lea    0x4bb(%rip),%rax        # 1980 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)>
+    14c5:	48 89 45 b0          	mov    %rax,-0x50(%rbp)
+    14c9:	48 8d 05 34 05 00 00 	lea    0x534(%rip),%rax        # 1a04 <AppleHPET::hpetSaveState()>
+    14d0:	48 89 45 b8          	mov    %rax,-0x48(%rbp)
+    14d4:	48 8d 05 91 05 00 00 	lea    0x591(%rip),%rax        # 1a6c <AppleHPET::hpetRestoreState()>
+    14db:	48 89 45 c0          	mov    %rax,-0x40(%rbp)
+    14df:	e8 00 00 00 00       	callq  14e4 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0xba>
+    14e4:	48 8b 08             	mov    (%rax),%rcx
+    14e7:	4c 8d 7d ce          	lea    -0x32(%rbp),%r15
+    14eb:	ba 0a 00 00 00       	mov    $0xa,%edx
+    14f0:	48 89 c7             	mov    %rax,%rdi
+    14f3:	4c 89 fe             	mov    %r15,%rsi
+    14f6:	ff 91 b8 08 00 00    	callq  *0x8b8(%rcx)
+    14fc:	48 8d d f2 09 00 00 	lea    0x9f2(%rip),%rbx        # 1ef5 <__stop+0x148>
+    1503:	48 89 df             	mov    %rbx,%rdi
+    1506:	e8 00 00 00 00       	callq  150b <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0xe1>
+    150b:	48 89 df             	mov    %rbx,%rdi
+    150e:	4c 89 fe             	mov    %r15,%rsi
+    1511:	48 89 c2             	mov    %rax,%rdx
+    1514:	e8 00 00 00 00       	callq  1519 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0xef>
+    1519:	85 c0                	test   %eax,%eax
+    151b:	74 22                	je     153f <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x115>
+    151d:	48 8d d db 09 00 00 	lea    0x9db(%rip),%rbx        # 1eff <__stop+0x152>
+    1524:	48 89 df             	mov    %rbx,%rdi
+    1527:	e8 00 00 00 00       	callq  152c <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x102>
+    152c:	48 8d 75 ce          	lea    -0x32(%rbp),%rsi
+    1530:	48 89 df             	mov    %rbx,%rdi
+    1533:	48 89 c2             	mov    %rax,%rdx
+    1536:	e8 00 00 00 00       	callq  153b <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x111>
+    153b:	85 c0                	test   %eax,%eax
+    153d:	75 04                	jne    1543 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x119>
+    153f:	80 4d 90 01          	orb    $0x1,-0x70(%rbp)
+    1543:	48 8d b5 68 ff ff ff 	lea    -0x98(%rbp),%rsi
+    154a:	bf 05 50 08 80       	mov    $0x80085005,%edi
+    154f:	e8 00 00 00 00       	callq  1554 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x12a>
+    1554:	89 c3                	mov    %eax,%ebx
+    1556:	85 db                	test   %ebx,%ebx
+    1558:	74 24                	je     157e <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x154>
+    155a:	4c 8d 35 a8 09 00 00 	lea    0x9a8(%rip),%r14        # 1f09 <__stop+0x15c>
+    1561:	31 c0                	xor    %eax,%eax
+    1563:	4c 89 f7             	mov    %r14,%rdi
+    1566:	89 de                	mov    %ebx,%esi
+    1568:	e8 00 00 00 00       	callq  156d <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x143>
+    156d:	31 c0                	xor    %eax,%eax
+    156f:	4c 89 f7             	mov    %r14,%rdi
+    1572:	89 de                	mov    %ebx,%esi
+    1574:	e8 00 00 00 00       	callq  1579 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x14f>
+    1579:	e9 82 00 00 00       	jmpq   1600 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1d6>
+    157e:	8b 95 68 ff ff ff    	mov    -0x98(%rbp),%edx
+    1584:	81 fa 05 01 00 00    	cmp    $0x105,%edx
+    158a:	75 49                	jne    15d5 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1ab>
+    158c:	48 8d b5 70 ff ff ff 	lea    -0x90(%rbp),%rsi
+    1593:	bf 08 50 08 80       	mov    $0x80085008,%edi
+    1598:	e8 00 00 00 00       	callq  159d <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x173>
+    159d:	89 c3                	mov    %eax,%ebx
+    159f:	85 db                	test   %ebx,%ebx
+    15a1:	74 f                	je     15c2 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x198>
+    15a3:	4c 8d 3d ba 09 00 00 	lea    0x9ba(%rip),%r15        # 1f64 <__stop+0x1b7>
+    15aa:	31 c0                	xor    %eax,%eax
+    15ac:	4c 89 ff             	mov    %r15,%rdi
+    15af:	89 de                	mov    %ebx,%esi
+    15b1:	e8 00 00 00 00       	callq  15b6 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x18c>
+    15b6:	31 c0                	xor    %eax,%eax
+    15b8:	4c 89 ff             	mov    %r15,%rdi
+    15bb:	89 de                	mov    %ebx,%esi
+    15bd:	e8 00 00 00 00       	callq  15c2 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x198>
+    15c2:	4d 85 f6             	test   %r14,%r14
+    15c5:	74 39                	je     1600 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1d6>
+    15c7:	49 8b 06             	mov    (%r14),%rax
+    15ca:	4c 89 f7             	mov    %r14,%rdi
+    15cd:	ff 90 20 01 00 00    	callq  *0x120(%rax)
+    15d3:	eb 2b                	jmp    1600 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1d6>
+    15d5:	48 8d d 4c 09 00 00 	lea    0x94c(%rip),%rbx        # 1f28 <__stop+0x17b>
+    15dc:	be 05 01 00 00       	mov    $0x105,%esi
+    15e1:	31 c0                	xor    %eax,%eax
+    15e3:	48 89 df             	mov    %rbx,%rdi
+    15e6:	e8 00 00 00 00       	callq  15eb <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1c1>
+    15eb:	8b 95 68 ff ff ff    	mov    -0x98(%rbp),%edx
+    15f1:	be 05 01 00 00       	mov    $0x105,%esi
+    15f6:	31 c0                	xor    %eax,%eax
+    15f8:	48 89 df             	mov    %rbx,%rdi
+    15fb:	e8 00 00 00 00       	callq  1600 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1d6>
+    1600:	49 8b 04 24          	mov    (%r12),%rax
+    1604:	48 3b 45 d8          	cmp    -0x28(%rbp),%rax
+    1608:	75 12                	jne    161c <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1f2>
+    160a:	b0 01                	mov    $0x1,%al
+    160c:	48 81 c4 80 00 00 00 	add    $0x80,%rsp
+    1613:	5b                   	pop    %rbx
+    1614:	41 5c                	pop    %r12
+    1616:	41 5e                	pop    %r14
+    1618:	41 5f                	pop    %r15
+    161a:	5d                   	pop    %rbp
+    161b:	c3                   	retq   
+    161c:	e8 00 00 00 00       	callq  1621 <AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)+0x1f7>
+    1621:	90                   	nop
+
+0000000000001622 <AppleHPET::stop(IOService*)>:
+    1622:	55                   	push   %rbp
+    1623:	48 89 e5             	mov    %rsp,%rbp
+    1626:	48 8b 05 fb 09 00 00 	mov    0x9fb(%rip),%rax        # 2028 <AppleHPET::probeHPET()::ErrataTable+0x48>
+    162d:	5d                   	pop    %rbp
+    162e:	ff a0 d8 05 00 00    	jmpq   *0x5d8(%rax)
+
+0000000000001634 <AppleHPET::free()>:
+    1634:	55                   	push   %rbp
+    1635:	48 89 e5             	mov    %rsp,%rbp
+    1638:	53                   	push   %rbx
+    1639:	50                   	push   %rax
+    163a:	48 89 fb             	mov    %rdi,%rbx
+    163d:	48 8b bb b8 00 00 00 	mov    0xb8(%rbx),%rdi
+    1644:	48 85 ff             	test   %rdi,%rdi
+    1647:	74 14                	je     165d <AppleHPET::free()+0x29>
+    1649:	48 8b 07             	mov    (%rdi),%rax
+    164c:	ff 90 18 01 00 00    	callq  *0x118(%rax)
+    1652:	48 c7 83 b8 00 00 00 	movq   $0x0,0xb8(%rbx)
+    1659:	00 00 00 00 
+    165d:	48 8b bb 90 00 00 00 	mov    0x90(%rbx),%rdi
+    1664:	48 85 ff             	test   %rdi,%rdi
+    1667:	74 c                	je     1685 <AppleHPET::free()+0x51>
+    1669:	48 c7 83 c0 00 00 00 	movq   $0x0,0xc0(%rbx)
+    1670:	00 00 00 00 
+    1674:	48 8b 07             	mov    (%rdi),%rax
+    1677:	ff 50 28             	callq  *0x28(%rax)
+    167a:	48 c7 83 90 00 00 00 	movq   $0x0,0x90(%rbx)
+    1681:	00 00 00 00 
+    1685:	48 8b bb 98 00 00 00 	mov    0x98(%rbx),%rdi
+    168c:	48 85 ff             	test   %rdi,%rdi
+    168f:	74 c                	je     16ad <AppleHPET::free()+0x79>
+    1691:	48 c7 83 a0 00 00 00 	movq   $0x0,0xa0(%rbx)
+    1698:	00 00 00 00 
+    169c:	48 8b 07             	mov    (%rdi),%rax
+    169f:	ff 50 28             	callq  *0x28(%rax)
+    16a2:	48 c7 83 98 00 00 00 	movq   $0x0,0x98(%rbx)
+    16a9:	00 00 00 00 
+    16ad:	48 8b bb a8 00 00 00 	mov    0xa8(%rbx),%rdi
+    16b4:	48 85 ff             	test   %rdi,%rdi
+    16b7:	74 11                	je     16ca <AppleHPET::free()+0x96>
+    16b9:	48 8b 07             	mov    (%rdi),%rax
+    16bc:	ff 50 28             	callq  *0x28(%rax)
+    16bf:	48 c7 83 a8 00 00 00 	movq   $0x0,0xa8(%rbx)
+    16c6:	00 00 00 00 
+    16ca:	48 8b bb c8 00 00 00 	mov    0xc8(%rbx),%rdi
+    16d1:	48 85 ff             	test   %rdi,%rdi
+    16d4:	74 3f                	je     1715 <AppleHPET::free()+0xe1>
+    16d6:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+    16dc:	48 85 c0             	test   %rax,%rax
+    16df:	74 34                	je     1715 <AppleHPET::free()+0xe1>
+    16e1:	48 c1 e0 03          	shl    $0x3,%rax
+    16e5:	48 8d 14 80          	lea    (%rax,%rax,4),%rdx
+    16e9:	31 f6                	xor    %esi,%esi
+    16eb:	e8 00 00 00 00       	callq  16f0 <AppleHPET::free()+0xbc>
+    16f0:	48 8b bb c8 00 00 00 	mov    0xc8(%rbx),%rdi
+    16f7:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+    16fd:	48 c1 e0 03          	shl    $0x3,%rax
+    1701:	48 8d 34 80          	lea    (%rax,%rax,4),%rsi
+    1705:	e8 00 00 00 00       	callq  170a <AppleHPET::free()+0xd6>
+    170a:	48 c7 83 c8 00 00 00 	movq   $0x0,0xc8(%rbx)
+    1711:	00 00 00 00 
+    1715:	48 8b bb b0 00 00 00 	mov    0xb0(%rbx),%rdi
+    171c:	48 85 ff             	test   %rdi,%rdi
+    171f:	74 10                	je     1731 <AppleHPET::free()+0xfd>
+    1721:	e8 00 00 00 00       	callq  1726 <AppleHPET::free()+0xf2>
+    1726:	48 c7 83 b0 00 00 00 	movq   $0x0,0xb0(%rbx)
+    172d:	00 00 00 00 
+    1731:	48 8b 05 f0 08 00 00 	mov    0x8f0(%rip),%rax        # 2028 <AppleHPET::probeHPET()::ErrataTable+0x48>
+    1738:	48 89 df             	mov    %rbx,%rdi
+    173b:	48 83 c4 08          	add    $0x8,%rsp
+    173f:	5b                   	pop    %rbx
+    1740:	5d                   	pop    %rbp
+    1741:	ff a0 a0 00 00 00    	jmpq   *0xa0(%rax)
+    1747:	90                   	nop
+
+0000000000001748 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)>:
+    1748:	55                   	push   %rbp
+    1749:	48 89 e5             	mov    %rsp,%rbp
+    174c:	41 57                	push   %r15
+    174e:	41 56                	push   %r14
+    1750:	41 55                	push   %r13
+    1752:	41 54                	push   %r12
+    1754:	53                   	push   %rbx
+    1755:	48 83 ec 28          	sub    $0x28,%rsp
+    1759:	4d 89 cf             	mov    %r9,%r15
+    175c:	49 89 cd             	mov    %rcx,%r13
+    175f:	49 89 d4             	mov    %rdx,%r12
+    1762:	48 89 fb             	mov    %rdi,%rbx
+    1765:	4d 85 e4             	test   %r12,%r12
+    1768:	0f 94 c0             	sete   %al
+    176b:	4d 85 ed             	test   %r13,%r13
+    176e:	0f 94 c1             	sete   %cl
+    1771:	4d 85 c0             	test   %r8,%r8
+    1774:	0f 94 c2             	sete   %dl
+    1777:	4d 85 ff             	test   %r15,%r15
+    177a:	40 0f 94 c7          	sete   %dil
+    177e:	83 fe ff             	cmp    $0xffffffff,%esi
+    1781:	41 be ff ff ff ff    	mov    $0xffffffff,%r14d
+    1787:	0f 84 c4 00 00 00    	je     1851 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x109>
+    178d:	08 c8                	or     %cl,%al
+    178f:	08 d0                	or     %dl,%al
+    1791:	40 08 f8             	or     %dil,%al
+    1794:	0f 85 b7 00 00 00    	jne    1851 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x109>
+    179a:	41 89 f6             	mov    %esi,%r14d
+    179d:	4c 89 45 d0          	mov    %r8,-0x30(%rbp)
+    17a1:	48 8b bb b0 00 00 00 	mov    0xb0(%rbx),%rdi
+    17a8:	e8 00 00 00 00       	callq  17ad <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x65>
+    17ad:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+    17b3:	85 c0                	test   %eax,%eax
+    17b5:	0f 84 84 00 00 00    	je     183f <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xf7>
+    17bb:	4c 89 6d c0          	mov    %r13,-0x40(%rbp)
+    17bf:	4c 89 7d c8          	mov    %r15,-0x38(%rbp)
+    17c3:	31 c9                	xor    %ecx,%ecx
+    17c5:	45 31 ed             	xor    %r13d,%r13d
+    17c8:	44 89 f2             	mov    %r14d,%edx
+    17cb:	85 c9                	test   %ecx,%ecx
+    17cd:	75 09                	jne    17d8 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x90>
+    17cf:	80 bb f0 00 00 00 00 	cmpb   $0x0,0xf0(%rbx)
+    17d6:	75 17                	jne    17ef <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xa7>
+    17d8:	4c 8b bb c8 00 00 00 	mov    0xc8(%rbx),%r15
+    17df:	43 83 7c 2f 0c ff    	cmpl   $0xffffffff,0xc(%r15,%r13,1)
+    17e5:	75 08                	jne    17ef <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xa7>
+    17e7:	43 83 7c 2f 10 ff    	cmpl   $0xffffffff,0x10(%r15,%r13,1)
+    17ed:	75 0c                	jne    17fb <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xb3>
+    17ef:	49 83 c5 28          	add    $0x28,%r13
+    17f3:	ff c1                	inc    %ecx
+    17f5:	39 c1                	cmp    %eax,%ecx
+    17f7:	72 d2                	jb     17cb <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x83>
+    17f9:	eb 44                	jmp    183f <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xf7>
+    17fb:	4c 89 fe             	mov    %r15,%rsi
+    17fe:	4c 01 ee             	add    %r13,%rsi
+    1801:	74 3c                	je     183f <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xf7>
+    1803:	48 89 df             	mov    %rbx,%rdi
+    1806:	48 89 75 b8          	mov    %rsi,-0x48(%rbp)
+    180a:	41 89 d6             	mov    %edx,%r14d
+    180d:	e8 4e 03 00 00       	callq  1b60 <AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)>
+    1812:	85 c0                	test   %eax,%eax
+    1814:	75 29                	jne    183f <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xf7>
+    1816:	44 89 75 b4          	mov    %r14d,-0x4c(%rbp)
+    181a:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    1821:	48 8b 07             	mov    (%rdi),%rax
+    1824:	4c 8b 75 b8          	mov    -0x48(%rbp),%r14
+    1828:	41 8b 76 10          	mov    0x10(%r14),%esi
+    182c:	45 31 c0             	xor    %r8d,%r8d
+    182f:	48 89 da             	mov    %rbx,%rdx
+    1832:	4c 89 e1             	mov    %r12,%rcx
+    1835:	ff 90 f8 06 00 00    	callq  *0x6f8(%rax)
+    183b:	85 c0                	test   %eax,%eax
+    183d:	74 24                	je     1863 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x11b>
+    183f:	41 be ff ff ff ff    	mov    $0xffffffff,%r14d
+    1845:	48 8b bb b0 00 00 00 	mov    0xb0(%rbx),%rdi
+    184c:	e8 00 00 00 00       	callq  1851 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x109>
+    1851:	44 89 f0             	mov    %r14d,%eax
+    1854:	48 83 c4 28          	add    $0x28,%rsp
+    1858:	5b                   	pop    %rbx
+    1859:	41 5c                	pop    %r12
+    185b:	41 5d                	pop    %r13
+    185d:	41 5e                	pop    %r14
+    185f:	41 5f                	pop    %r15
+    1861:	5d                   	pop    %rbp
+    1862:	c3                   	retq   
+    1863:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    186a:	48 8b 07             	mov    (%rdi),%rax
+    186d:	41 8b 76 10          	mov    0x10(%r14),%esi
+    1871:	4d 89 f4             	mov    %r14,%r12
+    1874:	ff 90 10 07 00 00    	callq  *0x710(%rax)
+    187a:	85 c0                	test   %eax,%eax
+    187c:	41 be ff ff ff ff    	mov    $0xffffffff,%r14d
+    1882:	74 17                	je     189b <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0x153>
+    1884:	48 8b bb 88 00 00 00 	mov    0x88(%rbx),%rdi
+    188b:	48 8b 07             	mov    (%rdi),%rax
+    188e:	41 8b 74 24 10       	mov    0x10(%r12),%esi
+    1893:	ff 90 00 07 00 00    	callq  *0x700(%rax)
+    1899:	eb aa                	jmp    1845 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xfd>
+    189b:	8b 45 b4             	mov    -0x4c(%rbp),%eax
+    189e:	43 89 44 2f 0c       	mov    %eax,0xc(%r15,%r13,1)
+    18a3:	4b 8b 04 2f          	mov    (%r15,%r13,1),%rax
+    18a7:	48 8b 00             	mov    (%rax),%rax
+    18aa:	c1 e8 05             	shr    $0x5,%eax
+    18ad:	83 e0 01             	and    $0x1,%eax
+    18b0:	48 8b 4d d0          	mov    -0x30(%rbp),%rcx
+    18b4:	89 01                	mov    %eax,(%rcx)
+    18b6:	43 8b 44 2f 08       	mov    0x8(%r15,%r13,1),%eax
+    18bb:	48 8b 4d c0          	mov    -0x40(%rbp),%rcx
+    18bf:	89 01                	mov    %eax,(%rcx)
+    18c1:	4b 8b 04 2f          	mov    (%r15,%r13,1),%rax
+    18c5:	48 83 c0 08          	add    $0x8,%rax
+    18c9:	48 8b 4d c8          	mov    -0x38(%rbp),%rcx
+    18cd:	48 89 01             	mov    %rax,(%rcx)
+    18d0:	45 31 f6             	xor    %r14d,%r14d
+    18d3:	e9 6d ff ff ff       	jmpq   1845 <AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)+0xfd>
+
+00000000000018d8 <AppleHPET::hpetTimerRelease(unsigned int)>:
+    18d8:	55                   	push   %rbp
+    18d9:	48 89 e5             	mov    %rsp,%rbp
+    18dc:	41 57                	push   %r15
+    18de:	41 56                	push   %r14
+    18e0:	41 54                	push   %r12
+    18e2:	53                   	push   %rbx
+    18e3:	89 f3                	mov    %esi,%ebx
+    18e5:	49 89 fe             	mov    %rdi,%r14
+    18e8:	41 39 9e d4 00 00 00 	cmp    %ebx,0xd4(%r14)
+    18ef:	0f 86 81 00 00 00    	jbe    1976 <AppleHPET::hpetTimerRelease(unsigned int)+0x9e>
+    18f5:	49 8b be b0 00 00 00 	mov    0xb0(%r14),%rdi
+    18fc:	e8 00 00 00 00       	callq  1901 <AppleHPET::hpetTimerRelease(unsigned int)+0x29>
+    1901:	89 d8                	mov    %ebx,%eax
+    1903:	4d 8b be c8 00 00 00 	mov    0xc8(%r14),%r15
+    190a:	48 8d c 80          	lea    (%rax,%rax,4),%rbx
+    190e:	41 83 7c df 0c ff    	cmpl   $0xffffffff,0xc(%r15,%rbx,8)
+    1914:	74 4c                	je     1962 <AppleHPET::hpetTimerRelease(unsigned int)+0x8a>
+    1916:	4d 8d 64 df 0c       	lea    0xc(%r15,%rbx,8),%r12
+    191b:	49 8b 44 df 18       	mov    0x18(%r15,%rbx,8),%rax
+    1920:	48 83 e0 fb          	and    $0xfffffffffffffffb,%rax
+    1924:	49 89 44 df 18       	mov    %rax,0x18(%r15,%rbx,8)
+    1929:	49 8b 0c df          	mov    (%r15,%rbx,8),%rcx
+    192d:	48 89 01             	mov    %rax,(%rcx)
+    1930:	49 8b be 88 00 00 00 	mov    0x88(%r14),%rdi
+    1937:	48 8b 07             	mov    (%rdi),%rax
+    193a:	41 8b 74 df 10       	mov    0x10(%r15,%rbx,8),%esi
+    193f:	ff 90 18 07 00 00    	callq  *0x718(%rax)
+    1945:	49 8b be 88 00 00 00 	mov    0x88(%r14),%rdi
+    194c:	48 8b 07             	mov    (%rdi),%rax
+    194f:	41 8b 74 df 10       	mov    0x10(%r15,%rbx,8),%esi
+    1954:	ff 90 00 07 00 00    	callq  *0x700(%rax)
+    195a:	41 c7 04 24 ff ff ff 	movl   $0xffffffff,(%r12)
+    1961:	ff 
+    1962:	49 8b be b0 00 00 00 	mov    0xb0(%r14),%rdi
+    1969:	5b                   	pop    %rbx
+    196a:	41 5c                	pop    %r12
+    196c:	41 5e                	pop    %r14
+    196e:	41 5f                	pop    %r15
+    1970:	5d                   	pop    %rbp
+    1971:	e9 00 00 00 00       	jmpq   1976 <AppleHPET::hpetTimerRelease(unsigned int)+0x9e>
+    1976:	5b                   	pop    %rbx
+    1977:	41 5c                	pop    %r12
+    1979:	41 5e                	pop    %r14
+    197b:	41 5f                	pop    %r15
+    197d:	5d                   	pop    %rbp
+    197e:	c3                   	retq   
+    197f:	90                   	nop
+
+0000000000001980 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)>:
+    1980:	55                   	push   %rbp
+    1981:	48 89 e5             	mov    %rsp,%rbp
+    1984:	b8 ff ff ff ff       	mov    $0xffffffff,%eax
+    1989:	39 b7 d4 00 00 00    	cmp    %esi,0xd4(%rdi)
+    198f:	76 71                	jbe    1a02 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)+0x82>
+    1991:	89 f0                	mov    %esi,%eax
+    1993:	4c 8b 87 c8 00 00 00 	mov    0xc8(%rdi),%r8
+    199a:	4c 8d 0c 80          	lea    (%rax,%rax,4),%r9
+    199e:	b8 fe ff ff ff       	mov    $0xfffffffe,%eax
+    19a3:	43 83 7c c8 0c ff    	cmpl   $0xffffffff,0xc(%r8,%r9,8)
+    19a9:	74 57                	je     1a02 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)+0x82>
+    19ab:	4f 8d 14 c8          	lea    (%r8,%r9,8),%r10
+    19af:	85 d2                	test   %edx,%edx
+    19b1:	75 10                	jne    19c3 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)+0x43>
+    19b3:	4b 8b 44 c8 18       	mov    0x18(%r8,%r9,8),%rax
+    19b8:	48 83 e0 fb          	and    $0xfffffffffffffffb,%rax
+    19bc:	4b 89 44 c8 18       	mov    %rax,0x18(%r8,%r9,8)
+    19c1:	eb 37                	jmp    19fa <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)+0x7a>
+    19c3:	b8 fd ff ff ff       	mov    $0xfffffffd,%eax
+    19c8:	83 fa 01             	cmp    $0x1,%edx
+    19cb:	75 35                	jne    1a02 <AppleHPET::hpetTimerCommand(unsigned int, unsigned int)+0x82>
+    19cd:	b8 01 00 00 00       	mov    $0x1,%eax
+    19d2:	40 88 f1             	mov    %sil,%cl
+    19d5:	d3 e0                	shl    %cl,%eax
+    19d7:	48 98                	cltq   
+    19d9:	48 8b 8f c0 00 00 00 	mov    0xc0(%rdi),%rcx
+    19e0:	48 89 41 20          	mov    %rax,0x20(%rcx)
+    19e4:	43 80 4c c8 18 04    	orb    $0x4,0x18(%r8,%r9,8)
+    19ea:	49 8b 02             	mov    (%r10),%rax
+    19ed:	48 c7 40 08 00 00 00 	movq   $0x0,0x8(%rax)
+    19f4:	00 
+    19f5:	4b 8b 44 c8 18       	mov    0x18(%r8,%r9,8),%rax
+    19fa:	49 8b 0a             	mov    (%r10),%rcx
+    19fd:	48 89 01             	mov    %rax,(%rcx)
+    1a00:	31 c0                	xor    %eax,%eax
+    1a02:	5d                   	pop    %rbp
+    1a03:	c3                   	retq   
+
+0000000000001a04 <AppleHPET::hpetSaveState()>:
+    1a04:	55                   	push   %rbp
+    1a05:	48 89 e5             	mov    %rsp,%rbp
+    1a08:	44 8b 87 d4 00 00 00 	mov    0xd4(%rdi),%r8d
+    1a0f:	45 85 c0             	test   %r8d,%r8d
+    1a12:	74 2e                	je     1a42 <AppleHPET::hpetSaveState()+0x3e>
+    1a14:	48 8b 8f c8 00 00 00 	mov    0xc8(%rdi),%rcx
+    1a1b:	ba 08 01 00 00       	mov    $0x108,%edx
+    1a20:	48 03 97 c0 00 00 00 	add    0xc0(%rdi),%rdx
+    1a27:	48 83 c1 20          	add    $0x20,%rcx
+    1a2b:	31 f6                	xor    %esi,%esi
+    1a2d:	48 8b 02             	mov    (%rdx),%rax
+    1a30:	48 89 01             	mov    %rax,(%rcx)
+    1a33:	48 83 c2 20          	add    $0x20,%rdx
+    1a37:	48 83 c1 28          	add    $0x28,%rcx
+    1a3b:	ff c6                	inc    %esi
+    1a3d:	44 39 c6             	cmp    %r8d,%esi
+    1a40:	72 eb                	jb     1a2d <AppleHPET::hpetSaveState()+0x29>
+    1a42:	48 8b 87 c0 00 00 00 	mov    0xc0(%rdi),%rax
+    1a49:	48 8b 80 f0 00 00 00 	mov    0xf0(%rax),%rax
+    1a50:	48 89 87 e8 00 00 00 	mov    %rax,0xe8(%rdi)
+    1a57:	48 8b 87 c0 00 00 00 	mov    0xc0(%rdi),%rax
+    1a5e:	48 8b 40 10          	mov    0x10(%rax),%rax
+    1a62:	48 89 87 e0 00 00 00 	mov    %rax,0xe0(%rdi)
+    1a69:	5d                   	pop    %rbp
+    1a6a:	c3                   	retq   
+    1a6b:	90                   	nop
+
+0000000000001a6c <AppleHPET::hpetRestoreState()>:
+    1a6c:	55                   	push   %rbp
+    1a6d:	48 89 e5             	mov    %rsp,%rbp
+    1a70:	41 56                	push   %r14
+    1a72:	53                   	push   %rbx
+    1a73:	48 89 fb             	mov    %rdi,%rbx
+    1a76:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1a7d:	48 83 38 00          	cmpq   $0x0,(%rax)
+    1a81:	74 09                	je     1a8c <AppleHPET::hpetRestoreState()+0x20>
+    1a83:	48 8b 00             	mov    (%rax),%rax
+    1a86:	48 83 f8 ff          	cmp    $0xffffffffffffffff,%rax
+    1a8a:	75 59                	jne    1ae5 <AppleHPET::hpetRestoreState()+0x79>
+    1a8c:	48 8b 83 a0 00 00 00 	mov    0xa0(%rbx),%rax
+    1a93:	8b 08                	mov    (%rax),%ecx
+    1a95:	f6 c1 80             	test   $0x80,%cl
+    1a98:	75 0e                	jne    1aa8 <AppleHPET::hpetRestoreState()+0x3c>
+    1a9a:	81 e1 7c ff ff ff    	and    $0xffffff7c,%ecx
+    1aa0:	81 c9 80 00 00 00    	or     $0x80,%ecx
+    1aa6:	89 08                	mov    %ecx,(%rax)
+    1aa8:	48 8b 83 a0 00 00 00 	mov    0xa0(%rbx),%rax
+    1aaf:	8b 00                	mov    (%rax),%eax
+    1ab1:	a8 80                	test   $0x80,%al
+    1ab3:	75 b                	jne    1ad0 <AppleHPET::hpetRestoreState()+0x64>
+    1ab5:	4c 8d 35 ca 04 00 00 	lea    0x4ca(%rip),%r14        # 1f86 <__stop+0x1d9>
+    1abc:	31 c0                	xor    %eax,%eax
+    1abe:	4c 89 f7             	mov    %r14,%rdi
+    1ac1:	e8 00 00 00 00       	callq  1ac6 <AppleHPET::hpetRestoreState()+0x5a>
+    1ac6:	31 c0                	xor    %eax,%eax
+    1ac8:	4c 89 f7             	mov    %r14,%rdi
+    1acb:	e8 00 00 00 00       	callq  1ad0 <AppleHPET::hpetRestoreState()+0x64>
+    1ad0:	48 8b bb a8 00 00 00 	mov    0xa8(%rbx),%rdi
+    1ad7:	48 8b 07             	mov    (%rdi),%rax
+    1ada:	be 01 00 00 00       	mov    $0x1,%esi
+    1adf:	ff 90 58 01 00 00    	callq  *0x158(%rax)
+    1ae5:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1aec:	48 8b 8b e0 00 00 00 	mov    0xe0(%rbx),%rcx
+    1af3:	48 89 48 10          	mov    %rcx,0x10(%rax)
+    1af7:	8b 83 d4 00 00 00    	mov    0xd4(%rbx),%eax
+    1afd:	85 c0                	test   %eax,%eax
+    1aff:	74 35                	je     1b36 <AppleHPET::hpetRestoreState()+0xca>
+    1b01:	48 8b 8b c8 00 00 00 	mov    0xc8(%rbx),%rcx
+    1b08:	48 83 c1 20          	add    $0x20,%rcx
+    1b0c:	ba 08 01 00 00       	mov    $0x108,%edx
+    1b11:	48 03 93 c0 00 00 00 	add    0xc0(%rbx),%rdx
+    1b18:	31 f6                	xor    %esi,%esi
+    1b1a:	48 8b 79 f8          	mov    -0x8(%rcx),%rdi
+    1b1e:	48 89 7a f8          	mov    %rdi,-0x8(%rdx)
+    1b22:	48 8b 39             	mov    (%rcx),%rdi
+    1b25:	48 89 3a             	mov    %rdi,(%rdx)
+    1b28:	48 83 c1 28          	add    $0x28,%rcx
+    1b2c:	48 83 c2 20          	add    $0x20,%rdx
+    1b30:	ff c6                	inc    %esi
+    1b32:	39 c6                	cmp    %eax,%esi
+    1b34:	72 e4                	jb     1b1a <AppleHPET::hpetRestoreState()+0xae>
+    1b36:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1b3d:	b9 ff ff ff ff       	mov    $0xffffffff,%ecx
+    1b42:	48 89 48 20          	mov    %rcx,0x20(%rax)
+    1b46:	48 8b 83 c0 00 00 00 	mov    0xc0(%rbx),%rax
+    1b4d:	48 8b 8b e8 00 00 00 	mov    0xe8(%rbx),%rcx
+    1b54:	48 89 88 f0 00 00 00 	mov    %rcx,0xf0(%rax)
+    1b5b:	5b                   	pop    %rbx
+    1b5c:	41 5e                	pop    %r14
+    1b5e:	5d                   	pop    %rbp
+    1b5f:	c3                   	retq   
+
+0000000000001b60 <AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)>:
+    1b60:	55                   	push   %rbp
+    1b61:	48 89 e5             	mov    %rsp,%rbp
+    1b64:	41 56                	push   %r14
+    1b66:	53                   	push   %rbx
+    1b67:	48 83 ec 10          	sub    $0x10,%rsp
+    1b6b:	41 89 d6             	mov    %edx,%r14d
+    1b6e:	8b 46 10             	mov    0x10(%rsi),%eax
+    1b71:	8b 5e 14             	mov    0x14(%rsi),%ebx
+    1b74:	89 c6                	mov    %eax,%esi
+    1b76:	e8 ef 00 00 00       	callq  1c6a <AppleHPET::getInterruptControllerAtIndex(unsigned int)>
+    1b7b:	48 85 db             	test   %rbx,%rbx
+    1b7e:	74 2e                	je     1bae <AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)+0x4e>
+    1b80:	48 85 c0             	test   %rax,%rax
+    1b83:	74 29                	je     1bae <AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)+0x4e>
+    1b85:	4c 8b 10             	mov    (%rax),%r10
+    1b88:	45 89 f0             	mov    %r14d,%r8d
+    1b8b:	48 c7 04 24 00 00 00 	movq   $0x0,(%rsp)
+    1b92:	00 
+    1b93:	48 8d 35 27 04 00 00 	lea    0x427(%rip),%rsi        # 1fc1 <__stop+0x214>
+    1b9a:	31 d2                	xor    %edx,%edx
+    1b9c:	45 31 c9             	xor    %r9d,%r9d
+    1b9f:	48 89 c7             	mov    %rax,%rdi
+    1ba2:	48 89 d9             	mov    %rbx,%rcx
+    1ba5:	41 ff 92 c0 06 00 00 	callq  *0x6c0(%r10)
+    1bac:	eb 05                	jmp    1bb3 <AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)+0x53>
+    1bae:	b8 c9 02 00 e0       	mov    $0xe00002c9,%eax
+    1bb3:	48 83 c4 10          	add    $0x10,%rsp
+    1bb7:	5b                   	pop    %rbx
+    1bb8:	41 5e                	pop    %r14
+    1bba:	5d                   	pop    %rbp
+    1bbb:	c3                   	retq   
+
+0000000000001bbc <AppleHPET::getInterruptVectorAtIndex(unsigned int)>:
+    1bbc:	55                   	push   %rbp
+    1bbd:	48 89 e5             	mov    %rsp,%rbp
+    1bc0:	41 57                	push   %r15
+    1bc2:	41 56                	push   %r14
+    1bc4:	53                   	push   %rbx
+    1bc5:	50                   	push   %rax
+    1bc6:	41 89 f6             	mov    %esi,%r14d
+    1bc9:	48 8b bf 88 00 00 00 	mov    0x88(%rdi),%rdi
+    1bd0:	48 8b 07             	mov    (%rdi),%rax
+    1bd3:	48 8b 0d 6e 04 00 00 	mov    0x46e(%rip),%rcx        # 2048 <AppleHPET::probeHPET()::ErrataTable+0x68>
+    1bda:	48 8b 31             	mov    (%rcx),%rsi
+    1bdd:	ff 90 a8 02 00 00    	callq  *0x2a8(%rax)
+    1be3:	48 8b 0d 26 04 00 00 	mov    0x426(%rip),%rcx        # 2010 <AppleHPET::probeHPET()::ErrataTable+0x30>
+    1bea:	48 8b 31             	mov    (%rcx),%rsi
+    1bed:	48 89 c7             	mov    %rax,%rdi
+    1bf0:	e8 00 00 00 00       	callq  1bf5 <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0x39>
+    1bf5:	48 89 c3             	mov    %rax,%rbx
+    1bf8:	41 bf ff ff ff ff    	mov    $0xffffffff,%r15d
+    1bfe:	48 85 db             	test   %rbx,%rbx
+    1c01:	74 59                	je     1c5c <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0xa0>
+    1c03:	48 8b 03             	mov    (%rbx),%rax
+    1c06:	48 89 df             	mov    %rbx,%rdi
+    1c09:	ff 90 30 01 00 00    	callq  *0x130(%rax)
+    1c0f:	85 c0                	test   %eax,%eax
+    1c11:	74 49                	je     1c5c <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0xa0>
+    1c13:	48 8b 03             	mov    (%rbx),%rax
+    1c16:	48 89 df             	mov    %rbx,%rdi
+    1c19:	44 89 f6             	mov    %r14d,%esi
+    1c1c:	ff 90 e8 01 00 00    	callq  *0x1e8(%rax)
+    1c22:	48 8b 0d df 03 00 00 	mov    0x3df(%rip),%rcx        # 2008 <AppleHPET::probeHPET()::ErrataTable+0x28>
+    1c29:	48 8b 31             	mov    (%rcx),%rsi
+    1c2c:	48 89 c7             	mov    %rax,%rdi
+    1c2f:	e8 00 00 00 00       	callq  1c34 <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0x78>
+    1c34:	48 89 c3             	mov    %rax,%rbx
+    1c37:	48 85 db             	test   %rbx,%rbx
+    1c3a:	74 20                	je     1c5c <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0xa0>
+    1c3c:	48 8b 03             	mov    (%rbx),%rax
+    1c3f:	48 89 df             	mov    %rbx,%rdi
+    1c42:	ff 90 40 01 00 00    	callq  *0x140(%rax)
+    1c48:	83 f8 04             	cmp    $0x4,%eax
+    1c4b:	72 0f                	jb     1c5c <AppleHPET::getInterruptVectorAtIndex(unsigned int)+0xa0>
+    1c4d:	48 8b 03             	mov    (%rbx),%rax
+    1c50:	48 89 df             	mov    %rbx,%rdi
+    1c53:	ff 90 78 01 00 00    	callq  *0x178(%rax)
+    1c59:	44 8b 38             	mov    (%rax),%r15d
+    1c5c:	44 89 f8             	mov    %r15d,%eax
+    1c5f:	48 83 c4 08          	add    $0x8,%rsp
+    1c63:	5b                   	pop    %rbx
+    1c64:	41 5e                	pop    %r14
+    1c66:	41 5f                	pop    %r15
+    1c68:	5d                   	pop    %rbp
+    1c69:	c3                   	retq   
+
+0000000000001c6a <AppleHPET::getInterruptControllerAtIndex(unsigned int)>:
+    1c6a:	55                   	push   %rbp
+    1c6b:	48 89 e5             	mov    %rsp,%rbp
+    1c6e:	41 56                	push   %r14
+    1c70:	53                   	push   %rbx
+    1c71:	41 89 f6             	mov    %esi,%r14d
+    1c74:	48 8b bf 88 00 00 00 	mov    0x88(%rdi),%rdi
+    1c7b:	48 8b 07             	mov    (%rdi),%rax
+    1c7e:	48 8b 0d bb 03 00 00 	mov    0x3bb(%rip),%rcx        # 2040 <AppleHPET::probeHPET()::ErrataTable+0x60>
+    1c85:	48 8b 31             	mov    (%rcx),%rsi
+    1c88:	ff 90 a8 02 00 00    	callq  *0x2a8(%rax)
+    1c8e:	48 8b 0d 7b 03 00 00 	mov    0x37b(%rip),%rcx        # 2010 <AppleHPET::probeHPET()::ErrataTable+0x30>
+    1c95:	48 8b 31             	mov    (%rcx),%rsi
+    1c98:	48 89 c7             	mov    %rax,%rdi
+    1c9b:	e8 00 00 00 00       	callq  1ca0 <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x36>
+    1ca0:	48 89 c3             	mov    %rax,%rbx
+    1ca3:	31 c0                	xor    %eax,%eax
+    1ca5:	48 85 db             	test   %rbx,%rbx
+    1ca8:	74 53                	je     1cfd <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x93>
+    1caa:	48 8b 03             	mov    (%rbx),%rax
+    1cad:	48 89 df             	mov    %rbx,%rdi
+    1cb0:	ff 90 30 01 00 00    	callq  *0x130(%rax)
+    1cb6:	89 c1                	mov    %eax,%ecx
+    1cb8:	31 c0                	xor    %eax,%eax
+    1cba:	85 c9                	test   %ecx,%ecx
+    1cbc:	74 3f                	je     1cfd <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x93>
+    1cbe:	48 8b 03             	mov    (%rbx),%rax
+    1cc1:	48 89 df             	mov    %rbx,%rdi
+    1cc4:	44 89 f6             	mov    %r14d,%esi
+    1cc7:	ff 90 e8 01 00 00    	callq  *0x1e8(%rax)
+    1ccd:	48 8b 0d 44 03 00 00 	mov    0x344(%rip),%rcx        # 2018 <AppleHPET::probeHPET()::ErrataTable+0x38>
+    1cd4:	48 8b 31             	mov    (%rcx),%rsi
+    1cd7:	48 89 c7             	mov    %rax,%rdi
+    1cda:	e8 00 00 00 00       	callq  1cdf <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x75>
+    1cdf:	48 89 c3             	mov    %rax,%rbx
+    1ce2:	31 c0                	xor    %eax,%eax
+    1ce4:	48 85 db             	test   %rbx,%rbx
+    1ce7:	74 14                	je     1cfd <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x93>
+    1ce9:	e8 00 00 00 00       	callq  1cee <AppleHPET::getInterruptControllerAtIndex(unsigned int)+0x84>
+    1cee:	48 8b 08             	mov    (%rax),%rcx
+    1cf1:	48 89 c7             	mov    %rax,%rdi
+    1cf4:	48 89 de             	mov    %rbx,%rsi
+    1cf7:	ff 91 08 09 00 00    	callq  *0x908(%rcx)
+    1cfd:	5b                   	pop    %rbx
+    1cfe:	41 5e                	pop    %r14
+    1d00:	5d                   	pop    %rbp
+    1d01:	c3                   	retq   
+
+0000000000001d02 <AppleHPET::MetaClass::~MetaClass()>:
+    1d02:	55                   	push   %rbp
+    1d03:	48 89 e5             	mov    %rsp,%rbp
+    1d06:	5d                   	pop    %rbp
+    1d07:	e9 00 00 00 00       	jmpq   1d0c <AppleHPET::MetaClass::~MetaClass()+0xa>
+    1d0c:	0f f 40 00          	nopl   0x0(%rax)
+
+0000000000001d10 <global constructors keyed to a>:
+    1d10:	55                   	push   %rbp
+    1d11:	48 89 e5             	mov    %rsp,%rbp
+    1d14:	48 8d 3d 85 0d 00 00 	lea    0xd85(%rip),%rdi        # 2aa0 <AppleHPET::gMetaClass>
+    1d1b:	48 8d 35 a5 00 00 00 	lea    0xa5(%rip),%rsi        # 1dc7 <__stop+0x1a>
+    1d22:	48 8b 15 f7 02 00 00 	mov    0x2f7(%rip),%rdx        # 2020 <AppleHPET::probeHPET()::ErrataTable+0x40>
+    1d29:	b9 f8 00 00 00       	mov    $0xf8,%ecx
+    1d2e:	e8 00 00 00 00       	callq  1d33 <global constructors keyed to a+0x23>
+    1d33:	48 8d 05 c6 0b 00 00 	lea    0xbc6(%rip),%rax        # 2900 <vtable for AppleHPET::MetaClass+0x10>
+    1d3a:	48 89 05 5f 0d 00 00 	mov    %rax,0xd5f(%rip)        # 2aa0 <AppleHPET::gMetaClass>
+    1d41:	5d                   	pop    %rbp
+    1d42:	c3                   	retq   
+    1d43:	66 66 66 66 2e 0f f 	data16 data16 data16 nopw %cs:0x0(%rax,%rax,1)
+    1d4a:	84 00 00 00 00 00 
+
+0000000000001d50 <global destructors keyed to a>:
+    1d50:	55                   	push   %rbp
+    1d51:	48 89 e5             	mov    %rsp,%rbp
+    1d54:	48 8d 3d 45 0d 00 00 	lea    0xd45(%rip),%rdi        # 2aa0 <AppleHPET::gMetaClass>
+    1d5b:	5d                   	pop    %rbp
+    1d5c:	e9 00 00 00 00       	jmpq   1d61 <__start>
+
+0000000000001d61 <__start>:
+    1d61:	55                   	push   %rbp
+    1d62:	48 89 e5             	mov    %rsp,%rbp
+    1d65:	48 8d 05 5c 0d 00 00 	lea    0xd5c(%rip),%rax        # 2ac8 <__realmain>
+    1d6c:	48 8b 00             	mov    (%rax),%rax
+    1d6f:	48 85 c0             	test   %rax,%rax
+    1d72:	74 03                	je     1d77 <__start+0x16>
+    1d74:	5d                   	pop    %rbp
+    1d75:	ff e0                	jmpq   *%rax
+    1d77:	31 c0                	xor    %eax,%eax
+    1d79:	5d                   	pop    %rbp
+    1d7a:	c3                   	retq   
+
+0000000000001d7b <_OSKextGetCurrentIdentifier>:
+    1d7b:	55                   	push   %rbp
+    1d7c:	48 89 e5             	mov    %rsp,%rbp
+    1d7f:	48 8d 05 52 0c 00 00 	lea    0xc52(%rip),%rax        # 29d8 <_kmod_info>
+    1d86:	48 83 c0 10          	add    $0x10,%rax
+    1d8a:	5d                   	pop    %rbp
+    1d8b:	c3                   	retq   
+
+0000000000001d8c <_OSKextGetCurrentVersionString>:
+    1d8c:	55                   	push   %rbp
+    1d8d:	48 89 e5             	mov    %rsp,%rbp
+    1d90:	48 8d 05 41 0c 00 00 	lea    0xc41(%rip),%rax        # 29d8 <_kmod_info>
+    1d97:	48 83 c0 50          	add    $0x50,%rax
+    1d9b:	5d                   	pop    %rbp
+    1d9c:	c3                   	retq   
+
+0000000000001d9d <_OSKextGetCurrentLoadTag>:
+    1d9d:	55                   	push   %rbp
+    1d9e:	48 89 e5             	mov    %rsp,%rbp
+    1da1:	48 8d 05 30 0c 00 00 	lea    0xc30(%rip),%rax        # 29d8 <_kmod_info>
+    1da8:	8b 40 0c             	mov    0xc(%rax),%eax
+    1dab:	5d                   	pop    %rbp
+    1dac:	c3                   	retq   
+
+0000000000001dad <__stop>:
+    1dad:	55                   	push   %rbp
+    1dae:	48 89 e5             	mov    %rsp,%rbp
+    1db1:	48 8d 05 18 0d 00 00 	lea    0xd18(%rip),%rax        # 2ad0 <__antimain>
+    1db8:	48 8b 00             	mov    (%rax),%rax
+    1dbb:	48 85 c0             	test   %rax,%rax
+    1dbe:	74 03                	je     1dc3 <__stop+0x16>
+    1dc0:	5d                   	pop    %rbp
+    1dc1:	ff e0                	jmpq   *%rax
+    1dc3:	31 c0                	xor    %eax,%eax
+    1dc5:	5d                   	pop    %rbp
+    1dc6:	c3                   	retq   

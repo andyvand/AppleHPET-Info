@@ -1,0 +1,364 @@
+
+/System/Library/Extensions/AppleHPET.kext/Contents/MacOS/AppleHPET:     file format mach-unsigned __int128-x86-64
+
+SYMBOL TABLE:
+0000000000000bc2 long       0e SECT   01 0000 [.text] AppleHPET::MetaClass::~MetaClass()
+0000000000001d02 long       0e SECT   01 0000 [.text] AppleHPET::MetaClass::~MetaClass()
+0000000000001d10 long       0e SECT   01 0000 [.text] global constructors keyed to a
+0000000000001d50 long       0e SECT   01 0000 [.text] global destructors keyed to a
+0000000000001d61 __float128       e SECT   01 0000 [.text] __start
+0000000000001d7b __float128       e SECT   01 0000 [.text] _OSKextGetCurrentIdentifier
+0000000000001d8c __float128       e SECT   01 0000 [.text] _OSKextGetCurrentVersionString
+0000000000001d9d __float128       e SECT   01 0000 [.text] _OSKextGetCurrentLoadTag
+0000000000001dad __float128       e SECT   01 0000 [.text] __stop
+0000000000001fe0 long       0e SECT   03 0000 [.const] AppleHPET::probeHPET()::ErrataTable
+0000000000002a9c __float128       e SECT   08 0000 [.data] __kext_apple_cc
+0000000000002ac8 __float128       e SECT   09 0000 [__DATA.__common] __realmain
+0000000000002ad0 __float128       e SECT   09 0000 [__DATA.__common] __antimain
+0000000000002aa0 __float128       0f SECT   09 0000 [__DATA.__common] AppleHPET::gMetaClass
+0000000000002078 __float128       0f SECT   07 0000 [.const_data] AppleHPET::superClass
+0000000000001a04 __float128       0f SECT   01 0000 [.text] AppleHPET::hpetSaveState()
+00000000000012fe __float128       0f SECT   01 0000 [.text] AppleHPET::configureTimer(HpetTimer*)
+0000000000001a6c __float128       0f SECT   01 0000 [.text] AppleHPET::hpetRestoreState()
+0000000000001748 __float128       0f SECT   01 0000 [.text] AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)
+0000000000001980 __float128       0f SECT   01 0000 [.text] AppleHPET::hpetTimerCommand(unsigned int, unsigned int)
+00000000000018d8 __float128       0f SECT   01 0000 [.text] AppleHPET::hpetTimerRelease(unsigned int)
+000000000000142a __float128       0f SECT   01 0000 [.text] AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)
+0000000000001bbc __float128       0f SECT   01 0000 [.text] AppleHPET::getInterruptVectorAtIndex(unsigned int)
+0000000000001c6a __float128       0f SECT   01 0000 [.text] AppleHPET::getInterruptControllerAtIndex(unsigned int)
+0000000000001b60 __float128       0f SECT   01 0000 [.text] AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)
+0000000000001634 __float128       0f SECT   01 0000 [.text] AppleHPET::free()
+0000000000001622 __float128       0f SECT   01 0000 [.text] AppleHPET::stop(IOService*)
+0000000000000d22 __float128       0f SECT   01 0000 [.text] AppleHPET::start(IOService*)
+0000000000000b90 __float128       0f SECT   01 0000 [.text] AppleHPET::MetaClass::MetaClass()
+0000000000000c50 __float128       0f SECT   01 0000 [.text] AppleHPET::MetaClass::MetaClass()
+0000000000002070 __float128       0f SECT   07 0000 [.const_data] AppleHPET::metaClass
+000000000000101e __float128       0f SECT   01 0000 [.text] AppleHPET::probeHPET()
+0000000000000bec __float128       0f SECT   01 0000 [.text] AppleHPET::AppleHPET(OSMetaClass const*)
+0000000000000cc2 __float128       0f SECT   01 0000 [.text] AppleHPET::AppleHPET()
+0000000000000bcc __float128       0f SECT   01 0000 [.text] AppleHPET::AppleHPET(OSMetaClass const*)
+0000000000000cf2 __float128       0f SECT   01 0000 [.text] AppleHPET::AppleHPET()
+0000000000000c20 __float128       0f SECT   01 0000 [.text] AppleHPET::~AppleHPET()
+0000000000000c16 __float128       0f SECT   01 0000 [.text] AppleHPET::~AppleHPET()
+0000000000000c0c __float128       0f SECT   01 0000 [.text] AppleHPET::~AppleHPET()
+0000000000000c42 __float128       0f SECT   01 0000 [.text] AppleHPET::getMetaClass() const
+0000000000000c82 __float128       0f SECT   01 0000 [.text] AppleHPET::MetaClass::alloc() const
+0000000000002080 __float128       0f SECT   07 0000 [.const_data] vtable for AppleHPET
+00000000000028f0 __float128       0f SECT   07 0000 [.const_data] vtable for AppleHPET::MetaClass
+00000000000029d8 __float128       0f SECT   08 0000 [.data] _kmod_info
+0000000000000000 __float128       01 UND    00 fe00 _IOFree
+0000000000000000 __float128       01 UND    00 fe00 _IOLockAlloc
+0000000000000000 __float128       01 UND    00 fe00 _IOLockFree
+0000000000000000 __float128       01 UND    00 fe00 _IOLockLock
+0000000000000000 __float128       01 UND    00 fe00 _IOLockUnlock
+0000000000000000 __float128       01 UND    00 fe00 _IOLog
+0000000000000000 __float128       01 UND    00 fe00 _IOMalloc
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass0()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass1()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass2()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass3()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass4()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass5()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass6()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::_RESERVEDOSMetaClass7()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::OSMetaClass(char const*, OSMetaClass const*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::~OSMetaClass()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::detachAbove(IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setLocation(OSSymbol const*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setLocation(char const*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(OSString const*, OSObject*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(OSSymbol const*, OSObject*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(char const*, OSObject*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(char const*, void*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(char const*, char const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(char const*, bool)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperty(char const*, unsigned long long, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::attachToChild(IORegistryEntry*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::childFromPath(char const*, IORegistryPlane const*, char*, int*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setProperties(OSObject*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::attachToParent(IORegistryEntry*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::removeProperty(OSString const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::removeProperty(OSSymbol const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::removeProperty(char const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::detachFromChild(IORegistryEntry*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::detachFromParent(IORegistryEntry*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setPropertyTable(OSDictionary*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::runPropertyAction(int (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry0()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry1()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry2()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry3()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry4()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry5()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry6()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry7()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry8()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry9()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry10()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry11()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry12()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry13()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry14()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry15()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry16()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry17()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry18()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry19()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry20()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry21()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry22()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry23()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry24()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry25()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry26()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry27()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry28()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry29()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry30()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::_RESERVEDIORegistryEntry31()
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setName(OSSymbol const*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::setName(char const*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::detachAll(IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::safeMetaCast(OSMetaClassBase const*, OSMetaClass const*)
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::_RESERVEDOSMetaClassBase3()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::_RESERVEDOSMetaClassBase4()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::_RESERVEDOSMetaClassBase5()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::_RESERVEDOSMetaClassBase6()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::_RESERVEDOSMetaClassBase7()
+0000000000000000 __float128       01 UND    00 fe00 IOMemoryDescriptor::withAddressRange(unsigned long long, unsigned long long, unsigned int, task*)
+0000000000000000 __float128       01 UND    00 fe00 IOACPIPlatformDevice::metaClass
+0000000000000000 __float128       01 UND    00 fe00 OSData::metaClass
+0000000000000000 __float128       01 UND    00 fe00 OSArray::metaClass
+0000000000000000 __float128       01 UND    00 fe00 OSNumber::withNumber(unsigned long long, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject0()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject1()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject2()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject3()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject4()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject5()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject6()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject7()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject8()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject9()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject10()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject11()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject12()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject13()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject14()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::_RESERVEDOSObject15()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::init()
+0000000000000000 __float128       01 UND    00 fe00 OSObject::operator delete(void*, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 OSObject::operator new(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 OSSymbol::metaClass
+0000000000000000 __float128       01 UND    00 fe00 IOService::adjustBusy(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::gMetaClass
+0000000000000000 __float128       01 UND    00 fe00 IOService::handleOpen(IOService*, unsigned int, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::joinPMtree(IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getPlatform()
+0000000000000000 __float128       01 UND    00 fe00 IOService::handleClose(IOService*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::didTerminate(IOService*, unsigned int, bool*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getBusyState()
+0000000000000000 __float128       01 UND    00 fe00 IOService::getResources()
+0000000000000000 __float128       01 UND    00 fe00 IOService::requestProbe(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::tellChangeUp(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::updateReport(IOReportChannelList*, unsigned int, void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::addPowerChild(IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::askChangeDown(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::matchLocation(IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::messageClient(unsigned int, OSObject*, void*, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**)
+0000000000000000 __float128       01 UND    00 fe00 IOService::newUserClient(task*, void*, unsigned int, IOUserClient**)
+0000000000000000 __float128       01 UND    00 fe00 IOService::setPowerState(unsigned long, IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::willTerminate(IOService*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::activityTickle(unsigned long, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::applyToClients(void (*)(IOService*, void*), void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::causeInterrupt(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::messageClients(unsigned int, void*, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::tellChangeDown(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::compareProperty(OSDictionary*, OSString const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::compareProperty(OSDictionary*, char const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::configureReport(IOReportChannelList*, unsigned int, void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::enableInterrupt(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::errnoFromReturn(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getDeviceMemory()
+0000000000000000 __float128       01 UND    00 fe00 IOService::nextIdleTimeout(unsigned long long, unsigned long long, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::powerChangeDone(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::registerService(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::serviceMatching(char const*, OSDictionary*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::setDeviceMemory(OSArray*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::terminateClient(IOService*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::allowPowerChange(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::applyToProviders(void (*)(IOService*, void*), void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::disableInterrupt(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getInterruptType(int, int*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::registerInterest(OSSymbol const*, int (*)(void*, void*, unsigned int, IOService*, void*, unsigned long), void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::removePowerChild(IOPowerConnection*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::requestTerminate(IOService*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::stringFromReturn(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::tellNoChangeDown(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::addNeededResource(char const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::applyToInterested(OSSymbol const*, void (*)(OSObject*, void*), void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::cancelPowerChange(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::compareProperties(OSDictionary*, OSCollection*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getAggressiveness(unsigned long, unsigned long*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::registerInterrupt(int, OSObject*, void (*)(OSObject*, void*, IOService*, int), void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::setAggressiveness(unsigned long, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::lockForArbitration(bool)
+0000000000000000 __float128       01 UND    00 fe00 IOService::matchPropertyTable(OSDictionary*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::matchPropertyTable(OSDictionary*, int*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::setIdleTimerPeriod(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::systemWillShutdown(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService2()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService3()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService4()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService5()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService6()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService7()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService8()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService9()
+0000000000000000 __float128       01 UND    00 fe00 IOService::registerPowerDriver(IOService*, IOPMPowerState*, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::unregisterInterrupt(int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService10()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService11()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService12()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService13()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService14()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService15()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService16()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService17()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService18()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService19()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService20()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService21()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService22()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService23()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService24()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService25()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService26()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService27()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService28()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService29()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService30()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService31()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService32()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService33()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService34()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService35()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService36()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService37()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService38()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService39()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService40()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService41()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService42()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService43()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService44()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService45()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService46()
+0000000000000000 __float128       01 UND    00 fe00 IOService::_RESERVEDIOService47()
+0000000000000000 __float128       01 UND    00 fe00 IOService::callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::callPlatformFunction(char const*, bool, void*, void*, void*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getDeviceMemoryCount()
+0000000000000000 __float128       01 UND    00 fe00 IOService::unlockForArbitration()
+0000000000000000 __float128       01 UND    00 fe00 IOService::powerStateDidChangeTo(unsigned long, unsigned long, IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::copyClientWithCategory(OSSymbol const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::powerStateWillChangeTo(unsigned long, unsigned long, IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::acknowledgeNotification(void*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::addMatchingNotification(OSSymbol const*, OSDictionary*, bool (*)(void*, void*, IOService*, IONotifier*), void*, void*, int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::requestPowerDomainState(unsigned long, IOPowerConnection*, unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::getDeviceMemoryWithIndex(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::mapDeviceMemoryWithIndex(unsigned int, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::powerStateForDomainState(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::maxCapabilityForDomainState(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::initialPowerStateForDomainState(unsigned long)
+0000000000000000 __float128       01 UND    00 fe00 IOService::init(OSDictionary*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::init(IORegistryEntry*, IORegistryPlane const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::open(IOService*, unsigned int, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::close(IOService*, unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::probe(IOService*, int*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::PMinit()
+0000000000000000 __float128       01 UND    00 fe00 IOService::PMstop()
+0000000000000000 __float128       01 UND    00 fe00 IOService::attach(IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::detach(IOService*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::message(unsigned int, IOService*, void*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::finalize(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::terminate(unsigned int)
+0000000000000000 __float128       01 UND    00 fe00 IOService::IOService(OSMetaClass const*)
+0000000000000000 __float128       01 UND    00 fe00 IOService::~IOService()
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::getMetaClass() const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::taggedRetain(void const*) const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::taggedRelease(void const*) const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::taggedRelease(void const*, int) const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::getRetainCount() const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::instanceConstructed() const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::retain() const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::release(int) const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::release() const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClass::serialize(OSSerialize*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::compareName(OSString*, OSString**) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getLocation(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(OSString const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(OSSymbol const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(char const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getProperty(char const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::compareNames(OSObject*, OSString**) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyLocation(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(OSString const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(OSString const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(OSSymbol const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(OSSymbol const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(char const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyProperty(char const*, IORegistryPlane const*, unsigned int) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getChildEntry(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::applyToParents(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyChildEntry(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getParentEntry(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::applyToChildren(void (*)(IORegistryEntry*, void*), void*, IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyParentEntry(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getChildIterator(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getPathComponent(char*, int*, IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getParentIterator(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::dictionaryWithProperties() const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getName(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getPath(char*, int*, IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::inPlane(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::isChild(IORegistryEntry*, IORegistryPlane const*, bool) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::copyName(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::getDepth(IORegistryPlane const*) const
+0000000000000000 __float128       01 UND    00 fe00 IORegistryEntry::isParent(IORegistryEntry*, IORegistryPlane const*, bool) const
+0000000000000000 __float128       01 UND    00 fe00 OSMetaClassBase::isEqualTo(OSMetaClassBase const*) const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::taggedRetain(void const*) const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::taggedRelease(void const*) const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::taggedRelease(void const*, int) const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::getRetainCount() const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::retain() const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::release(int) const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::release() const
+0000000000000000 __float128       01 UND    00 fe00 OSObject::serialize(OSSerialize*) const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getProvider() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getWorkLoop() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::handleIsOpen(IOService const*) const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getClientIterator() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getProviderIterator() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::serializeProperties(OSSerialize*) const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getOpenClientIterator() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getOpenProviderIterator() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::isOpen(IOService const*) const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getState() const
+0000000000000000 __float128       01 UND    00 fe00 IOService::getClient() const
+0000000000000000 __float128       01 UND    00 fe00 vtable for IOService
+0000000000000000 __float128       01 UND    00 fe00 ___stack_chk_fail
+0000000000000000 __float128       01 UND    00 fe00 ___stack_chk_guard
+0000000000000000 __float128       01 UND    00 fe00 _gIOFirstPublishNotification
+0000000000000000 __float128       01 UND    00 fe00 _gIOInterruptControllersKey
+0000000000000000 __float128       01 UND    00 fe00 _gIOInterruptSpecifiersKey
+0000000000000000 __float128       01 UND    00 fe00 _kOSBooleanFalse
+0000000000000000 __float128       01 UND    00 fe00 _kprintf
+0000000000000000 __float128       01 UND    00 fe00 _memset
+0000000000000000 __float128       01 UND    00 fe00 _pmCPUControl
+0000000000000000 __float128       01 UND    00 fe00 _strlen
+0000000000000000 __float128       01 UND    00 fe00 _strncmp
+
+

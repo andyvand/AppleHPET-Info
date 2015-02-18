@@ -1,0 +1,1288 @@
+AppleHPE:
+(__TEXT,__text) section
+__ZN9AppleHPET9MetaClassC1Ev:
+0000000000000b90	55              	pushq	%rbp
+0000000000000b91	4889e5          	movq	%rsp, %rbp
+0000000000000b94	53              	pushq	%rbx
+0000000000000b95	50              	pushq	%rax
+0000000000000b96	4889fb          	movq	%rdi, %rbx
+0000000000000b99	488d3527120000  	leaq	0x1227(%rip), %rsi      ## literal pool for: "AppleHPET"
+0000000000000ba0	488b1579140000  	movq	0x1479(%rip), %rdx
+0000000000000ba7	b9f8000000      	movl	$0xf8, %ecx
+0000000000000bac	e800000000      	callq	__ZN11OSMetaClassC2EPKcPKS_j
+0000000000000bb1	488d05481d0000  	leaq	0x1d48(%rip), %rax
+0000000000000bb8	488903          	movq	%rax, (%rbx)
+0000000000000bbb	4883c408        	addq	$0x8, %rsp
+0000000000000bbf	5b              	popq	%rbx
+0000000000000bc0	5d              	popq	%rbp
+0000000000000bc1	c3              	retq
+__ZN9AppleHPET9MetaClassD1Ev:
+0000000000000bc2	55              	pushq	%rbp
+0000000000000bc3	4889e5          	movq	%rsp, %rbp
+0000000000000bc6	5d              	popq	%rbp
+0000000000000bc7	e900000000      	jmp	__ZN11OSMetaClassD2Ev
+__ZN9AppleHPETC2EPK11OSMetaClass:
+0000000000000bcc	55              	pushq	%rbp
+0000000000000bcd	4889e5          	movq	%rsp, %rbp
+0000000000000bd0	53              	pushq	%rbx
+0000000000000bd1	50              	pushq	%rax
+0000000000000bd2	4889fb          	movq	%rdi, %rbx
+0000000000000bd5	e800000000      	callq	__ZN9IOServiceC2EPK11OSMetaClass
+0000000000000bda	488d05af140000  	leaq	0x14af(%rip), %rax
+0000000000000be1	488903          	movq	%rax, (%rbx)
+0000000000000be4	4883c408        	addq	$0x8, %rsp
+0000000000000be8	5b              	popq	%rbx
+0000000000000be9	5d              	popq	%rbp
+0000000000000bea	c3              	retq
+0000000000000beb	90              	nop
+__ZN9AppleHPETC1EPK11OSMetaClass:
+0000000000000bec	55              	pushq	%rbp
+0000000000000bed	4889e5          	movq	%rsp, %rbp
+0000000000000bf0	53              	pushq	%rbx
+0000000000000bf1	50              	pushq	%rax
+0000000000000bf2	4889fb          	movq	%rdi, %rbx
+0000000000000bf5	e800000000      	callq	__ZN9IOServiceC2EPK11OSMetaClass
+0000000000000bfa	488d058f140000  	leaq	0x148f(%rip), %rax
+0000000000000c01	488903          	movq	%rax, (%rbx)
+0000000000000c04	4883c408        	addq	$0x8, %rsp
+0000000000000c08	5b              	popq	%rbx
+0000000000000c09	5d              	popq	%rbp
+0000000000000c0a	c3              	retq
+0000000000000c0b	90              	nop
+__ZN9AppleHPETD2Ev:
+0000000000000c0c	55              	pushq	%rbp
+0000000000000c0d	4889e5          	movq	%rsp, %rbp
+0000000000000c10	5d              	popq	%rbp
+0000000000000c11	e900000000      	jmp	__ZN9IOServiceD2Ev
+__ZN9AppleHPETD1Ev:
+0000000000000c16	55              	pushq	%rbp
+0000000000000c17	4889e5          	movq	%rsp, %rbp
+0000000000000c1a	5d              	popq	%rbp
+0000000000000c1b	e900000000      	jmp	__ZN9IOServiceD2Ev
+__ZN9AppleHPETD0Ev:
+0000000000000c20	55              	pushq	%rbp
+0000000000000c21	4889e5          	movq	%rsp, %rbp
+0000000000000c24	53              	pushq	%rbx
+0000000000000c25	50              	pushq	%rax
+0000000000000c26	4889fb          	movq	%rdi, %rbx
+0000000000000c29	e800000000      	callq	__ZN9IOServiceD2Ev
+0000000000000c2e	bef8000000      	movl	$0xf8, %esi
+0000000000000c33	4889df          	movq	%rbx, %rdi
+0000000000000c36	4883c408        	addq	$0x8, %rsp
+0000000000000c3a	5b              	popq	%rbx
+0000000000000c3b	5d              	popq	%rbp
+0000000000000c3c	e900000000      	jmp	__ZN8OSObjectdlEPvm
+0000000000000c41	90              	nop
+__ZNK9AppleHPET12getMetaClassEv:
+0000000000000c42	55              	pushq	%rbp
+0000000000000c43	4889e5          	movq	%rsp, %rbp
+0000000000000c46	488d05531e0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %rax ## AppleHPET::gMetaClass
+0000000000000c4d	5d              	popq	%rbp
+0000000000000c4e	c3              	retq
+0000000000000c4f	90              	nop
+__ZN9AppleHPET9MetaClassC2Ev:
+0000000000000c50	55              	pushq	%rbp
+0000000000000c51	4889e5          	movq	%rsp, %rbp
+0000000000000c54	53              	pushq	%rbx
+0000000000000c55	50              	pushq	%rax
+0000000000000c56	4889fb          	movq	%rdi, %rbx
+0000000000000c59	488d3567110000  	leaq	0x1167(%rip), %rsi      ## literal pool for: "AppleHPET"
+0000000000000c60	488b15b9130000  	movq	0x13b9(%rip), %rdx
+0000000000000c67	b9f8000000      	movl	$0xf8, %ecx
+0000000000000c6c	e800000000      	callq	__ZN11OSMetaClassC2EPKcPKS_j
+0000000000000c71	488d05881c0000  	leaq	0x1c88(%rip), %rax
+0000000000000c78	488903          	movq	%rax, (%rbx)
+0000000000000c7b	4883c408        	addq	$0x8, %rsp
+0000000000000c7f	5b              	popq	%rbx
+0000000000000c80	5d              	popq	%rbp
+0000000000000c81	c3              	retq
+__ZNK9AppleHPET9MetaClass5allocEv:
+0000000000000c82	55              	pushq	%rbp
+0000000000000c83	4889e5          	movq	%rsp, %rbp
+0000000000000c86	4156            	pushq	%r14
+0000000000000c88	53              	pushq	%rbx
+0000000000000c89	bff8000000      	movl	$0xf8, %edi
+0000000000000c8e	e800000000      	callq	__ZN8OSObjectnwEm
+0000000000000c93	4889c3          	movq	%rax, %rbx
+0000000000000c96	4c8d35031e0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %r14 ## AppleHPET::gMetaClass
+0000000000000c9d	4889df          	movq	%rbx, %rdi
+0000000000000ca0	4c89f6          	movq	%r14, %rsi
+0000000000000ca3	e800000000      	callq	__ZN9IOServiceC2EPK11OSMetaClass
+0000000000000ca8	488d05e1130000  	leaq	0x13e1(%rip), %rax
+0000000000000caf	488903          	movq	%rax, (%rbx)
+0000000000000cb2	4c89f7          	movq	%r14, %rdi
+0000000000000cb5	e800000000      	callq	__ZNK11OSMetaClass19instanceConstructedEv
+0000000000000cba	4889d8          	movq	%rbx, %rax
+0000000000000cbd	5b              	popq	%rbx
+0000000000000cbe	415e            	popq	%r14
+0000000000000cc0	5d              	popq	%rbp
+0000000000000cc1	c3              	retq
+__ZN9AppleHPETC1Ev:
+0000000000000cc2	55              	pushq	%rbp
+0000000000000cc3	4889e5          	movq	%rsp, %rbp
+0000000000000cc6	4156            	pushq	%r14
+0000000000000cc8	53              	pushq	%rbx
+0000000000000cc9	4889fb          	movq	%rdi, %rbx
+0000000000000ccc	4c8d35cd1d0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %r14 ## AppleHPET::gMetaClass
+0000000000000cd3	4c89f6          	movq	%r14, %rsi
+0000000000000cd6	e800000000      	callq	__ZN9IOServiceC2EPK11OSMetaClass
+0000000000000cdb	488d05ae130000  	leaq	0x13ae(%rip), %rax
+0000000000000ce2	488903          	movq	%rax, (%rbx)
+0000000000000ce5	4c89f7          	movq	%r14, %rdi
+0000000000000ce8	5b              	popq	%rbx
+0000000000000ce9	415e            	popq	%r14
+0000000000000ceb	5d              	popq	%rbp
+0000000000000cec	e900000000      	jmp	__ZNK11OSMetaClass19instanceConstructedEv
+0000000000000cf1	90              	nop
+__ZN9AppleHPETC2Ev:
+0000000000000cf2	55              	pushq	%rbp
+0000000000000cf3	4889e5          	movq	%rsp, %rbp
+0000000000000cf6	4156            	pushq	%r14
+0000000000000cf8	53              	pushq	%rbx
+0000000000000cf9	4889fb          	movq	%rdi, %rbx
+0000000000000cfc	4c8d359d1d0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %r14 ## AppleHPET::gMetaClass
+0000000000000d03	4c89f6          	movq	%r14, %rsi
+0000000000000d06	e800000000      	callq	__ZN9IOServiceC2EPK11OSMetaClass
+0000000000000d0b	488d057e130000  	leaq	0x137e(%rip), %rax
+0000000000000d12	488903          	movq	%rax, (%rbx)
+0000000000000d15	4c89f7          	movq	%r14, %rdi
+0000000000000d18	5b              	popq	%rbx
+0000000000000d19	415e            	popq	%r14
+0000000000000d1b	5d              	popq	%rbp
+0000000000000d1c	e900000000      	jmp	__ZNK11OSMetaClass19instanceConstructedEv
+0000000000000d21	90              	nop
+__ZN9AppleHPET5startEP9IOService:
+0000000000000d22	55              	pushq	%rbp
+0000000000000d23	4889e5          	movq	%rsp, %rbp
+0000000000000d26	4157            	pushq	%r15
+0000000000000d28	4156            	pushq	%r14
+0000000000000d2a	4155            	pushq	%r13
+0000000000000d2c	4154            	pushq	%r12
+0000000000000d2e	53              	pushq	%rbx
+0000000000000d2f	50              	pushq	%rax
+0000000000000d30	4989f6          	movq	%rsi, %r14
+0000000000000d33	4889fb          	movq	%rdi, %rbx
+0000000000000d36	4c8b25eb120000  	movq	0x12eb(%rip), %r12
+0000000000000d3d	41ff9424d0050000	callq	*0x5d0(%r12)
+0000000000000d45	84c0            	testb	%al, %al
+0000000000000d47	0f844b010000    	je	0xe98
+0000000000000d4d	e800000000      	callq	_IOLockAlloc
+0000000000000d52	488983b0000000  	movq	%rax, 0xb0(%rbx)
+0000000000000d59	4885c0          	testq	%rax, %rax
+0000000000000d5c	0f84c0000000    	je	0xe22
+0000000000000d62	488b0597120000  	movq	0x1297(%rip), %rax
+0000000000000d69	488b30          	movq	(%rax), %rsi
+0000000000000d6c	4c89f7          	movq	%r14, %rdi
+0000000000000d6f	e800000000      	callq	__ZN15OSMetaClassBase12safeMetaCastEPKS_PK11OSMetaClass
+0000000000000d74	4c8dab88000000  	leaq	0x88(%rbx), %r13
+0000000000000d7b	48898388000000  	movq	%rax, 0x88(%rbx)
+0000000000000d82	4885c0          	testq	%rax, %rax
+0000000000000d85	0f84bb000000    	je	0xe46
+0000000000000d8b	4c8b00          	movq	(%rax), %r8
+0000000000000d8e	31d2            	xorl	%edx, %edx
+0000000000000d90	31c9            	xorl	%ecx, %ecx
+0000000000000d92	4889c7          	movq	%rax, %rdi
+0000000000000d95	4889de          	movq	%rbx, %rsi
+0000000000000d98	41ff90d0050000  	callq	*0x5d0(%r8)
+0000000000000d9f	84c0            	testb	%al, %al
+0000000000000da1	0f84a8000000    	je	0xe4f
+0000000000000da7	488bbb88000000  	movq	0x88(%rbx), %rdi
+0000000000000dae	488b07          	movq	(%rdi), %rax
+0000000000000db1	31f6            	xorl	%esi, %esi
+0000000000000db3	ba00010000      	movl	$0x100, %edx            ## imm = 0x100
+0000000000000db8	ff90e0060000    	callq	*0x6e0(%rax)
+0000000000000dbe	48898390000000  	movq	%rax, 0x90(%rbx)
+0000000000000dc5	4885c0          	testq	%rax, %rax
+0000000000000dc8	0f848a000000    	je	0xe58
+0000000000000dce	488b08          	movq	(%rax), %rcx
+0000000000000dd1	4889c7          	movq	%rax, %rdi
+0000000000000dd4	ff9118010000    	callq	*0x118(%rcx)
+0000000000000dda	4885c0          	testq	%rax, %rax
+0000000000000ddd	7479            	je	0xe58
+0000000000000ddf	488bbb90000000  	movq	0x90(%rbx), %rdi
+0000000000000de6	488b07          	movq	(%rdi), %rax
+0000000000000de9	ff9028010000    	callq	*0x128(%rax)
+0000000000000def	483dff030000    	cmpq	$0x3ff, %rax            ## imm = 0x3FF
+0000000000000df5	0f87ae000000    	ja	0xea9
+0000000000000dfb	4c8d3d57100000  	leaq	0x1057(%rip), %r15      ## literal pool for: "HPET: register space too small (min = %d)\n"
+0000000000000e02	be00040000      	movl	$0x400, %esi            ## imm = 0x400
+0000000000000e07	31c0            	xorl	%eax, %eax
+0000000000000e09	4c89ff          	movq	%r15, %rdi
+0000000000000e0c	e800000000      	callq	_kprintf
+0000000000000e11	be00040000      	movl	$0x400, %esi            ## imm = 0x400
+0000000000000e16	31c0            	xorl	%eax, %eax
+0000000000000e18	4c89ff          	movq	%r15, %rdi
+0000000000000e1b	e800000000      	callq	_IOLog
+0000000000000e20	eb51            	jmp	0xe73
+0000000000000e22	4c8d3da80f0000  	leaq	0xfa8(%rip), %r15       ## literal pool for: "HPET: IOLockAlloc() failed\n"
+0000000000000e29	31c0            	xorl	%eax, %eax
+0000000000000e2b	4c89ff          	movq	%r15, %rdi
+0000000000000e2e	e800000000      	callq	_kprintf
+0000000000000e33	31c0            	xorl	%eax, %eax
+0000000000000e35	4c89ff          	movq	%r15, %rdi
+0000000000000e38	e800000000      	callq	_IOLog
+0000000000000e3d	4c8dab88000000  	leaq	0x88(%rbx), %r13
+0000000000000e44	eb2d            	jmp	0xe73
+0000000000000e46	4c8d3da00f0000  	leaq	0xfa0(%rip), %r15       ## literal pool for: "HPET: provider is not an IOACPIPlatformDevice\n"
+0000000000000e4d	eb10            	jmp	0xe5f
+0000000000000e4f	4c8d3dc60f0000  	leaq	0xfc6(%rip), %r15       ## literal pool for: "HPET: device open failed\n"
+0000000000000e56	eb07            	jmp	0xe5f
+0000000000000e58	4c8d3dd70f0000  	leaq	0xfd7(%rip), %r15       ## literal pool for: "HPET: map device registers failed\n"
+0000000000000e5f	31c0            	xorl	%eax, %eax
+0000000000000e61	4c89ff          	movq	%r15, %rdi
+0000000000000e64	e800000000      	callq	_kprintf
+0000000000000e69	31c0            	xorl	%eax, %eax
+0000000000000e6b	4c89ff          	movq	%r15, %rdi
+0000000000000e6e	e800000000      	callq	_IOLog
+0000000000000e73	498b7d00        	movq	(%r13), %rdi
+0000000000000e77	4885ff          	testq	%rdi, %rdi
+0000000000000e7a	740e            	je	0xe8a
+0000000000000e7c	488b07          	movq	(%rdi), %rax
+0000000000000e7f	31d2            	xorl	%edx, %edx
+0000000000000e81	4889de          	movq	%rbx, %rsi
+0000000000000e84	ff90d8050000    	callq	*0x5d8(%rax)
+0000000000000e8a	4889df          	movq	%rbx, %rdi
+0000000000000e8d	4c89f6          	movq	%r14, %rsi
+0000000000000e90	41ff9424d8050000	callq	*0x5d8(%r12)
+0000000000000e98	31c0            	xorl	%eax, %eax
+0000000000000e9a	4883c408        	addq	$0x8, %rsp
+0000000000000e9e	5b              	popq	%rbx
+0000000000000e9f	415c            	popq	%r12
+0000000000000ea1	415d            	popq	%r13
+0000000000000ea3	415e            	popq	%r14
+0000000000000ea5	415f            	popq	%r15
+0000000000000ea7	5d              	popq	%rbp
+0000000000000ea8	c3              	retq
+0000000000000ea9	488bbb90000000  	movq	0x90(%rbx), %rdi
+0000000000000eb0	488b07          	movq	(%rdi), %rax
+0000000000000eb3	ff9018010000    	callq	*0x118(%rax)
+0000000000000eb9	488983c0000000  	movq	%rax, 0xc0(%rbx)
+0000000000000ec0	4889df          	movq	%rbx, %rdi
+0000000000000ec3	e856010000      	callq	__ZN9AppleHPET9probeHPETEv ## AppleHPET::probeHPET()
+0000000000000ec8	84c0            	testb	%al, %al
+0000000000000eca	0f84fa000000    	je	0xfca
+0000000000000ed0	8b83d4000000    	movl	0xd4(%rbx), %eax
+0000000000000ed6	48c1e003        	shlq	$0x3, %rax
+0000000000000eda	488d3c80        	leaq	(%rax,%rax,4), %rdi
+0000000000000ede	e800000000      	callq	_IOMalloc
+0000000000000ee3	488983c8000000  	movq	%rax, 0xc8(%rbx)
+0000000000000eea	4885c0          	testq	%rax, %rax
+0000000000000eed	0f84e3000000    	je	0xfd6
+0000000000000ef3	4c896dd0        	movq	%r13, -0x30(%rbp)
+0000000000000ef7	4531ff          	xorl	%r15d, %r15d
+0000000000000efa	41bd00010000    	movl	$0x100, %r13d           ## imm = 0x100
+0000000000000f00	83bbd400000000  	cmpl	$0x0, 0xd4(%rbx)
+0000000000000f07	746c            	je	0xf75
+0000000000000f09	4531e4          	xorl	%r12d, %r12d
+0000000000000f0c	eb0f            	jmp	0xf1d
+0000000000000f0e	488b83c8000000  	movq	0xc8(%rbx), %rax
+0000000000000f15	4983c428        	addq	$0x28, %r12
+0000000000000f19	4983c520        	addq	$0x20, %r13
+0000000000000f1d	488b8bc0000000  	movq	0xc0(%rbx), %rcx
+0000000000000f24	4c01e9          	addq	%r13, %rcx
+0000000000000f27	4a890c20        	movq	%rcx, (%rax,%r12)
+0000000000000f2b	46897c2008      	movl	%r15d, 0x8(%rax,%r12)
+0000000000000f30	42c744200cffffffff	movl	$0xffffffff, 0xc(%rax,%r12) ## imm = 0xFFFFFFFF
+0000000000000f39	42c7442010ffffffff	movl	$0xffffffff, 0x10(%rax,%r12) ## imm = 0xFFFFFFFF
+0000000000000f42	42c744201400000000	movl	$0x0, 0x14(%rax,%r12)
+0000000000000f4b	4ac744201800000000	movq	$0x0, 0x18(%rax,%r12)
+0000000000000f54	4ac744202000000000	movq	$0x0, 0x20(%rax,%r12)
+0000000000000f5d	4a8d3420        	leaq	(%rax,%r12), %rsi
+0000000000000f61	4889df          	movq	%rbx, %rdi
+0000000000000f64	e895030000      	callq	__ZN9AppleHPET14configureTimerEP9HpetTimer ## AppleHPET::configureTimer(HpetTimer*)
+0000000000000f69	41ffc7          	incl	%r15d
+0000000000000f6c	443bbbd4000000  	cmpl	0xd4(%rbx), %r15d
+0000000000000f73	7299            	jb	0xf0e
+0000000000000f75	488d3d3e0f0000  	leaq	0xf3e(%rip), %rdi       ## literal pool for: "AppleIntelCPUPowerManagement"
+0000000000000f7c	31f6            	xorl	%esi, %esi
+0000000000000f7e	e800000000      	callq	__ZN9IOService15serviceMatchingEPKcP12OSDictionary
+0000000000000f83	4989c7          	movq	%rax, %r15
+0000000000000f86	4d85ff          	testq	%r15, %r15
+0000000000000f89	4c8b6dd0        	movq	-0x30(%rbp), %r13
+0000000000000f8d	7453            	je	0xfe2
+0000000000000f8f	488b05a2100000  	movq	0x10a2(%rip), %rax
+0000000000000f96	488b38          	movq	(%rax), %rdi
+0000000000000f99	488d158a040000  	leaq	__ZN9AppleHPET18cpuDriverPublishedEPvP9IOServiceP10IONotifier(%rip), %rdx ## AppleHPET::cpuDriverPublished(void*, IOService*, IONotifier*)
+0000000000000fa0	4531c0          	xorl	%r8d, %r8d
+0000000000000fa3	4531c9          	xorl	%r9d, %r9d
+0000000000000fa6	4c89fe          	movq	%r15, %rsi
+0000000000000fa9	4889d9          	movq	%rbx, %rcx
+0000000000000fac	e800000000      	callq	__ZN9IOService23addMatchingNotificationEPK8OSSymbolP12OSDictionaryPFbPvS5_PS_P10IONotifierES5_S5_i
+0000000000000fb1	4c8da3b8000000  	leaq	0xb8(%rbx), %r12
+0000000000000fb8	488983b8000000  	movq	%rax, 0xb8(%rbx)
+0000000000000fbf	498b07          	movq	(%r15), %rax
+0000000000000fc2	4c89ff          	movq	%r15, %rdi
+0000000000000fc5	ff5028          	callq	*0x28(%rax)
+0000000000000fc8	eb1f            	jmp	0xfe9
+0000000000000fca	4c8d3db30e0000  	leaq	0xeb3(%rip), %r15       ## literal pool for: "HPET: probeHPET() failed\n"
+0000000000000fd1	e989feffff      	jmp	0xe5f
+0000000000000fd6	4c8d3dc10e0000  	leaq	0xec1(%rip), %r15       ## literal pool for: "HPET: No memory for timers\n"
+0000000000000fdd	e97dfeffff      	jmp	0xe5f
+0000000000000fe2	4c8da3b8000000  	leaq	0xb8(%rbx), %r12
+0000000000000fe9	b001            	movb	$0x1, %al
+0000000000000feb	49833c2400      	cmpq	$0x0, (%r12)
+0000000000000ff0	0f85a4feffff    	jne	0xe9a
+0000000000000ff6	4c8d3dda0e0000  	leaq	0xeda(%rip), %r15       ## literal pool for: "HPET: No memory for notifier\n"
+0000000000000ffd	31c0            	xorl	%eax, %eax
+0000000000000fff	4c89ff          	movq	%r15, %rdi
+0000000000001002	e800000000      	callq	_kprintf
+0000000000001007	31c0            	xorl	%eax, %eax
+0000000000001009	4c89ff          	movq	%r15, %rdi
+000000000000100c	e800000000      	callq	_IOLog
+0000000000001011	4c8b2510100000  	movq	0x1010(%rip), %r12
+0000000000001018	e956feffff      	jmp	0xe73
+000000000000101d	90              	nop
+__ZN9AppleHPET9probeHPETEv:
+000000000000101e	55              	pushq	%rbp
+000000000000101f	4889e5          	movq	%rsp, %rbp
+0000000000001022	4157            	pushq	%r15
+0000000000001024	4156            	pushq	%r14
+0000000000001026	4154            	pushq	%r12
+0000000000001028	53              	pushq	%rbx
+0000000000001029	4883ec10        	subq	$0x10, %rsp
+000000000000102d	4889fb          	movq	%rdi, %rbx
+0000000000001030	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001037	488b00          	movq	(%rax), %rax
+000000000000103a	4889c1          	movq	%rax, %rcx
+000000000000103d	4881e1ff800000  	andq	$0x80ff, %rcx           ## imm = 0x80FF
+0000000000001044	4881f901800000  	cmpq	$0x8001, %rcx           ## imm = 0x8001
+000000000000104b	0f852f010000    	jne	0x1180
+0000000000001051	89c1            	movl	%eax, %ecx
+0000000000001053	c1e908          	shrl	$0x8, %ecx
+0000000000001056	83e11f          	andl	$0x1f, %ecx
+0000000000001059	ffc1            	incl	%ecx
+000000000000105b	898bd4000000    	movl	%ecx, 0xd4(%rbx)
+0000000000001061	4889c1          	movq	%rax, %rcx
+0000000000001064	48c1e920        	shrq	$0x20, %rcx
+0000000000001068	898bd8000000    	movl	%ecx, 0xd8(%rbx)
+000000000000106e	488b8bc0000000  	movq	0xc0(%rbx), %rcx
+0000000000001075	488b4910        	movq	0x10(%rcx), %rcx
+0000000000001079	4883e1fc        	andq	$-0x4, %rcx
+000000000000107d	4883c902        	orq	$0x2, %rcx
+0000000000001081	48898be0000000  	movq	%rcx, 0xe0(%rbx)
+0000000000001088	488b93c0000000  	movq	0xc0(%rbx), %rdx
+000000000000108f	48894a10        	movq	%rcx, 0x10(%rdx)
+0000000000001093	488b8bc0000000  	movq	0xc0(%rbx), %rcx
+000000000000109a	488b5110        	movq	0x10(%rcx), %rdx
+000000000000109e	f6c201          	testb	$0x1, %dl
+00000000000010a1	750b            	jne	0x10ae
+00000000000010a3	48c781f000000000000000	movq	$0x0, 0xf0(%rcx)
+00000000000010ae	41bf00008680    	movl	$0x80860000, %r15d      ## imm = 0x80860000
+00000000000010b4	488b8bc0000000  	movq	0xc0(%rbx), %rcx
+00000000000010bb	498d97ffff797f  	leaq	0x7f79ffff(%r15), %rdx
+00000000000010c2	48895120        	movq	%rdx, 0x20(%rcx)
+00000000000010c6	498d8f0000797f  	leaq	0x7f790000(%r15), %rcx
+00000000000010cd	4821c8          	andq	%rcx, %rax
+00000000000010d0	41b601          	movb	$0x1, %r14b
+00000000000010d3	4c39f8          	cmpq	%r15, %rax
+00000000000010d6	0f85a7000000    	jne	0x1183
+00000000000010dc	488bbb88000000  	movq	0x88(%rbx), %rdi
+00000000000010e3	488b07          	movq	(%rdi), %rax
+00000000000010e6	c7042400000000  	movl	$0x0, (%rsp)
+00000000000010ed	488d75d8        	leaq	-0x28(%rbp), %rsi
+00000000000010f1	ba02000000      	movl	$0x2, %edx
+00000000000010f6	b90a00f800      	movl	$0xf8000a, %ecx         ## imm = 0xF8000A
+00000000000010fb	41b810000000    	movl	$0x10, %r8d
+0000000000001101	4531c9          	xorl	%r9d, %r9d
+0000000000001104	ff9020090000    	callq	*0x920(%rax)
+000000000000110a	85c0            	testl	%eax, %eax
+000000000000110c	7575            	jne	0x1183
+000000000000110e	0fb745d8        	movzwl	-0x28(%rbp), %eax
+0000000000001112	3d01060000      	cmpl	$0x601, %eax            ## imm = 0x601
+0000000000001117	756a            	jne	0x1183
+0000000000001119	488bbb88000000  	movq	0x88(%rbx), %rdi
+0000000000001120	488b07          	movq	(%rdi), %rax
+0000000000001123	c7042400000000  	movl	$0x0, (%rsp)
+000000000000112a	488d75d8        	leaq	-0x28(%rbp), %rsi
+000000000000112e	ba02000000      	movl	$0x2, %edx
+0000000000001133	b90000f800      	movl	$0xf80000, %ecx         ## imm = 0xF80000
+0000000000001138	41b820000000    	movl	$0x20, %r8d
+000000000000113e	4531c9          	xorl	%r9d, %r9d
+0000000000001141	ff9020090000    	callq	*0x920(%rax)
+0000000000001147	85c0            	testl	%eax, %eax
+0000000000001149	7538            	jne	0x1183
+000000000000114b	488b45d8        	movq	-0x28(%rbp), %rax
+000000000000114f	0fb7c8          	movzwl	%ax, %ecx
+0000000000001152	81f986800000    	cmpl	$0x8086, %ecx           ## imm = 0x8086
+0000000000001158	7529            	jne	0x1183
+000000000000115a	48c1e810        	shrq	$0x10, %rax
+000000000000115e	31c9            	xorl	%ecx, %ecx
+0000000000001160	488d15790e0000  	leaq	__ZZN9AppleHPET9probeHPETEvE11ErrataTable(%rip), %rdx ## AppleHPET::probeHPET()::ErrataTable
+0000000000001167	0fb7748a02      	movzwl	0x2(%rdx,%rcx,4), %esi
+000000000000116c	21c6            	andl	%eax, %esi
+000000000000116e	0fb73c8a        	movzwl	(%rdx,%rcx,4), %edi
+0000000000001172	39fe            	cmpl	%edi, %esi
+0000000000001174	741d            	je	0x1193
+0000000000001176	48ffc1          	incq	%rcx
+0000000000001179	83f904          	cmpl	$0x4, %ecx
+000000000000117c	76e9            	jbe	0x1167
+000000000000117e	eb3a            	jmp	0x11ba
+0000000000001180	4531f6          	xorl	%r14d, %r14d
+0000000000001183	4488f0          	movb	%r14b, %al
+0000000000001186	4883c410        	addq	$0x10, %rsp
+000000000000118a	5b              	popq	%rbx
+000000000000118b	415c            	popq	%r12
+000000000000118d	415e            	popq	%r14
+000000000000118f	415f            	popq	%r15
+0000000000001191	5d              	popq	%rbp
+0000000000001192	c3              	retq
+0000000000001193	c683f000000001  	movb	$0x1, 0xf0(%rbx)
+000000000000119a	488b03          	movq	(%rbx), %rax
+000000000000119d	488b0dac0e0000  	movq	0xeac(%rip), %rcx
+00000000000011a4	488b09          	movq	(%rcx), %rcx
+00000000000011a7	488b11          	movq	(%rcx), %rdx
+00000000000011aa	488d35ea0d0000  	leaq	0xdea(%rip), %rsi       ## literal pool for: "UseTimer0"
+00000000000011b1	4889df          	movq	%rbx, %rdi
+00000000000011b4	ff9068020000    	callq	*0x268(%rax)
+00000000000011ba	488bbb90000000  	movq	0x90(%rbx), %rdi
+00000000000011c1	488b07          	movq	(%rdi), %rax
+00000000000011c4	ff9038010000    	callq	*0x138(%rax)
+00000000000011ca	4c8b00          	movq	(%rax), %r8
+00000000000011cd	31f6            	xorl	%esi, %esi
+00000000000011cf	31d2            	xorl	%edx, %edx
+00000000000011d1	b900080000      	movl	$0x800, %ecx            ## imm = 0x800
+00000000000011d6	4889c7          	movq	%rax, %rdi
+00000000000011d9	41ff9038010000  	callq	*0x138(%r8)
+00000000000011e0	498d8f00004a7e  	leaq	0x7e4a0000(%r15), %rcx
+00000000000011e7	4839c8          	cmpq	%rcx, %rax
+00000000000011ea	7597            	jne	0x1183
+00000000000011ec	488bbb88000000  	movq	0x88(%rbx), %rdi
+00000000000011f3	488b07          	movq	(%rdi), %rax
+00000000000011f6	c7042400000000  	movl	$0x0, (%rsp)
+00000000000011fd	488d75d8        	leaq	-0x28(%rbp), %rsi
+0000000000001201	ba02000000      	movl	$0x2, %edx
+0000000000001206	b9f000f800      	movl	$0xf800f0, %ecx         ## imm = 0xF800F0
+000000000000120b	41b820000000    	movl	$0x20, %r8d
+0000000000001211	4531c9          	xorl	%r9d, %r9d
+0000000000001214	ff9020090000    	callq	*0x920(%rax)
+000000000000121a	85c0            	testl	%eax, %eax
+000000000000121c	0f8561ffffff    	jne	0x1183
+0000000000001222	488b7dd8        	movq	-0x28(%rbp), %rdi
+0000000000001226	40f6c701        	testb	$0x1, %dil
+000000000000122a	0f8453ffffff    	je	0x1183
+0000000000001230	4889f8          	movq	%rdi, %rax
+0000000000001233	482500c0ffff    	andq	$-0x4000, %rax          ## imm = 0xFFFFFFFFFFFFC000
+0000000000001239	488945d8        	movq	%rax, -0x28(%rbp)
+000000000000123d	0f8440ffffff    	je	0x1183
+0000000000001243	85c0            	testl	%eax, %eax
+0000000000001245	0f8438ffffff    	je	0x1183
+000000000000124b	4981c700c0797f  	addq	$0x7f79c000, %r15       ## imm = 0x7F79C000
+0000000000001252	4c21ff          	andq	%r15, %rdi
+0000000000001255	4881cf00300000  	orq	$0x3000, %rdi           ## imm = 0x3000
+000000000000125c	be00100000      	movl	$0x1000, %esi           ## imm = 0x1000
+0000000000001261	ba03080000      	movl	$0x803, %edx            ## imm = 0x803
+0000000000001266	31c9            	xorl	%ecx, %ecx
+0000000000001268	e800000000      	callq	__ZN18IOMemoryDescriptor16withAddressRangeEyyjP4task
+000000000000126d	4989c7          	movq	%rax, %r15
+0000000000001270	4d85ff          	testq	%r15, %r15
+0000000000001273	7427            	je	0x129c
+0000000000001275	498b07          	movq	(%r15), %rax
+0000000000001278	31f6            	xorl	%esi, %esi
+000000000000127a	4c89ff          	movq	%r15, %rdi
+000000000000127d	ff9000020000    	callq	*0x200(%rax)
+0000000000001283	4c8da398000000  	leaq	0x98(%rbx), %r12
+000000000000128a	48898398000000  	movq	%rax, 0x98(%rbx)
+0000000000001291	498b07          	movq	(%r15), %rax
+0000000000001294	4c89ff          	movq	%r15, %rdi
+0000000000001297	ff5028          	callq	*0x28(%rax)
+000000000000129a	eb07            	jmp	0x12a3
+000000000000129c	4c8da398000000  	leaq	0x98(%rbx), %r12
+00000000000012a3	498b3c24        	movq	(%r12), %rdi
+00000000000012a7	4885ff          	testq	%rdi, %rdi
+00000000000012aa	0f84d3feffff    	je	0x1183
+00000000000012b0	488b07          	movq	(%rdi), %rax
+00000000000012b3	ff9018010000    	callq	*0x118(%rax)
+00000000000012b9	480504040000    	addq	$0x404, %rax            ## imm = 0x404
+00000000000012bf	488983a0000000  	movq	%rax, 0xa0(%rbx)
+00000000000012c6	31ff            	xorl	%edi, %edi
+00000000000012c8	be20000000      	movl	$0x20, %esi
+00000000000012cd	e800000000      	callq	__ZN8OSNumber10withNumberEyj
+00000000000012d2	488983a8000000  	movq	%rax, 0xa8(%rbx)
+00000000000012d9	4885c0          	testq	%rax, %rax
+00000000000012dc	0f84a1feffff    	je	0x1183
+00000000000012e2	488b0b          	movq	(%rbx), %rcx
+00000000000012e5	488d35b90c0000  	leaq	0xcb9(%rip), %rsi       ## literal pool for: "HPTC"
+00000000000012ec	4889df          	movq	%rbx, %rdi
+00000000000012ef	4889c2          	movq	%rax, %rdx
+00000000000012f2	ff9168020000    	callq	*0x268(%rcx)
+00000000000012f8	e986feffff      	jmp	0x1183
+00000000000012fd	90              	nop
+__ZN9AppleHPET14configureTimerEP9HpetTimer:
+00000000000012fe	55              	pushq	%rbp
+00000000000012ff	4889e5          	movq	%rsp, %rbp
+0000000000001302	4157            	pushq	%r15
+0000000000001304	4156            	pushq	%r14
+0000000000001306	4155            	pushq	%r13
+0000000000001308	4154            	pushq	%r12
+000000000000130a	53              	pushq	%rbx
+000000000000130b	4883ec28        	subq	$0x28, %rsp
+000000000000130f	4989f6          	movq	%rsi, %r14
+0000000000001312	4989fc          	movq	%rdi, %r12
+0000000000001315	4d8b3e          	movq	(%r14), %r15
+0000000000001318	4d8b2f          	movq	(%r15), %r13
+000000000000131b	418b7608        	movl	0x8(%r14), %esi
+000000000000131f	e898080000      	callq	__ZN9AppleHPET25getInterruptVectorAtIndexEj ## AppleHPET::getInterruptVectorAtIndex(unsigned int)
+0000000000001324	85c0            	testl	%eax, %eax
+0000000000001326	7848            	js	0x1370
+0000000000001328	418b4e08        	movl	0x8(%r14), %ecx
+000000000000132c	894dd4          	movl	%ecx, -0x2c(%rbp)
+000000000000132f	83f901          	cmpl	$0x1, %ecx
+0000000000001332	bbffffffff      	movl	$0xffffffff, %ebx       ## imm = 0xFFFFFFFF
+0000000000001337	0f47d8          	cmoval	%eax, %ebx
+000000000000133a	8b4dd4          	movl	-0x2c(%rbp), %ecx
+000000000000133d	41894e10        	movl	%ecx, 0x10(%r14)
+0000000000001341	41894614        	movl	%eax, 0x14(%r14)
+0000000000001345	4981e5f180ffff  	andq	$-0x7f0f, %r13          ## imm = 0xFFFFFFFFFFFF80F1
+000000000000134c	83fb1f          	cmpl	$0x1f, %ebx
+000000000000134f	7709            	ja	0x135a
+0000000000001351	c1e309          	shll	$0x9, %ebx
+0000000000001354	4863c3          	movslq	%ebx, %rax
+0000000000001357	4909c5          	orq	%rax, %r13
+000000000000135a	4d892f          	movq	%r13, (%r15)
+000000000000135d	49c7470800000000	movq	$0x0, 0x8(%r15)
+0000000000001365	4d896e18        	movq	%r13, 0x18(%r14)
+0000000000001369	31c0            	xorl	%eax, %eax
+000000000000136b	e9aa000000      	jmp	0x141a
+0000000000001370	8945bc          	movl	%eax, -0x44(%rbp)
+0000000000001373	4c897dc8        	movq	%r15, -0x38(%rbp)
+0000000000001377	4c896dc0        	movq	%r13, -0x40(%rbp)
+000000000000137b	49c1ed20        	shrq	$0x20, %r13
+000000000000137f	b8be0200e0      	movl	$0xe00002be, %eax       ## imm = 0xE00002BE
+0000000000001384	31db            	xorl	%ebx, %ebx
+0000000000001386	41bf01000000    	movl	$0x1, %r15d
+000000000000138c	88d9            	movb	%bl, %cl
+000000000000138e	41d3e7          	shll	%cl, %r15d
+0000000000001391	410fa3dd        	btl	%ebx, %r13d
+0000000000001395	733a            	jae	0x13d1
+0000000000001397	4585bc24d0000000	testl	0xd0(%r12), %r15d
+000000000000139f	7530            	jne	0x13d1
+00000000000013a1	498b0424        	movq	(%r12), %rax
+00000000000013a5	498b8c2488000000	movq	0x88(%r12), %rcx
+00000000000013ad	488d55d4        	leaq	-0x2c(%rbp), %rdx
+00000000000013b1	48891424        	movq	%rdx, (%rsp)
+00000000000013b5	31d2            	xorl	%edx, %edx
+00000000000013b7	4531c9          	xorl	%r9d, %r9d
+00000000000013ba	4c89e7          	movq	%r12, %rdi
+00000000000013bd	488d35e60b0000  	leaq	0xbe6(%rip), %rsi       ## literal pool for: "InstallDeviceInterrupt"
+00000000000013c4	4989d8          	movq	%rbx, %r8
+00000000000013c7	ff90c0060000    	callq	*0x6c0(%rax)
+00000000000013cd	85c0            	testl	%eax, %eax
+00000000000013cf	741c            	je	0x13ed
+00000000000013d1	48ffc3          	incq	%rbx
+00000000000013d4	83fb20          	cmpl	$0x20, %ebx
+00000000000013d7	7cad            	jl	0x1386
+00000000000013d9	85c0            	testl	%eax, %eax
+00000000000013db	753d            	jne	0x141a
+00000000000013dd	4c8b7dc8        	movq	-0x38(%rbp), %r15
+00000000000013e1	4c8b6dc0        	movq	-0x40(%rbp), %r13
+00000000000013e5	8b45bc          	movl	-0x44(%rbp), %eax
+00000000000013e8	e94dffffff      	jmp	0x133a
+00000000000013ed	4509bc24d0000000	orl	%r15d, 0xd0(%r12)
+00000000000013f5	8b75d4          	movl	-0x2c(%rbp), %esi
+00000000000013f8	4c89e7          	movq	%r12, %rdi
+00000000000013fb	e8bc070000      	callq	__ZN9AppleHPET25getInterruptVectorAtIndexEj ## AppleHPET::getInterruptVectorAtIndex(unsigned int)
+0000000000001400	89c1            	movl	%eax, %ecx
+0000000000001402	b8c90200e0      	movl	$0xe00002c9, %eax       ## imm = 0xE00002C9
+0000000000001407	85c9            	testl	%ecx, %ecx
+0000000000001409	780f            	js	0x141a
+000000000000140b	4c8b7dc8        	movq	-0x38(%rbp), %r15
+000000000000140f	4c8b6dc0        	movq	-0x40(%rbp), %r13
+0000000000001413	89c8            	movl	%ecx, %eax
+0000000000001415	e920ffffff      	jmp	0x133a
+000000000000141a	4883c428        	addq	$0x28, %rsp
+000000000000141e	5b              	popq	%rbx
+000000000000141f	415c            	popq	%r12
+0000000000001421	415d            	popq	%r13
+0000000000001423	415e            	popq	%r14
+0000000000001425	415f            	popq	%r15
+0000000000001427	5d              	popq	%rbp
+0000000000001428	c3              	retq
+0000000000001429	90              	nop
+__ZN9AppleHPET18cpuDriverPublishedEPvP9IOServiceP10IONotifier:
+000000000000142a	55              	pushq	%rbp
+000000000000142b	4889e5          	movq	%rsp, %rbp
+000000000000142e	4157            	pushq	%r15
+0000000000001430	4156            	pushq	%r14
+0000000000001432	4154            	pushq	%r12
+0000000000001434	53              	pushq	%rbx
+0000000000001435	4881ec80000000  	subq	$0x80, %rsp
+000000000000143c	4989ce          	movq	%rcx, %r14
+000000000000143f	4889fb          	movq	%rdi, %rbx
+0000000000001442	4c8b25e70b0000  	movq	0xbe7(%rip), %r12
+0000000000001449	498b0424        	movq	(%r12), %rax
+000000000000144d	488945d8        	movq	%rax, -0x28(%rbp)
+0000000000001451	488dbd70ffffff  	leaq	-0x90(%rbp), %rdi
+0000000000001458	31f6            	xorl	%esi, %esi
+000000000000145a	ba58000000      	movl	$0x58, %edx
+000000000000145f	e800000000      	callq	_memset
+0000000000001464	48899d70ffffff  	movq	%rbx, -0x90(%rbp)
+000000000000146b	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001472	488d88f0000000  	leaq	0xf0(%rax), %rcx
+0000000000001479	48898d78ffffff  	movq	%rcx, -0x88(%rbp)
+0000000000001480	4883c010        	addq	$0x10, %rax
+0000000000001484	48894580        	movq	%rax, -0x80(%rbp)
+0000000000001488	8b83d8000000    	movl	0xd8(%rbx), %eax
+000000000000148e	894588          	movl	%eax, -0x78(%rbp)
+0000000000001491	8b83d4000000    	movl	0xd4(%rbx), %eax
+0000000000001497	89458c          	movl	%eax, -0x74(%rbp)
+000000000000149a	80bbf000000000  	cmpb	$0x0, 0xf0(%rbx)
+00000000000014a1	7405            	je	0x14a8
+00000000000014a3	ffc8            	decl	%eax
+00000000000014a5	89458c          	movl	%eax, -0x74(%rbp)
+00000000000014a8	488d0599020000  	leaq	__ZN9AppleHPET16hpetTimerAcquireEjPFvvEPjS2_PPv(%rip), %rax ## AppleHPET::hpetTimerAcquire(unsigned int, void (*)(), unsigned int*, unsigned int*, void**)
+00000000000014af	488945a0        	movq	%rax, -0x60(%rbp)
+00000000000014b3	488d051e040000  	leaq	__ZN9AppleHPET16hpetTimerReleaseEj(%rip), %rax ## AppleHPET::hpetTimerRelease(unsigned int)
+00000000000014ba	488945a8        	movq	%rax, -0x58(%rbp)
+00000000000014be	488d05bb040000  	leaq	__ZN9AppleHPET16hpetTimerCommandEjj(%rip), %rax ## AppleHPET::hpetTimerCommand(unsigned int, unsigned int)
+00000000000014c5	488945b0        	movq	%rax, -0x50(%rbp)
+00000000000014c9	488d0534050000  	leaq	__ZN9AppleHPET13hpetSaveStateEv(%rip), %rax ## AppleHPET::hpetSaveState()
+00000000000014d0	488945b8        	movq	%rax, -0x48(%rbp)
+00000000000014d4	488d0591050000  	leaq	__ZN9AppleHPET16hpetRestoreStateEv(%rip), %rax ## AppleHPET::hpetRestoreState()
+00000000000014db	488945c0        	movq	%rax, -0x40(%rbp)
+00000000000014df	e800000000      	callq	__ZN9IOService11getPlatformEv
+00000000000014e4	488b08          	movq	(%rax), %rcx
+00000000000014e7	4c8d7dce        	leaq	-0x32(%rbp), %r15
+00000000000014eb	ba0a000000      	movl	$0xa, %edx
+00000000000014f0	4889c7          	movq	%rax, %rdi
+00000000000014f3	4c89fe          	movq	%r15, %rsi
+00000000000014f6	ff91b8080000    	callq	*0x8b8(%rcx)
+00000000000014fc	488d1df2090000  	leaq	0x9f2(%rip), %rbx       ## literal pool for: "MacPro1,1"
+0000000000001503	4889df          	movq	%rbx, %rdi
+0000000000001506	e800000000      	callq	_strlen
+000000000000150b	4889df          	movq	%rbx, %rdi
+000000000000150e	4c89fe          	movq	%r15, %rsi
+0000000000001511	4889c2          	movq	%rax, %rdx
+0000000000001514	e800000000      	callq	_strncmp
+0000000000001519	85c0            	testl	%eax, %eax
+000000000000151b	7422            	je	0x153f
+000000000000151d	488d1ddb090000  	leaq	0x9db(%rip), %rbx       ## literal pool for: "MacPro2,1"
+0000000000001524	4889df          	movq	%rbx, %rdi
+0000000000001527	e800000000      	callq	_strlen
+000000000000152c	488d75ce        	leaq	-0x32(%rbp), %rsi
+0000000000001530	4889df          	movq	%rbx, %rdi
+0000000000001533	4889c2          	movq	%rax, %rdx
+0000000000001536	e800000000      	callq	_strncmp
+000000000000153b	85c0            	testl	%eax, %eax
+000000000000153d	7504            	jne	0x1543
+000000000000153f	804d9001        	orb	$0x1, -0x70(%rbp)
+0000000000001543	488db568ffffff  	leaq	-0x98(%rbp), %rsi
+000000000000154a	bf05500880      	movl	$0x80085005, %edi       ## imm = 0x80085005
+000000000000154f	e800000000      	callq	_pmCPUControl
+0000000000001554	89c3            	movl	%eax, %ebx
+0000000000001556	85db            	testl	%ebx, %ebx
+0000000000001558	7424            	je	0x157e
+000000000000155a	4c8d35a8090000  	leaq	0x9a8(%rip), %r14       ## literal pool for: "HPET: PMIOCIFVERSION error %d\n"
+0000000000001561	31c0            	xorl	%eax, %eax
+0000000000001563	4c89f7          	movq	%r14, %rdi
+0000000000001566	89de            	movl	%ebx, %esi
+0000000000001568	e800000000      	callq	_kprintf
+000000000000156d	31c0            	xorl	%eax, %eax
+000000000000156f	4c89f7          	movq	%r14, %rdi
+0000000000001572	89de            	movl	%ebx, %esi
+0000000000001574	e800000000      	callq	_IOLog
+0000000000001579	e982000000      	jmp	0x1600
+000000000000157e	8b9568ffffff    	movl	-0x98(%rbp), %edx
+0000000000001584	81fa05010000    	cmpl	$0x105, %edx            ## imm = 0x105
+000000000000158a	7549            	jne	0x15d5
+000000000000158c	488db570ffffff  	leaq	-0x90(%rbp), %rsi
+0000000000001593	bf08500880      	movl	$0x80085008, %edi       ## imm = 0x80085008
+0000000000001598	e800000000      	callq	_pmCPUControl
+000000000000159d	89c3            	movl	%eax, %ebx
+000000000000159f	85db            	testl	%ebx, %ebx
+00000000000015a1	741f            	je	0x15c2
+00000000000015a3	4c8d3dba090000  	leaq	0x9ba(%rip), %r15       ## literal pool for: "HPET: PMIOCHPETREGISTER error %d\n"
+00000000000015aa	31c0            	xorl	%eax, %eax
+00000000000015ac	4c89ff          	movq	%r15, %rdi
+00000000000015af	89de            	movl	%ebx, %esi
+00000000000015b1	e800000000      	callq	_kprintf
+00000000000015b6	31c0            	xorl	%eax, %eax
+00000000000015b8	4c89ff          	movq	%r15, %rdi
+00000000000015bb	89de            	movl	%ebx, %esi
+00000000000015bd	e800000000      	callq	_IOLog
+00000000000015c2	4d85f6          	testq	%r14, %r14
+00000000000015c5	7439            	je	0x1600
+00000000000015c7	498b06          	movq	(%r14), %rax
+00000000000015ca	4c89f7          	movq	%r14, %rdi
+00000000000015cd	ff9020010000    	callq	*0x120(%rax)
+00000000000015d3	eb2b            	jmp	0x1600
+00000000000015d5	488d1d4c090000  	leaq	0x94c(%rip), %rbx       ## literal pool for: "HPET: PMIOCIFVERSION mismatch. Expected 0x%04X, Got 0x%04X\n"
+00000000000015dc	be05010000      	movl	$0x105, %esi            ## imm = 0x105
+00000000000015e1	31c0            	xorl	%eax, %eax
+00000000000015e3	4889df          	movq	%rbx, %rdi
+00000000000015e6	e800000000      	callq	_kprintf
+00000000000015eb	8b9568ffffff    	movl	-0x98(%rbp), %edx
+00000000000015f1	be05010000      	movl	$0x105, %esi            ## imm = 0x105
+00000000000015f6	31c0            	xorl	%eax, %eax
+00000000000015f8	4889df          	movq	%rbx, %rdi
+00000000000015fb	e800000000      	callq	_IOLog
+0000000000001600	498b0424        	movq	(%r12), %rax
+0000000000001604	483b45d8        	cmpq	-0x28(%rbp), %rax
+0000000000001608	7512            	jne	0x161c
+000000000000160a	b001            	movb	$0x1, %al
+000000000000160c	4881c480000000  	addq	$0x80, %rsp
+0000000000001613	5b              	popq	%rbx
+0000000000001614	415c            	popq	%r12
+0000000000001616	415e            	popq	%r14
+0000000000001618	415f            	popq	%r15
+000000000000161a	5d              	popq	%rbp
+000000000000161b	c3              	retq
+000000000000161c	e800000000      	callq	___stack_chk_fail
+0000000000001621	90              	nop
+__ZN9AppleHPET4stopEP9IOService:
+0000000000001622	55              	pushq	%rbp
+0000000000001623	4889e5          	movq	%rsp, %rbp
+0000000000001626	488b05fb090000  	movq	0x9fb(%rip), %rax
+000000000000162d	5d              	popq	%rbp
+000000000000162e	ffa0d8050000    	jmpq	*0x5d8(%rax)
+__ZN9AppleHPET4freeEv:
+0000000000001634	55              	pushq	%rbp
+0000000000001635	4889e5          	movq	%rsp, %rbp
+0000000000001638	53              	pushq	%rbx
+0000000000001639	50              	pushq	%rax
+000000000000163a	4889fb          	movq	%rdi, %rbx
+000000000000163d	488bbbb8000000  	movq	0xb8(%rbx), %rdi
+0000000000001644	4885ff          	testq	%rdi, %rdi
+0000000000001647	7414            	je	0x165d
+0000000000001649	488b07          	movq	(%rdi), %rax
+000000000000164c	ff9018010000    	callq	*0x118(%rax)
+0000000000001652	48c783b800000000000000	movq	$0x0, 0xb8(%rbx)
+000000000000165d	488bbb90000000  	movq	0x90(%rbx), %rdi
+0000000000001664	4885ff          	testq	%rdi, %rdi
+0000000000001667	741c            	je	0x1685
+0000000000001669	48c783c000000000000000	movq	$0x0, 0xc0(%rbx)
+0000000000001674	488b07          	movq	(%rdi), %rax
+0000000000001677	ff5028          	callq	*0x28(%rax)
+000000000000167a	48c7839000000000000000	movq	$0x0, 0x90(%rbx)
+0000000000001685	488bbb98000000  	movq	0x98(%rbx), %rdi
+000000000000168c	4885ff          	testq	%rdi, %rdi
+000000000000168f	741c            	je	0x16ad
+0000000000001691	48c783a000000000000000	movq	$0x0, 0xa0(%rbx)
+000000000000169c	488b07          	movq	(%rdi), %rax
+000000000000169f	ff5028          	callq	*0x28(%rax)
+00000000000016a2	48c7839800000000000000	movq	$0x0, 0x98(%rbx)
+00000000000016ad	488bbba8000000  	movq	0xa8(%rbx), %rdi
+00000000000016b4	4885ff          	testq	%rdi, %rdi
+00000000000016b7	7411            	je	0x16ca
+00000000000016b9	488b07          	movq	(%rdi), %rax
+00000000000016bc	ff5028          	callq	*0x28(%rax)
+00000000000016bf	48c783a800000000000000	movq	$0x0, 0xa8(%rbx)
+00000000000016ca	488bbbc8000000  	movq	0xc8(%rbx), %rdi
+00000000000016d1	4885ff          	testq	%rdi, %rdi
+00000000000016d4	743f            	je	0x1715
+00000000000016d6	8b83d4000000    	movl	0xd4(%rbx), %eax
+00000000000016dc	4885c0          	testq	%rax, %rax
+00000000000016df	7434            	je	0x1715
+00000000000016e1	48c1e003        	shlq	$0x3, %rax
+00000000000016e5	488d1480        	leaq	(%rax,%rax,4), %rdx
+00000000000016e9	31f6            	xorl	%esi, %esi
+00000000000016eb	e800000000      	callq	_memset
+00000000000016f0	488bbbc8000000  	movq	0xc8(%rbx), %rdi
+00000000000016f7	8b83d4000000    	movl	0xd4(%rbx), %eax
+00000000000016fd	48c1e003        	shlq	$0x3, %rax
+0000000000001701	488d3480        	leaq	(%rax,%rax,4), %rsi
+0000000000001705	e800000000      	callq	_IOFree
+000000000000170a	48c783c800000000000000	movq	$0x0, 0xc8(%rbx)
+0000000000001715	488bbbb0000000  	movq	0xb0(%rbx), %rdi
+000000000000171c	4885ff          	testq	%rdi, %rdi
+000000000000171f	7410            	je	0x1731
+0000000000001721	e800000000      	callq	_IOLockFree
+0000000000001726	48c783b000000000000000	movq	$0x0, 0xb0(%rbx)
+0000000000001731	488b05f0080000  	movq	0x8f0(%rip), %rax
+0000000000001738	4889df          	movq	%rbx, %rdi
+000000000000173b	4883c408        	addq	$0x8, %rsp
+000000000000173f	5b              	popq	%rbx
+0000000000001740	5d              	popq	%rbp
+0000000000001741	ffa0a0000000    	jmpq	*0xa0(%rax)
+0000000000001747	90              	nop
+__ZN9AppleHPET16hpetTimerAcquireEjPFvvEPjS2_PPv:
+0000000000001748	55              	pushq	%rbp
+0000000000001749	4889e5          	movq	%rsp, %rbp
+000000000000174c	4157            	pushq	%r15
+000000000000174e	4156            	pushq	%r14
+0000000000001750	4155            	pushq	%r13
+0000000000001752	4154            	pushq	%r12
+0000000000001754	53              	pushq	%rbx
+0000000000001755	4883ec28        	subq	$0x28, %rsp
+0000000000001759	4d89cf          	movq	%r9, %r15
+000000000000175c	4989cd          	movq	%rcx, %r13
+000000000000175f	4989d4          	movq	%rdx, %r12
+0000000000001762	4889fb          	movq	%rdi, %rbx
+0000000000001765	4d85e4          	testq	%r12, %r12
+0000000000001768	0f94c0          	sete	%al
+000000000000176b	4d85ed          	testq	%r13, %r13
+000000000000176e	0f94c1          	sete	%cl
+0000000000001771	4d85c0          	testq	%r8, %r8
+0000000000001774	0f94c2          	sete	%dl
+0000000000001777	4d85ff          	testq	%r15, %r15
+000000000000177a	400f94c7        	sete	%dil
+000000000000177e	83feff          	cmpl	$-0x1, %esi
+0000000000001781	41beffffffff    	movl	$0xffffffff, %r14d      ## imm = 0xFFFFFFFF
+0000000000001787	0f84c4000000    	je	0x1851
+000000000000178d	08c8            	orb	%cl, %al
+000000000000178f	08d0            	orb	%dl, %al
+0000000000001791	4008f8          	orb	%dil, %al
+0000000000001794	0f85b7000000    	jne	0x1851
+000000000000179a	4189f6          	movl	%esi, %r14d
+000000000000179d	4c8945d0        	movq	%r8, -0x30(%rbp)
+00000000000017a1	488bbbb0000000  	movq	0xb0(%rbx), %rdi
+00000000000017a8	e800000000      	callq	_IOLockLock
+00000000000017ad	8b83d4000000    	movl	0xd4(%rbx), %eax
+00000000000017b3	85c0            	testl	%eax, %eax
+00000000000017b5	0f8484000000    	je	0x183f
+00000000000017bb	4c896dc0        	movq	%r13, -0x40(%rbp)
+00000000000017bf	4c897dc8        	movq	%r15, -0x38(%rbp)
+00000000000017c3	31c9            	xorl	%ecx, %ecx
+00000000000017c5	4531ed          	xorl	%r13d, %r13d
+00000000000017c8	4489f2          	movl	%r14d, %edx
+00000000000017cb	85c9            	testl	%ecx, %ecx
+00000000000017cd	7509            	jne	0x17d8
+00000000000017cf	80bbf000000000  	cmpb	$0x0, 0xf0(%rbx)
+00000000000017d6	7517            	jne	0x17ef
+00000000000017d8	4c8bbbc8000000  	movq	0xc8(%rbx), %r15
+00000000000017df	43837c2f0cff    	cmpl	$-0x1, 0xc(%r15,%r13)
+00000000000017e5	7508            	jne	0x17ef
+00000000000017e7	43837c2f10ff    	cmpl	$-0x1, 0x10(%r15,%r13)
+00000000000017ed	750c            	jne	0x17fb
+00000000000017ef	4983c528        	addq	$0x28, %r13
+00000000000017f3	ffc1            	incl	%ecx
+00000000000017f5	39c1            	cmpl	%eax, %ecx
+00000000000017f7	72d2            	jb	0x17cb
+00000000000017f9	eb44            	jmp	0x183f
+00000000000017fb	4c89fe          	movq	%r15, %rsi
+00000000000017fe	4c01ee          	addq	%r13, %rsi
+0000000000001801	743c            	je	0x183f
+0000000000001803	4889df          	movq	%rbx, %rdi
+0000000000001806	488975b8        	movq	%rsi, -0x48(%rbp)
+000000000000180a	4189d6          	movl	%edx, %r14d
+000000000000180d	e84e030000      	callq	__ZN9AppleHPET30setInterruptMessageDestinationEPK9HpetTimerj ## AppleHPET::setInterruptMessageDestination(HpetTimer const*, unsigned int)
+0000000000001812	85c0            	testl	%eax, %eax
+0000000000001814	7529            	jne	0x183f
+0000000000001816	448975b4        	movl	%r14d, -0x4c(%rbp)
+000000000000181a	488bbb88000000  	movq	0x88(%rbx), %rdi
+0000000000001821	488b07          	movq	(%rdi), %rax
+0000000000001824	4c8b75b8        	movq	-0x48(%rbp), %r14
+0000000000001828	418b7610        	movl	0x10(%r14), %esi
+000000000000182c	4531c0          	xorl	%r8d, %r8d
+000000000000182f	4889da          	movq	%rbx, %rdx
+0000000000001832	4c89e1          	movq	%r12, %rcx
+0000000000001835	ff90f8060000    	callq	*0x6f8(%rax)
+000000000000183b	85c0            	testl	%eax, %eax
+000000000000183d	7424            	je	0x1863
+000000000000183f	41beffffffff    	movl	$0xffffffff, %r14d      ## imm = 0xFFFFFFFF
+0000000000001845	488bbbb0000000  	movq	0xb0(%rbx), %rdi
+000000000000184c	e800000000      	callq	_IOLockUnlock
+0000000000001851	4489f0          	movl	%r14d, %eax
+0000000000001854	4883c428        	addq	$0x28, %rsp
+0000000000001858	5b              	popq	%rbx
+0000000000001859	415c            	popq	%r12
+000000000000185b	415d            	popq	%r13
+000000000000185d	415e            	popq	%r14
+000000000000185f	415f            	popq	%r15
+0000000000001861	5d              	popq	%rbp
+0000000000001862	c3              	retq
+0000000000001863	488bbb88000000  	movq	0x88(%rbx), %rdi
+000000000000186a	488b07          	movq	(%rdi), %rax
+000000000000186d	418b7610        	movl	0x10(%r14), %esi
+0000000000001871	4d89f4          	movq	%r14, %r12
+0000000000001874	ff9010070000    	callq	*0x710(%rax)
+000000000000187a	85c0            	testl	%eax, %eax
+000000000000187c	41beffffffff    	movl	$0xffffffff, %r14d      ## imm = 0xFFFFFFFF
+0000000000001882	7417            	je	0x189b
+0000000000001884	488bbb88000000  	movq	0x88(%rbx), %rdi
+000000000000188b	488b07          	movq	(%rdi), %rax
+000000000000188e	418b742410      	movl	0x10(%r12), %esi
+0000000000001893	ff9000070000    	callq	*0x700(%rax)
+0000000000001899	ebaa            	jmp	0x1845
+000000000000189b	8b45b4          	movl	-0x4c(%rbp), %eax
+000000000000189e	4389442f0c      	movl	%eax, 0xc(%r15,%r13)
+00000000000018a3	4b8b042f        	movq	(%r15,%r13), %rax
+00000000000018a7	488b00          	movq	(%rax), %rax
+00000000000018aa	c1e805          	shrl	$0x5, %eax
+00000000000018ad	83e001          	andl	$0x1, %eax
+00000000000018b0	488b4dd0        	movq	-0x30(%rbp), %rcx
+00000000000018b4	8901            	movl	%eax, (%rcx)
+00000000000018b6	438b442f08      	movl	0x8(%r15,%r13), %eax
+00000000000018bb	488b4dc0        	movq	-0x40(%rbp), %rcx
+00000000000018bf	8901            	movl	%eax, (%rcx)
+00000000000018c1	4b8b042f        	movq	(%r15,%r13), %rax
+00000000000018c5	4883c008        	addq	$0x8, %rax
+00000000000018c9	488b4dc8        	movq	-0x38(%rbp), %rcx
+00000000000018cd	488901          	movq	%rax, (%rcx)
+00000000000018d0	4531f6          	xorl	%r14d, %r14d
+00000000000018d3	e96dffffff      	jmp	0x1845
+__ZN9AppleHPET16hpetTimerReleaseEj:
+00000000000018d8	55              	pushq	%rbp
+00000000000018d9	4889e5          	movq	%rsp, %rbp
+00000000000018dc	4157            	pushq	%r15
+00000000000018de	4156            	pushq	%r14
+00000000000018e0	4154            	pushq	%r12
+00000000000018e2	53              	pushq	%rbx
+00000000000018e3	89f3            	movl	%esi, %ebx
+00000000000018e5	4989fe          	movq	%rdi, %r14
+00000000000018e8	41399ed4000000  	cmpl	%ebx, 0xd4(%r14)
+00000000000018ef	0f8681000000    	jbe	0x1976
+00000000000018f5	498bbeb0000000  	movq	0xb0(%r14), %rdi
+00000000000018fc	e800000000      	callq	_IOLockLock
+0000000000001901	89d8            	movl	%ebx, %eax
+0000000000001903	4d8bbec8000000  	movq	0xc8(%r14), %r15
+000000000000190a	488d1c80        	leaq	(%rax,%rax,4), %rbx
+000000000000190e	41837cdf0cff    	cmpl	$-0x1, 0xc(%r15,%rbx,8)
+0000000000001914	744c            	je	0x1962
+0000000000001916	4d8d64df0c      	leaq	0xc(%r15,%rbx,8), %r12
+000000000000191b	498b44df18      	movq	0x18(%r15,%rbx,8), %rax
+0000000000001920	4883e0fb        	andq	$-0x5, %rax
+0000000000001924	498944df18      	movq	%rax, 0x18(%r15,%rbx,8)
+0000000000001929	498b0cdf        	movq	(%r15,%rbx,8), %rcx
+000000000000192d	488901          	movq	%rax, (%rcx)
+0000000000001930	498bbe88000000  	movq	0x88(%r14), %rdi
+0000000000001937	488b07          	movq	(%rdi), %rax
+000000000000193a	418b74df10      	movl	0x10(%r15,%rbx,8), %esi
+000000000000193f	ff9018070000    	callq	*0x718(%rax)
+0000000000001945	498bbe88000000  	movq	0x88(%r14), %rdi
+000000000000194c	488b07          	movq	(%rdi), %rax
+000000000000194f	418b74df10      	movl	0x10(%r15,%rbx,8), %esi
+0000000000001954	ff9000070000    	callq	*0x700(%rax)
+000000000000195a	41c70424ffffffff	movl	$0xffffffff, (%r12)     ## imm = 0xFFFFFFFF
+0000000000001962	498bbeb0000000  	movq	0xb0(%r14), %rdi
+0000000000001969	5b              	popq	%rbx
+000000000000196a	415c            	popq	%r12
+000000000000196c	415e            	popq	%r14
+000000000000196e	415f            	popq	%r15
+0000000000001970	5d              	popq	%rbp
+0000000000001971	e900000000      	jmp	_IOLockUnlock
+0000000000001976	5b              	popq	%rbx
+0000000000001977	415c            	popq	%r12
+0000000000001979	415e            	popq	%r14
+000000000000197b	415f            	popq	%r15
+000000000000197d	5d              	popq	%rbp
+000000000000197e	c3              	retq
+000000000000197f	90              	nop
+__ZN9AppleHPET16hpetTimerCommandEjj:
+0000000000001980	55              	pushq	%rbp
+0000000000001981	4889e5          	movq	%rsp, %rbp
+0000000000001984	b8ffffffff      	movl	$0xffffffff, %eax       ## imm = 0xFFFFFFFF
+0000000000001989	39b7d4000000    	cmpl	%esi, 0xd4(%rdi)
+000000000000198f	7671            	jbe	0x1a02
+0000000000001991	89f0            	movl	%esi, %eax
+0000000000001993	4c8b87c8000000  	movq	0xc8(%rdi), %r8
+000000000000199a	4c8d0c80        	leaq	(%rax,%rax,4), %r9
+000000000000199e	b8feffffff      	movl	$0xfffffffe, %eax       ## imm = 0xFFFFFFFE
+00000000000019a3	43837cc80cff    	cmpl	$-0x1, 0xc(%r8,%r9,8)
+00000000000019a9	7457            	je	0x1a02
+00000000000019ab	4f8d14c8        	leaq	(%r8,%r9,8), %r10
+00000000000019af	85d2            	testl	%edx, %edx
+00000000000019b1	7510            	jne	0x19c3
+00000000000019b3	4b8b44c818      	movq	0x18(%r8,%r9,8), %rax
+00000000000019b8	4883e0fb        	andq	$-0x5, %rax
+00000000000019bc	4b8944c818      	movq	%rax, 0x18(%r8,%r9,8)
+00000000000019c1	eb37            	jmp	0x19fa
+00000000000019c3	b8fdffffff      	movl	$0xfffffffd, %eax       ## imm = 0xFFFFFFFD
+00000000000019c8	83fa01          	cmpl	$0x1, %edx
+00000000000019cb	7535            	jne	0x1a02
+00000000000019cd	b801000000      	movl	$0x1, %eax
+00000000000019d2	4088f1          	movb	%sil, %cl
+00000000000019d5	d3e0            	shll	%cl, %eax
+00000000000019d7	4898            	cltq
+00000000000019d9	488b8fc0000000  	movq	0xc0(%rdi), %rcx
+00000000000019e0	48894120        	movq	%rax, 0x20(%rcx)
+00000000000019e4	43804cc81804    	orb	$0x4, 0x18(%r8,%r9,8)
+00000000000019ea	498b02          	movq	(%r10), %rax
+00000000000019ed	48c7400800000000	movq	$0x0, 0x8(%rax)
+00000000000019f5	4b8b44c818      	movq	0x18(%r8,%r9,8), %rax
+00000000000019fa	498b0a          	movq	(%r10), %rcx
+00000000000019fd	488901          	movq	%rax, (%rcx)
+0000000000001a00	31c0            	xorl	%eax, %eax
+0000000000001a02	5d              	popq	%rbp
+0000000000001a03	c3              	retq
+__ZN9AppleHPET13hpetSaveStateEv:
+0000000000001a04	55              	pushq	%rbp
+0000000000001a05	4889e5          	movq	%rsp, %rbp
+0000000000001a08	448b87d4000000  	movl	0xd4(%rdi), %r8d
+0000000000001a0f	4585c0          	testl	%r8d, %r8d
+0000000000001a12	742e            	je	0x1a42
+0000000000001a14	488b8fc8000000  	movq	0xc8(%rdi), %rcx
+0000000000001a1b	ba08010000      	movl	$0x108, %edx            ## imm = 0x108
+0000000000001a20	480397c0000000  	addq	0xc0(%rdi), %rdx
+0000000000001a27	4883c120        	addq	$0x20, %rcx
+0000000000001a2b	31f6            	xorl	%esi, %esi
+0000000000001a2d	488b02          	movq	(%rdx), %rax
+0000000000001a30	488901          	movq	%rax, (%rcx)
+0000000000001a33	4883c220        	addq	$0x20, %rdx
+0000000000001a37	4883c128        	addq	$0x28, %rcx
+0000000000001a3b	ffc6            	incl	%esi
+0000000000001a3d	4439c6          	cmpl	%r8d, %esi
+0000000000001a40	72eb            	jb	0x1a2d
+0000000000001a42	488b87c0000000  	movq	0xc0(%rdi), %rax
+0000000000001a49	488b80f0000000  	movq	0xf0(%rax), %rax
+0000000000001a50	488987e8000000  	movq	%rax, 0xe8(%rdi)
+0000000000001a57	488b87c0000000  	movq	0xc0(%rdi), %rax
+0000000000001a5e	488b4010        	movq	0x10(%rax), %rax
+0000000000001a62	488987e0000000  	movq	%rax, 0xe0(%rdi)
+0000000000001a69	5d              	popq	%rbp
+0000000000001a6a	c3              	retq
+0000000000001a6b	90              	nop
+__ZN9AppleHPET16hpetRestoreStateEv:
+0000000000001a6c	55              	pushq	%rbp
+0000000000001a6d	4889e5          	movq	%rsp, %rbp
+0000000000001a70	4156            	pushq	%r14
+0000000000001a72	53              	pushq	%rbx
+0000000000001a73	4889fb          	movq	%rdi, %rbx
+0000000000001a76	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001a7d	48833800        	cmpq	$0x0, (%rax)
+0000000000001a81	7409            	je	0x1a8c
+0000000000001a83	488b00          	movq	(%rax), %rax
+0000000000001a86	4883f8ff        	cmpq	$-0x1, %rax
+0000000000001a8a	7559            	jne	0x1ae5
+0000000000001a8c	488b83a0000000  	movq	0xa0(%rbx), %rax
+0000000000001a93	8b08            	movl	(%rax), %ecx
+0000000000001a95	f6c180          	testb	$-0x80, %cl
+0000000000001a98	750e            	jne	0x1aa8
+0000000000001a9a	81e17cffffff    	andl	$0xffffff7c, %ecx       ## imm = 0xFFFFFF7C
+0000000000001aa0	81c980000000    	orl	$0x80, %ecx
+0000000000001aa6	8908            	movl	%ecx, (%rax)
+0000000000001aa8	488b83a0000000  	movq	0xa0(%rbx), %rax
+0000000000001aaf	8b00            	movl	(%rax), %eax
+0000000000001ab1	a880            	testb	$-0x80, %al
+0000000000001ab3	751b            	jne	0x1ad0
+0000000000001ab5	4c8d35ca040000  	leaq	0x4ca(%rip), %r14       ## literal pool for: "HPET: enable failed\n"
+0000000000001abc	31c0            	xorl	%eax, %eax
+0000000000001abe	4c89f7          	movq	%r14, %rdi
+0000000000001ac1	e800000000      	callq	_kprintf
+0000000000001ac6	31c0            	xorl	%eax, %eax
+0000000000001ac8	4c89f7          	movq	%r14, %rdi
+0000000000001acb	e800000000      	callq	_IOLog
+0000000000001ad0	488bbba8000000  	movq	0xa8(%rbx), %rdi
+0000000000001ad7	488b07          	movq	(%rdi), %rax
+0000000000001ada	be01000000      	movl	$0x1, %esi
+0000000000001adf	ff9058010000    	callq	*0x158(%rax)
+0000000000001ae5	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001aec	488b8be0000000  	movq	0xe0(%rbx), %rcx
+0000000000001af3	48894810        	movq	%rcx, 0x10(%rax)
+0000000000001af7	8b83d4000000    	movl	0xd4(%rbx), %eax
+0000000000001afd	85c0            	testl	%eax, %eax
+0000000000001aff	7435            	je	0x1b36
+0000000000001b01	488b8bc8000000  	movq	0xc8(%rbx), %rcx
+0000000000001b08	4883c120        	addq	$0x20, %rcx
+0000000000001b0c	ba08010000      	movl	$0x108, %edx            ## imm = 0x108
+0000000000001b11	480393c0000000  	addq	0xc0(%rbx), %rdx
+0000000000001b18	31f6            	xorl	%esi, %esi
+0000000000001b1a	488b79f8        	movq	-0x8(%rcx), %rdi
+0000000000001b1e	48897af8        	movq	%rdi, -0x8(%rdx)
+0000000000001b22	488b39          	movq	(%rcx), %rdi
+0000000000001b25	48893a          	movq	%rdi, (%rdx)
+0000000000001b28	4883c128        	addq	$0x28, %rcx
+0000000000001b2c	4883c220        	addq	$0x20, %rdx
+0000000000001b30	ffc6            	incl	%esi
+0000000000001b32	39c6            	cmpl	%eax, %esi
+0000000000001b34	72e4            	jb	0x1b1a
+0000000000001b36	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001b3d	b9ffffffff      	movl	$0xffffffff, %ecx       ## imm = 0xFFFFFFFF
+0000000000001b42	48894820        	movq	%rcx, 0x20(%rax)
+0000000000001b46	488b83c0000000  	movq	0xc0(%rbx), %rax
+0000000000001b4d	488b8be8000000  	movq	0xe8(%rbx), %rcx
+0000000000001b54	488988f0000000  	movq	%rcx, 0xf0(%rax)
+0000000000001b5b	5b              	popq	%rbx
+0000000000001b5c	415e            	popq	%r14
+0000000000001b5e	5d              	popq	%rbp
+0000000000001b5f	c3              	retq
+__ZN9AppleHPET30setInterruptMessageDestinationEPK9HpetTimerj:
+0000000000001b60	55              	pushq	%rbp
+0000000000001b61	4889e5          	movq	%rsp, %rbp
+0000000000001b64	4156            	pushq	%r14
+0000000000001b66	53              	pushq	%rbx
+0000000000001b67	4883ec10        	subq	$0x10, %rsp
+0000000000001b6b	4189d6          	movl	%edx, %r14d
+0000000000001b6e	8b4610          	movl	0x10(%rsi), %eax
+0000000000001b71	8b5e14          	movl	0x14(%rsi), %ebx
+0000000000001b74	89c6            	movl	%eax, %esi
+0000000000001b76	e8ef000000      	callq	__ZN9AppleHPET29getInterruptControllerAtIndexEj ## AppleHPET::getInterruptControllerAtIndex(unsigned int)
+0000000000001b7b	4885db          	testq	%rbx, %rbx
+0000000000001b7e	742e            	je	0x1bae
+0000000000001b80	4885c0          	testq	%rax, %rax
+0000000000001b83	7429            	je	0x1bae
+0000000000001b85	4c8b10          	movq	(%rax), %r10
+0000000000001b88	4589f0          	movl	%r14d, %r8d
+0000000000001b8b	48c7042400000000	movq	$0x0, (%rsp)
+0000000000001b93	488d3527040000  	leaq	0x427(%rip), %rsi       ## literal pool for: "SetVectorPhysicalDestination"
+0000000000001b9a	31d2            	xorl	%edx, %edx
+0000000000001b9c	4531c9          	xorl	%r9d, %r9d
+0000000000001b9f	4889c7          	movq	%rax, %rdi
+0000000000001ba2	4889d9          	movq	%rbx, %rcx
+0000000000001ba5	41ff92c0060000  	callq	*0x6c0(%r10)
+0000000000001bac	eb05            	jmp	0x1bb3
+0000000000001bae	b8c90200e0      	movl	$0xe00002c9, %eax       ## imm = 0xE00002C9
+0000000000001bb3	4883c410        	addq	$0x10, %rsp
+0000000000001bb7	5b              	popq	%rbx
+0000000000001bb8	415e            	popq	%r14
+0000000000001bba	5d              	popq	%rbp
+0000000000001bbb	c3              	retq
+__ZN9AppleHPET25getInterruptVectorAtIndexEj:
+0000000000001bbc	55              	pushq	%rbp
+0000000000001bbd	4889e5          	movq	%rsp, %rbp
+0000000000001bc0	4157            	pushq	%r15
+0000000000001bc2	4156            	pushq	%r14
+0000000000001bc4	53              	pushq	%rbx
+0000000000001bc5	50              	pushq	%rax
+0000000000001bc6	4189f6          	movl	%esi, %r14d
+0000000000001bc9	488bbf88000000  	movq	0x88(%rdi), %rdi
+0000000000001bd0	488b07          	movq	(%rdi), %rax
+0000000000001bd3	488b0d6e040000  	movq	0x46e(%rip), %rcx
+0000000000001bda	488b31          	movq	(%rcx), %rsi
+0000000000001bdd	ff90a8020000    	callq	*0x2a8(%rax)
+0000000000001be3	488b0d26040000  	movq	0x426(%rip), %rcx
+0000000000001bea	488b31          	movq	(%rcx), %rsi
+0000000000001bed	4889c7          	movq	%rax, %rdi
+0000000000001bf0	e800000000      	callq	__ZN15OSMetaClassBase12safeMetaCastEPKS_PK11OSMetaClass
+0000000000001bf5	4889c3          	movq	%rax, %rbx
+0000000000001bf8	41bfffffffff    	movl	$0xffffffff, %r15d      ## imm = 0xFFFFFFFF
+0000000000001bfe	4885db          	testq	%rbx, %rbx
+0000000000001c01	7459            	je	0x1c5c
+0000000000001c03	488b03          	movq	(%rbx), %rax
+0000000000001c06	4889df          	movq	%rbx, %rdi
+0000000000001c09	ff9030010000    	callq	*0x130(%rax)
+0000000000001c0f	85c0            	testl	%eax, %eax
+0000000000001c11	7449            	je	0x1c5c
+0000000000001c13	488b03          	movq	(%rbx), %rax
+0000000000001c16	4889df          	movq	%rbx, %rdi
+0000000000001c19	4489f6          	movl	%r14d, %esi
+0000000000001c1c	ff90e8010000    	callq	*0x1e8(%rax)
+0000000000001c22	488b0ddf030000  	movq	0x3df(%rip), %rcx
+0000000000001c29	488b31          	movq	(%rcx), %rsi
+0000000000001c2c	4889c7          	movq	%rax, %rdi
+0000000000001c2f	e800000000      	callq	__ZN15OSMetaClassBase12safeMetaCastEPKS_PK11OSMetaClass
+0000000000001c34	4889c3          	movq	%rax, %rbx
+0000000000001c37	4885db          	testq	%rbx, %rbx
+0000000000001c3a	7420            	je	0x1c5c
+0000000000001c3c	488b03          	movq	(%rbx), %rax
+0000000000001c3f	4889df          	movq	%rbx, %rdi
+0000000000001c42	ff9040010000    	callq	*0x140(%rax)
+0000000000001c48	83f804          	cmpl	$0x4, %eax
+0000000000001c4b	720f            	jb	0x1c5c
+0000000000001c4d	488b03          	movq	(%rbx), %rax
+0000000000001c50	4889df          	movq	%rbx, %rdi
+0000000000001c53	ff9078010000    	callq	*0x178(%rax)
+0000000000001c59	448b38          	movl	(%rax), %r15d
+0000000000001c5c	4489f8          	movl	%r15d, %eax
+0000000000001c5f	4883c408        	addq	$0x8, %rsp
+0000000000001c63	5b              	popq	%rbx
+0000000000001c64	415e            	popq	%r14
+0000000000001c66	415f            	popq	%r15
+0000000000001c68	5d              	popq	%rbp
+0000000000001c69	c3              	retq
+__ZN9AppleHPET29getInterruptControllerAtIndexEj:
+0000000000001c6a	55              	pushq	%rbp
+0000000000001c6b	4889e5          	movq	%rsp, %rbp
+0000000000001c6e	4156            	pushq	%r14
+0000000000001c70	53              	pushq	%rbx
+0000000000001c71	4189f6          	movl	%esi, %r14d
+0000000000001c74	488bbf88000000  	movq	0x88(%rdi), %rdi
+0000000000001c7b	488b07          	movq	(%rdi), %rax
+0000000000001c7e	488b0dbb030000  	movq	0x3bb(%rip), %rcx
+0000000000001c85	488b31          	movq	(%rcx), %rsi
+0000000000001c88	ff90a8020000    	callq	*0x2a8(%rax)
+0000000000001c8e	488b0d7b030000  	movq	0x37b(%rip), %rcx
+0000000000001c95	488b31          	movq	(%rcx), %rsi
+0000000000001c98	4889c7          	movq	%rax, %rdi
+0000000000001c9b	e800000000      	callq	__ZN15OSMetaClassBase12safeMetaCastEPKS_PK11OSMetaClass
+0000000000001ca0	4889c3          	movq	%rax, %rbx
+0000000000001ca3	31c0            	xorl	%eax, %eax
+0000000000001ca5	4885db          	testq	%rbx, %rbx
+0000000000001ca8	7453            	je	0x1cfd
+0000000000001caa	488b03          	movq	(%rbx), %rax
+0000000000001cad	4889df          	movq	%rbx, %rdi
+0000000000001cb0	ff9030010000    	callq	*0x130(%rax)
+0000000000001cb6	89c1            	movl	%eax, %ecx
+0000000000001cb8	31c0            	xorl	%eax, %eax
+0000000000001cba	85c9            	testl	%ecx, %ecx
+0000000000001cbc	743f            	je	0x1cfd
+0000000000001cbe	488b03          	movq	(%rbx), %rax
+0000000000001cc1	4889df          	movq	%rbx, %rdi
+0000000000001cc4	4489f6          	movl	%r14d, %esi
+0000000000001cc7	ff90e8010000    	callq	*0x1e8(%rax)
+0000000000001ccd	488b0d44030000  	movq	0x344(%rip), %rcx
+0000000000001cd4	488b31          	movq	(%rcx), %rsi
+0000000000001cd7	4889c7          	movq	%rax, %rdi
+0000000000001cda	e800000000      	callq	__ZN15OSMetaClassBase12safeMetaCastEPKS_PK11OSMetaClass
+0000000000001cdf	4889c3          	movq	%rax, %rbx
+0000000000001ce2	31c0            	xorl	%eax, %eax
+0000000000001ce4	4885db          	testq	%rbx, %rbx
+0000000000001ce7	7414            	je	0x1cfd
+0000000000001ce9	e800000000      	callq	__ZN9IOService11getPlatformEv
+0000000000001cee	488b08          	movq	(%rax), %rcx
+0000000000001cf1	4889c7          	movq	%rax, %rdi
+0000000000001cf4	4889de          	movq	%rbx, %rsi
+0000000000001cf7	ff9108090000    	callq	*0x908(%rcx)
+0000000000001cfd	5b              	popq	%rbx
+0000000000001cfe	415e            	popq	%r14
+0000000000001d00	5d              	popq	%rbp
+0000000000001d01	c3              	retq
+__ZN9AppleHPET9MetaClassD0Ev:
+0000000000001d02	55              	pushq	%rbp
+0000000000001d03	4889e5          	movq	%rsp, %rbp
+0000000000001d06	5d              	popq	%rbp
+0000000000001d07	e900000000      	jmp	__ZN11OSMetaClassD2Ev
+0000000000001d0c	0f1f4000        	nopl	(%rax)
+__GLOBAL__I_a:
+0000000000001d10	55              	pushq	%rbp
+0000000000001d11	4889e5          	movq	%rsp, %rbp
+0000000000001d14	488d3d850d0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %rdi ## AppleHPET::gMetaClass
+0000000000001d1b	488d35a5000000  	leaq	0xa5(%rip), %rsi        ## literal pool for: "AppleHPET"
+0000000000001d22	488b15f7020000  	movq	0x2f7(%rip), %rdx
+0000000000001d29	b9f8000000      	movl	$0xf8, %ecx
+0000000000001d2e	e800000000      	callq	__ZN11OSMetaClassC2EPKcPKS_j
+0000000000001d33	488d05c60b0000  	leaq	0xbc6(%rip), %rax
+0000000000001d3a	4889055f0d0000  	movq	%rax, __ZN9AppleHPET10gMetaClassE(%rip) ## AppleHPET::gMetaClass
+0000000000001d41	5d              	popq	%rbp
+0000000000001d42	c3              	retq
+0000000000001d43	666666662e0f1f840000000000	nopw	%cs:(%rax,%rax)
+__GLOBAL__D_a:
+0000000000001d50	55              	pushq	%rbp
+0000000000001d51	4889e5          	movq	%rsp, %rbp
+0000000000001d54	488d3d450d0000  	leaq	__ZN9AppleHPET10gMetaClassE(%rip), %rdi ## AppleHPET::gMetaClass
+0000000000001d5b	5d              	popq	%rbp
+0000000000001d5c	e900000000      	jmp	__ZN11OSMetaClassD2Ev
+__start:
+0000000000001d61	55              	pushq	%rbp
+0000000000001d62	4889e5          	movq	%rsp, %rbp
+0000000000001d65	488d055c0d0000  	leaq	__realmain(%rip), %rax
+0000000000001d6c	488b00          	movq	(%rax), %rax
+0000000000001d6f	4885c0          	testq	%rax, %rax
+0000000000001d72	7403            	je	0x1d77
+0000000000001d74	5d              	popq	%rbp
+0000000000001d75	ffe0            	jmpq	*%rax
+0000000000001d77	31c0            	xorl	%eax, %eax
+0000000000001d79	5d              	popq	%rbp
+0000000000001d7a	c3              	retq
+_OSKextGetCurrentIdentifier:
+0000000000001d7b	55              	pushq	%rbp
+0000000000001d7c	4889e5          	movq	%rsp, %rbp
+0000000000001d7f	488d05520c0000  	leaq	_kmod_info(%rip), %rax
+0000000000001d86	4883c010        	addq	$0x10, %rax
+0000000000001d8a	5d              	popq	%rbp
+0000000000001d8b	c3              	retq
+_OSKextGetCurrentVersionString:
+0000000000001d8c	55              	pushq	%rbp
+0000000000001d8d	4889e5          	movq	%rsp, %rbp
+0000000000001d90	488d05410c0000  	leaq	_kmod_info(%rip), %rax
+0000000000001d97	4883c050        	addq	$0x50, %rax
+0000000000001d9b	5d              	popq	%rbp
+0000000000001d9c	c3              	retq
+_OSKextGetCurrentLoadTag:
+0000000000001d9d	55              	pushq	%rbp
+0000000000001d9e	4889e5          	movq	%rsp, %rbp
+0000000000001da1	488d05300c0000  	leaq	_kmod_info(%rip), %rax
+0000000000001da8	8b400c          	movl	0xc(%rax), %eax
+0000000000001dab	5d              	popq	%rbp
+0000000000001dac	c3              	retq
+__stop:
+0000000000001dad	55              	pushq	%rbp
+0000000000001dae	4889e5          	movq	%rsp, %rbp
+0000000000001db1	488d05180d0000  	leaq	__antimain(%rip), %rax
+0000000000001db8	488b00          	movq	(%rax), %rax
+0000000000001dbb	4885c0          	testq	%rax, %rax
+0000000000001dbe	7403            	je	0x1dc3
+0000000000001dc0	5d              	popq	%rbp
+0000000000001dc1	ffe0            	jmpq	*%rax
+0000000000001dc3	31c0            	xorl	%eax, %eax
+0000000000001dc5	5d              	popq	%rbp
+0000000000001dc6	c3              	retq
